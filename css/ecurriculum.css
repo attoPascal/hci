@@ -1,0 +1,211 @@
+.page-header-ecurriculum {
+  padding: 20px 20px 20px 20px;
+  margin: 0px 0 00px;
+  border-bottom: 1px solid #eee;
+  background-color: #006699
+}
+.page-header-ecurriculum-logo {
+  text-align: right;
+}
+
+.page-header-ecurriculum-title {
+  color: #ffffff;
+}
+
+.btn-ecurriculum { 
+  color: #ffffff; 
+  background-color: #006699; 
+  border-color: #E7E7E7; 
+} 
+ 
+.btn-ecurriculum:hover, 
+.btn-ecurriculum:focus, 
+.btn-ecurriculum:active, 
+.btn-ecurriculum.active, 
+.open .dropdown-toggle.btn-ecurriculum { 
+  color: #ffffff; 
+  background-color: #808080; 
+  border-color: #E7E7E7; 
+} 
+ 
+.btn-ecurriculum:active, 
+.btn-ecurriculum.active, 
+.open .dropdown-toggle.btn-ecurriculum { 
+  background-image: none; 
+} 
+ 
+.btn-ecurriculum.disabled, 
+.btn-ecurriculum[disabled], 
+fieldset[disabled] .btn-ecurriculum, 
+.btn-ecurriculum.disabled:hover, 
+.btn-ecurriculum[disabled]:hover, 
+fieldset[disabled] .btn-ecurriculum:hover, 
+.btn-ecurriculum.disabled:focus, 
+.btn-ecurriculum[disabled]:focus, 
+fieldset[disabled] .btn-ecurriculum:focus, 
+.btn-ecurriculum.disabled:active, 
+.btn-ecurriculum[disabled]:active, 
+fieldset[disabled] .btn-ecurriculum:active, 
+.btn-ecurriculum.disabled.active, 
+.btn-ecurriculum[disabled].active, 
+fieldset[disabled] .btn-ecurriculum.active { 
+  background-color: #006699; 
+  border-color: #E7E7E7; 
+} 
+ 
+.btn-ecurriculum .badge { 
+  color: #006699; 
+  background-color: #ffffff; 
+}
+
+.btn-link {
+  font-weight: normal;
+  color: #006699;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+#changecolor
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #006699;
+  outline: 0;
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  background-color: #eee;
+  border-color: #006699;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #006699;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #006699;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  z-index: 2;
+  color: #fff;
+  cursor: default;
+  background-color: #006699;
+  border-color: #006699;
+}
+
+.label-primary {
+  background-color: #006699;
+}
+
+a.list-group-item.active > .badge,
+.nav-pills > .active > a > .badge {
+  color: #006699;
+  background-color: #fff;
+}
+
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border-color: #006699;
+}
+
+.progress-bar {
+  float: left;
+  width: 0;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #006699;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+          box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+  -webkit-transition: width .6s ease;
+          transition: width .6s ease;
+}
+
+a.list-group-item.active,
+a.list-group-item.active:hover,
+a.list-group-item.active:focus {
+  z-index: 2;
+  color: #fff;
+  background-color: #006699;
+  border-color: #006699;
+}
+
+.panel-primary {
+  border-color: #006699;
+}
+.panel-primary > .panel-heading {
+  color: #fff;
+  background-color: #006699;
+  border-color: #006699;
+}
+.panel-primary > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #006699;
+}
+.panel-primary > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #006699;
+}
+
+a {
+  color: #006699;
+  text-decoration: none;
+}
+
+.text-primary {
+  color: #006699;
+}
+
+.bg-primary {
+  color: #fff;
+  background-color: #006699;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #006699;
+  border-color: #357ebd;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #006699;
+  border-color: #357ebd;
+}
