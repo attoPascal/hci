@@ -5,10 +5,10 @@
     <title>eCurriculum</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="../../css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles -->
-    <link href="css/ecurriculum.css" rel="stylesheet">
+    <link href="../../css/ecurriculum.css" rel="stylesheet">
   </head>
 
   <body>
@@ -21,7 +21,7 @@
 	  <!-- Page Logo -->
 	  <div class="col-md-6">
 	    <div class="page-header-ecurriculum-logo">
-	      <a href=""><img src="img/logo-uni-wien.jpg" alt="logo"></a>
+	      <a href="../../"><img src="../../img/logo-uni-wien.jpg" alt="logo"></a>
 	    </div>
 	  </div> 
 	</div> <!-- /row -->
@@ -40,45 +40,44 @@
           </button>
         </div>
         <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Allgemeines</a></li>
+            <li><a href="#">Aufbau</a></li>
+            <li><a href="#">Rechtliches</a></li>
+            <li><a href="#">LV-Arten</a></li>
+            <li><a href="#">Prüfungen</a></li>
+            <li><a href="#">Abschluss</a></li>
+            <li><a href="#">Sonstiges</a></li>
+          </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="plan/">
+            <li><a href="../../plan/">
             <span class="glyphicon glyphicon-arrow-right"></span>
             Persönlicher Plan</a></li>
           </ul>
         </div> <!--/.nav-collapse -->
       </div> <!-- /container -->
     </div>
+
+    <!-- 2nd Navbar -->
+    <div class="container">
+      <ul class="nav nav-pills">
+	<li><h4>Sortieren nach: </h4></li>
+	<li><a href="#">Modulgruppen</a></li>
+	<li class="active"><a href="#">Semestereinteilung</a></li>
+      </ul>
+    </div> <!-- /container -->
     
     <!-- Content -->
     <div class="container">
-      <div class="row">
-	<div class="col-md-12">
-	  <h1>Bachelor</h1>
-	    <ul class="nav nav-pills nav-stacked">
-	      <li class="disabled"><a href="#">Bioinformatik</a></li>
-	      <li><a href="ecurriculum/bachelor/index.php?studienrichtung=medieninformatik">Medieninformatik</a></li>
-	      <li class="disabled"><a href="#">Medizininformatik</a></li>
-	      <li class="disabled"><a href="#">Scientific Computing</a></li>
-	    </ul>
+    
+    <h1>1. Semester</h1>
 
-	  <h1>Master</h1>
-
-	    <ul class="nav nav-pills nav-stacked">
-	      <li class="disabled"><a href="#">Informatikdidaktik</a></li>
-	      <li class="disabled"><a href="#">Medieninformatik</a></li>
-	      <li class="disabled"><a href="#">Medizinische Informatik</a></li>
-	      <li class="disabled"><a href="#">Scientific Computing</a></li>
-	    </ul>
-	  </div>
-	
-     
-      </div> <!-- /row -->
     </div> <!-- /container -->
     
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
   </body>
 </html>

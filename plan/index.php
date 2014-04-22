@@ -17,11 +17,11 @@
       <div class="container">
 	<div class="row">
 	  <!-- Page Title -->
-	  <div class="col-md-6"><h1 class="page-header-ecurriculum-title">Persönlicher Plan - Max Mustermann (a1234567)</h1></div>
+	  <div class="col-md-6"><h1 class="page-header-ecurriculum-title">Persönlicher Plan - Max Mustermann (a1234567)</div>
 	  <!-- Page Logo -->
 	  <div class="col-md-6">
 	    <div class="page-header-ecurriculum-logo">
-	      <a href="index.html"><img src="img/logo-uni-wien.jpg" alt="logo"></a>
+	      <a href="../"><img src="../img/logo-uni-wien.jpg" alt="logo"></a>
 	    </div>
 	  </div> 
 	</div> <!-- /row -->
@@ -41,7 +41,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="/">Bachelor Medieninformatik</a></li>
+            <li class="active"><a href="">Bachelor Medieninformatik</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="../">
