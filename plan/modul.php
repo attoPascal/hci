@@ -1,3 +1,7 @@
+<?php
+ $modulid = $_GET["modulid"];
+?>
+
 <!DOCTYPE html>
 <html lang="de">
   <head>
@@ -41,7 +45,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="">Bachelor Medieninformatik</a></li>
+            <li class="active"><a href="../plan/">Bachelor Medieninformatik</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="../">
@@ -54,28 +58,24 @@
     
     <!-- Content -->
     <div class="container">
-      <table class="table table-bordered">
+      
     
 <?php
-$plan = array();
-if (($handle = fopen("eCurriculum_Bachelor_Informatik_Plan.csv", "r")) !== FALSE) {
-    $key = 0;    // Set the array key.
-    while (($data = fgetcsv($handle, 1000, ";")) !== FALSE) {
-        $count = count($data);  //get the total keys in row
-        //insert data to our array
-        for ($i=0; $i < $count; $i++) {
-            $plan[$key][$i] = $data[$i];
-        }
-        $key++;
-    }
-    fclose($handle);    //close file handle
-} 
-
-for ($i=1; $i < 7; $i++)
-  printModulSemester($plan, $i);
-
+  $plan = array();
+  if (($handle = fopen("eCurriculum_Bachelor_Informatik_Plan.csv", "r")) !== FALSE) {
+      $key = 0;    // Set the array key.
+      while (($data = fgetcsv($handle, 1000, ";")) !== FALSE) {
+	  $count = count($data);  //get the total keys in row
+	  //insert data to our array
+	  for ($i=0; $i < $count; $i++) {
+	      $plan[$key][$i] = $data[$i];
+	  }
+	  $key++;
+      }
+      fclose($handle);    //close file handle
+  } 
+  printModul($plan, $modulid);
 ?>
-      </table>
 
     </div> <!-- /container -->
     
@@ -88,37 +88,50 @@ for ($i=1; $i < 7; $i++)
 </html>
 
 <?php
-  function printModulSemester($plan, $semester) {
+  function printModul($plan, $modulid) {
     $count = count($plan);
-    echo "<tr height='100px'>";
-    echo "<th>".$semester.". Semester</th>";
-      for ($i=1; $i < $count; $i++) {
-	if (($plan[$i][6] == "Medieninformatik") AND ($plan[$i][7] == $semester)) {
-	  if ($plan[$i][8] AND  $plan[$i][8] < 5) {
-	    echo "<td width='18%' bgcolor=#e7e7e7>
-	      <a href='modul.php?modulid=".$plan[$i][0]."'>".$plan[$i][1]."</a>\n  
-	      <div align='right'>
-	      <span class='label label-primary'>".$plan[$i][8]."</span>
-	      <span class='glyphicon glyphicon-ok'></span>";
-	    if (strtotime($plan[$i][9]) == strtotime("04/23/2014"))
-	      echo "</br></br><span class='label label-default'>Neue Note</span>";
-	    echo "</div></td>";
-	  }
-	  else {
-	    if ($plan[$i][10] == "teilweise") {
-	      echo "<td width='18%' bgcolor=#f8f8f8>
-	      <a href='modul.php?modulid=".$plan[$i][0]."'>".$plan[$i][1]."</a>\n 
-	      <div align='right'>
-	      <span class='glyphicon glyphicon-saved'></span>";
-	      if (strtotime($plan[$i][9]) == strtotime("04/23/2014"))
-		echo "</br></br><span class='label label-default'>Neue Note</span>";
-	      echo "</div></td>";
-	    }
-	    else
-	      echo "<td width='18%'><a href='modul.php?modulid=".$plan[$i][0]."'>".$plan[$i][1]."</a></td>";
-	  }
+    $exists = 0;
+    for ($i; $i < $count; $i++) {
+      if (($plan[$i][6] == "Medieninformatik") AND ($plan[$i][0] == $modulid)) {
+	echo "<h1>".$modulid." ".$plan[$i][1]." (".$plan[$i][3]." ECTS)</h1>";
+	echo "<p>".$plan[$i][12]."</p><hr>";
+	$exists = 1;
+	$modulnote = $plan[$i][8];
+	$modulerbracht = $plan[$i][9];
+      }
+      if ($plan[$i][11] == $modulid) { // wenn mehr Noten dann einen Zähler einfügen
+	echo "<div class='row'>";
+	echo "<div class='col-md-6'><table class='table table-bordered'><tr><td>";
+	echo $plan[$i][1]." (".$plan[$i][3]." ECTS)";
+	echo "</table></td></tr></div>";
+	echo "<div class='col-md-2'><table class='table table-bordered'><tr><td>";
+	echo "Note: ".$plan[$i][8];
+	echo "</table></td></tr></div>";
+	echo "<div class='col-md-4'><table class='table table-bordered'><tr><td>";
+	if ($plan[$i][8] == "")
+	  $antritte = 4;
+	else {
+	  $antritte = 3;
 	}
+	echo "Verbleibende Antritte: ".$antritte;
+	echo "</table></td></tr></div>";
+	echo "</div>";
+	if ($antritte < 4) {
+	  echo "<ul><li>";
+	  echo $plan[$i][0].", erbracht am: ".$plan[$i][9].", Prüfer: Erika Musterfrau, Note: ".$plan[$i][8];
+	  echo "</li></ul>";
+	  echo "<hr>";
+	}
+      }
     }
-    echo "</tr>";
+    if ($exists == 0)
+      echo "Das Modul mit der Modulnummer ".$modulid." existiert nicht.";
+    else {
+      echo "<dl class='dl-horizontal'>
+      <dt>Abgeschlossen am:</dt><dd>".$modulerbracht."</dd>
+      <dt>Note:</dt><dd>".$modulnote."</dd></dl>";
+    }
+
+
   } 
 ?>
