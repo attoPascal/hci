@@ -1,5 +1,11 @@
 <?php
- $modulid = $_GET["modulid"];
+  session_start();
+  if(!$_SESSION["sessionUser"]) {
+      header("Location: login.php");
+      exit;
+  }
+    
+$modulid = $_GET["modulid"];
 ?>
 
 <!DOCTYPE html>
@@ -48,6 +54,9 @@
             <li class="active"><a href="../plan/">Bachelor Medieninformatik</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
+	    <li><a href="logout.php">
+            <span class="glyphicon glyphicon-log-out"></span>
+            Logout</a></li>
             <li><a href="../">
             <span class="glyphicon glyphicon-arrow-right"></span>
             eCurriculum</a></li>

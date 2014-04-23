@@ -1,3 +1,11 @@
+<?php
+  session_start();
+  if(!$_SESSION["sessionUser"]) {
+      header("Location: login.php");
+      exit;
+  }
+?>
+
 <!DOCTYPE html>
 <html lang="de">
   <head>
@@ -44,9 +52,13 @@
             <li class="active"><a href="">Bachelor Medieninformatik</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
+	    <li><a href="logout.php">
+            <span class="glyphicon glyphicon-log-out"></span>
+            Logout</a></li>
             <li><a href="../">
             <span class="glyphicon glyphicon-arrow-right"></span>
             eCurriculum</a></li>
+            
           </ul>
         </div> <!--/.nav-collapse -->
       </div> <!-- /container -->
@@ -54,7 +66,8 @@
     
     <!-- Content -->
     <div class="container">
-      <table class="table table-bordered">
+    <?php  ?>
+      
     
 <?php
 $plan = array();
@@ -71,12 +84,16 @@ if (($handle = fopen("eCurriculum_Bachelor_Informatik_Plan.csv", "r")) !== FALSE
     fclose($handle);    //close file handle
 } 
 
+printCalculatedGrades($plan);
+echo "<table class='table table-bordered'>";
+
 for ($i=1; $i < 7; $i++)
   printModulSemester($plan, $i);
+  
+echo "</table>";
 
 ?>
-      </table>
-
+      
     </div> <!-- /container -->
     
     <!-- Bootstrap core JavaScript
@@ -101,7 +118,7 @@ for ($i=1; $i < 7; $i++)
 	      <span class='label label-primary'>".$plan[$i][8]."</span>
 	      <span class='glyphicon glyphicon-ok'></span>";
 	    if (strtotime($plan[$i][9]) == strtotime("04/23/2014"))
-	      echo "</br></br><span class='label label-default'>Neue Note</span>";
+	      echo "</br></br><span class='label label-default'>neue Note</span>";
 	    echo "</div></td>";
 	  }
 	  else {
@@ -111,7 +128,7 @@ for ($i=1; $i < 7; $i++)
 	      <div align='right'>
 	      <span class='glyphicon glyphicon-saved'></span>";
 	      if (strtotime($plan[$i][9]) == strtotime("04/23/2014"))
-		echo "</br></br><span class='label label-default'>Neue Note</span>";
+		echo "</br></br><span class='label label-default'>neue Note</span>";
 	      echo "</div></td>";
 	    }
 	    else
@@ -121,4 +138,21 @@ for ($i=1; $i < 7; $i++)
     }
     echo "</tr>";
   } 
+  
+  function printCalculatedGrades($plan) {
+    $count = count($plan);
+    $noteects = 0;
+    $gesamtects = 0;
+    for ($i = 0; $i < $count; $i++) {
+      if (($plan[$i][6] != "Medieninformatik") AND ($plan[$i][8] != "")) {
+	$gesamtects = $gesamtects + $plan[$i][3];
+	$noteects = $noteects + $plan[$i][3]*$plan[$i][8];
+      }
+    }
+    $prozent = round($gesamtects/180*100, 2);
+    $notendurchschnitt = round($noteects/$gesamtects, 2);
+    echo "
+    <dl class='dl-horizontal'><dt>Notendurchschnitt:</dt><dd>".$notendurchschnitt."</dd></dl><div class='progress'>
+    <div class='progress-bar' role='progressbar' aria-valuenow='".$prozent."' aria-valuemin='0' aria-valuemax='100' style='width: ".$prozent."%;'>".$prozent."% - ".$gesamtects."/180 ECTS</div></div>";
+  }
 ?>
