@@ -25,13 +25,14 @@ Screenshots + Beschreibung
 
 \begin{description}
  \item[Url:] \url{http://wwwlab.cs.univie.ac.at/~a1151917/hci/}
- \item[File auf cewebs:]Meilenstein 2 - Team 1 - Webseite
+ \item[Datei auf cewebs:]Meilenstein 2 - Team 1 - Webseite
   \begin{itemize}
-  \item[]
   \item css/: CSS-Dateien von Bootstrap und eine angepasste CSS-Datei ``ecurriculum.css''
   \item js/: Java-Script-Dateien von Bootstrap
-  \item plan/: Enthält d
-  \item Passwort: passwort
+  \item fonts/: Fonts und Glyphicons von Bootstrap
+  \item plan/: PHP-Dateien zum persönlichem Plan, der Überprüfung der aktuellen Session, Login/Logout und eine modifizierte csv-Datei
+  \item ecurriculum/: PHP-Dateien zum eCurriculum
+  \item img/: Logo der Universität Wien
  \end{itemize}
 \end{description}
 
@@ -57,6 +58,40 @@ Screenshots + Beschreibung
 Nutzeranalyse aus Meilenstein 1
 
 \section*{Typische Fehlermeldungen}
+
+\subsubsection*{Aufrufen des persönlichen Plans ohne eingeloggt zu sein}
+
+Eine typische Fehlermeldung ist, wenn der Benutzer den persönlichen Plan aufrufen will und sich noch nicht zuvor mit seinen Benutzerdaten eingeloggt hat,
+da der persönliche Plan nur Studierenden zugänglich ist. Der Benutzer wird dann darauf hingewiesen, dass er sich einloggen muss.
+
+\begin{quote}
+ Um auf Ihren persönlichen Plan zugreifen zu können, müssen Sie sich als Student mit Ihrer Matrikelnummer und Ihrem Passwort einloggen.
+\end{quote} 
+
+\subsubsection*{Login mit falschem Benutzernamen oder falschem Passwort}
+
+Eine weitere typische Fehlermeldung erscheint, wenn der Benutzer sich versucht einzuloggen, aber einen falschen Benutzernamen oder ein falsches Passwort eingibt.
+Dieser wird dann je nachdem auf das falsche Passwort oder den falschen Benutzernamen hingewiesen.
+
+\begin{quote}
+ Diese Matrikelnummer existiert nicht.
+\end{quote} 
+
+\begin{quote}
+ Das Passwort ist falsch.
+\end{quote} 
+
+
+\subsubsection*{Aufrufen eines nicht vorhandenen Moduls}
+
+Auch könnte eine typische Fehlermeldung erscheinen, wenn eine Seite aufgerufen wird, welche nicht existiert. Dies kann hier auftreten wenn ein Modul aufgerufen wird, indem die Modulid in der Adressleiste
+eingegeben wird, zu der kein Modul existiert.
+
+\begin{quote}
+ Das Modul mit der Modulnummer 210324 existiert nicht. 
+\end{quote} 
+
+
 
 
 \end{document}

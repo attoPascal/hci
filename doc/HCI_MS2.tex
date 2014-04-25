@@ -61,9 +61,62 @@ Nutzeranalyse aus Meilenstein 1
 
 \subsubsection*{Aufrufen des persönlichen Plans ohne eingeloggt zu sein}
 
+Eine typische Fehlermeldung ist, wenn der Benutzer den persönlichen Plan aufrufen will und sich noch nicht zuvor mit seinen Benutzerdaten eingeloggt hat,
+da der persönliche Plan nur Studierenden zugänglich ist. Der Benutzer wird dann darauf hingewiesen, dass er sich einloggen muss.
+
+\begin{quote}
+ \textit{``Um auf Ihren persönlichen Plan zugreifen zu können, müssen Sie sich als Student mit Ihrer Matrikelnummer und Ihrem Passwort einloggen.''}
+\end{quote} 
+
+\begin{center}
+ \includegraphics[scale=0.4]{./fehlermeldung1.png}
+ % fehlermeldung1.png: 1680x975 pixel, 120dpi, 35.56x20.64 cm, bb=0 0 1008 585
+\end{center}
+
+
 \subsubsection*{Login mit falschem Benutzernamen oder falschem Passwort}
 
+Eine weitere typische Fehlermeldung erscheint, wenn der Benutzer sich versucht einzuloggen, aber einen falschen Benutzernamen oder ein falsches Passwort eingibt.
+Dieser wird dann je nachdem auf das falsche Passwort oder den falschen Benutzernamen hingewiesen.
+
+\begin{quote}
+ \textit{``Diese Matrikelnummer existiert nicht.''}
+\end{quote} 
+
+\begin{center}
+ \includegraphics[scale=0.4]{./fehlermeldung2.png}
+ % fehlermeldung1.png: 1680x975 pixel, 120dpi, 35.56x20.64 cm, bb=0 0 1008 585
+\end{center}
+
+Zusätzlich könnte zu der Fehlermeldung, dass die Matrikelnummer falsch ist dann noch die eingegebene Matrikelnummer angezeigt werden und gegebenenfalls darauf hingewiesen
+werden, dass diese aus a + 7 Ziffern bestehen muss.
+
+\begin{quote}
+ \textit{``Das Passwort ist falsch.''}
+\end{quote} 
+
+\begin{center}
+ \includegraphics[scale=0.4]{./fehlermeldung3.png}
+ % fehlermeldung1.png: 1680x975 pixel, 120dpi, 35.56x20.64 cm, bb=0 0 1008 585
+\end{center}
+
+Hier könnte zusätzlich entweder noch eine ``Passwort vergessen''-Funktion eingebaut werden, welche es ermöglicht das Passwort selbst zurückzusetzen oder einen
+Hinweis auf z.B. den ZID gegeben werden, welcher in solchen Situationen weiterhilft.
+
 \subsubsection*{Aufrufen eines nicht vorhandenen Moduls}
+
+Auch könnte eine typische Fehlermeldung erscheinen, wenn eine Seite aufgerufen wird, welche nicht existiert. Dies kann hier auftreten wenn ein Modul aufgerufen wird, indem die Modulid in der Adressleiste
+eingegeben wird, zu der kein Modul existiert.
+
+\begin{quote}
+ \textit{``Das Modul mit der Modulnummer 210324 existiert nicht.''}
+\end{quote} 
+
+\begin{center}
+ \includegraphics[scale=0.4]{./fehlermeldung4.png}
+ % fehlermeldung1.png: 1680x975 pixel, 120dpi, 35.56x20.64 cm, bb=0 0 1008 585
+\end{center}
+
 
 
 \end{document}

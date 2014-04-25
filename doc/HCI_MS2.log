@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.7)  25 APR 2014 17:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.7)  26 APR 2014 01:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -635,41 +635,113 @@ Package babel Info: Redefining ngerman shorthand "~
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
+<./fehlermeldung1.png, id=18, 1011.78pt x 587.19376pt>
+File: ./fehlermeldung1.png Graphic file (type png)
+
+<use ./fehlermeldung1.png>
+Package pdftex.def Info: ./fehlermeldung1.png used on input line 72.
+(pdftex.def)             Requested size: 404.70483pt x 234.87334pt.
+
+Overfull \hbox (31.26237pt too wide) in paragraph at lines 72--74
+ [] 
+ []
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 69.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
+(babel)             in language  on input line 81.
+[2 <./fehlermeldung1.png>]
+<./fehlermeldung2.png, id=33, 1011.78pt x 587.19376pt>
+File: ./fehlermeldung2.png Graphic file (type png)
+
+<use ./fehlermeldung2.png>
+Package pdftex.def Info: ./fehlermeldung2.png used on input line 87.
+(pdftex.def)             Requested size: 404.70483pt x 234.87334pt.
+
+Overfull \hbox (31.26237pt too wide) in paragraph at lines 87--89
+ [] 
+ []
+
+<./fehlermeldung3.png, id=34, 1011.78pt x 587.19376pt>
+File: ./fehlermeldung3.png Graphic file (type png)
+
+<use ./fehlermeldung3.png>
+Package pdftex.def Info: ./fehlermeldung3.png used on input line 99.
+(pdftex.def)             Requested size: 404.70483pt x 234.87334pt.
+
+Overfull \hbox (31.26237pt too wide) in paragraph at lines 99--101
+ [] 
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 101.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 101.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 101.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 101.
+[3 <./fehlermeldung2.png>]
+<./fehlermeldung4.png, id=41, 1011.78pt x 587.19376pt>
+File: ./fehlermeldung4.png Graphic file (type png)
+
+<use ./fehlermeldung4.png>
+Package pdftex.def Info: ./fehlermeldung4.png used on input line 116.
+(pdftex.def)             Requested size: 404.70483pt x 234.87334pt.
+
+Overfull \hbox (31.26237pt too wide) in paragraph at lines 116--118
+ [] 
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 118.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 118.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 118.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 118.
+[4 <./fehlermeldung3.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 122.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 122.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 122.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 122.
+ [5 <./fehlermeldung4.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
  (./HCI_MS2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 69.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
 Package rerunfilecheck Info: File `HCI_MS2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
  ) 
 Here is how much of TeX's memory you used:
- 7531 strings out of 494979
- 110689 string characters out of 6179172
+ 7557 strings out of 494979
+ 111200 string characters out of 6179172
  223218 words of memory out of 5000000
- 10661 multiletter control sequences out of 15000+600000
- 6880 words of font info for 26 fonts, out of 8000000 for 9000
+ 10678 multiletter control sequences out of 15000+600000
+ 7226 words of font info for 27 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,6n,47p,248b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,6n,47p,248b,404s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on HCI_MS2.pdf (2 pages, 68113 bytes).
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on HCI_MS2.pdf (5 pages, 373244 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
