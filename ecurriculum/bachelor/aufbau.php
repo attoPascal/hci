@@ -5,10 +5,10 @@
     <title>eCurriculum</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="../../css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles -->
-    <link href="css/ecurriculum.css" rel="stylesheet">
+    <link href="../../css/ecurriculum.css" rel="stylesheet">
   </head>
 
   <body>
@@ -17,11 +17,11 @@
       <div class="container">
 	<div class="row">
 	  <!-- Page Title -->
-	  <div class="col-md-6"><h1 class="page-header-ecurriculum-title">eCurriculum</h1></div>
+	  <div class="col-md-6"><h1 class="page-header-ecurriculum-title">eCurriculum - Bachelor Medieninformatik</h1></div>
 	  <!-- Page Logo -->
 	  <div class="col-md-6">
 	    <div class="page-header-ecurriculum-logo">
-	      <a href=""><img src="img/logo-uni-wien.jpg" alt="logo"></a>
+	      <a href="../../"><img src="../../img/logo-uni-wien.jpg" alt="logo"></a>
 	    </div>
 	  </div> 
 	</div> <!-- /row -->
@@ -40,53 +40,52 @@
           </button>
         </div>
         <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../bachelor">Allgemeines</a></li>
+            <li class="active"><a href="aufbau.php">Aufbau</a></li>
+            <li><a href="ausland.php">Ausland</a></li>
+            <li><a href="einteilung.php">Einteilung der LVs</a></li>
+            <li><a href="bachelorarbeit.php">Bachelorarbeit</a></li>
+            <li><a href="lvspruefungen.php">LVs und Prüfungen</a></li>
+            <li><a href="rechtliches.php">Rechtliches zum Curriculum</a></li>
+          </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="plan/">
+            <li><a href="../../plan/">
             <span class="glyphicon glyphicon-arrow-right"></span>
             Persönlicher Plan</a></li>
           </ul>
         </div> <!--/.nav-collapse -->
       </div> <!-- /container -->
     </div>
+
+    <!-- 2nd Navbar -->
+    <div class="container">
+    <h1>Aufbau des Studiums</h1>
+      <ul class="nav nav-pills">
+	<li><h4>Sortieren nach: </h4></li>
+	<li><a href="aufbau.php?sortieren=modul">Modulgruppen</a></li>
+	<li class="active"><a href="aufbau.php?sortieren=semester">Semestereinteilung</a></li>
+      </ul>
+    </div> <!-- /container -->
     
     <!-- Content -->
     <div class="container">
-      <div class="row">
-	<div class="col-md-12">
-	
-	  <h1>Mittelungsblatt</h1>
-	  <ul class="nav nav-pills nav-stacked">
-	  <li> <a href="http://studentpoint.univie.ac.at/fileadmin/user_upload/studentpoint_2011/Curricula/Bachelor/BA_Informatik.pdf">Bachelor Informatik Mitteilungsblatt</a></li></ul>
-	  
-	  <h1>eCurriculum</h1>
-	  
-	  <h2>Bachelor</h2>
-	   
-	    <ul class="nav nav-pills nav-stacked">
-	      <li class="disabled"><a href="#">Bioinformatik</a></li>
-	      <li><a href="ecurriculum/bachelor/index.php?studienrichtung=medieninformatik">Medieninformatik</a></li>
-	      <li class="disabled"><a href="#">Medizininformatik</a></li>
-	      <li class="disabled"><a href="#">Scientific Computing</a></li>
-	    </ul>
+    
+    
+    
+<h2>1. Semester</h2>
 
-	  <h2>Master</h2>
+<ul class="pager">
+  <li class="previous"><a href="../bachelor">&larr; Allgemeines</a></li>
+  <li class="next"><a href="ausland.php">Ausland &rarr; </a></li>
+</ul>
 
-	    <ul class="nav nav-pills nav-stacked">
-	      <li class="disabled"><a href="#">Informatikdidaktik</a></li>
-	      <li class="disabled"><a href="#">Medieninformatik</a></li>
-	      <li class="disabled"><a href="#">Medizinische Informatik</a></li>
-	      <li class="disabled"><a href="#">Scientific Computing</a></li>
-	    </ul>
-	  </div>
-	
-     
-      </div> <!-- /row -->
     </div> <!-- /container -->
     
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
   </body>
 </html>

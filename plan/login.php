@@ -24,7 +24,7 @@
 	  <!-- Page Logo -->
 	  <div class="col-md-6">
 	    <div class="page-header-ecurriculum-logo">
-	      <a href=""><img src="img/logo-uni-wien.jpg" alt="logo"></a>
+	      <a href=""><img src="../img/logo-uni-wien.jpg" alt="logo"></a>
 	    </div>
 	  </div> 
 	</div> <!-- /row -->
