@@ -60,7 +60,14 @@ und Lösungsansätze vermittelt und erarbeitet. ";(1) Studieneingangs- und Orien
 211133;Modul WSC Anwendungsfach Scientific Computing;;6;berechnete Leistung;05-0445 Modul WSC Anwendungsfach Scientific Computing;;;;;;;;;;;
 211137;Modul STL Software Tools and Libraries;;6;berechnete Leistung;05-0446 Modul STL Software Tools and Libraries;;;;;;;;;;;
 211142;Modul PBS Praktikum Scientific Computing mit Bachelorarbeit;;18;berechnete Leistung;05-0447 Modul PBS Praktikum Scientific Computing mit Bachelorarbeit;;;;;;;;;;;
-211148;Modul Freifächer;;6;berechnete Leistung;05-0408 Freifücher 6 ECTS;Medieninformatik;5;;;;;;;;;
+211148;Modul Freifächer;;6;berechnete Leistung;05-0408 Freifücher 6 ECTS;Medieninformatik;5;;;;;"Im Rahmen des Bachelorstudiums der Informatik sind Freifächer im Umfang von 6 ECTS-Punkten zu
+absolvieren.
+Es wird empfohlen Lehrveranstaltungen zu wählen,
+die zur möglicherweise notwendigen Erfüllung der
+Zulassungsvoraussetzungen des nachfolgenden Master
+studiums erforderlich sind. Das zuständige
+akademische Organ gibt in Zusammenarbeit mit der Studienvertretung jedes Semester eine Liste mit
+Empfehlungen heraus. ";(4) Pflichtmodul „Freifächer“ (6 ECTS);Abhängig vom gewählten Freifach;Abhängig vom gewählten Freifach;Abhängig vom gewählten Freifach
 205182;Abschlussnote;0;180;berechnete Leistung;05-0061 Studienabschluss;;;;;;;;;;;
 210854;OL Einführung in Anwendungsgebiete der Informatik;1;1;erbrachte Leistung;05-0092 Einführung in Anwendungsgebiete der Informatik 1OL;;;1;05/27/2012;;210857;;;;;
 210855;UE Einführung in das Wissenschaftliche Arbeiten;1;2;erbrachte Leistung;05-0099 Einführung in das wissenschaftliche Arbeiten 2UE;;;1;05/27/2012;;210857;;;;;
@@ -220,6 +227,6 @@ und Lösungsansätze vermittelt und erarbeitet. ";(1) Studieneingangs- und Orien
 211139;Anerkennung Modul STL Software Tools and Libraries;4;6;erbrachte Leistung;05-0446 Modul STL Software Tools and Libraries;;;;;;;;;;;
 211141;PR Praktikum Scientific Computing mit Bachelorarbeit;4;18;erbrachte Leistung;05-0136 Praktikum Scientific Computing mit Bachelorarbeit 18PR;;;;;;;;;;;
 211143;Anerkennung Modul PBS Praktikum Scientific Computing mit Bachelorarbeit;4;18;erbrachte Leistung;05-0447 Modul PBS Praktikum Scientific Computing mit Bachelorarbeit;;;;;;;;;;;
-211147;Freifücher;;6;Sammelstudienplanpunkt;;;;;;;;;;;;
+211147;Freifächer;;6;Sammelstudienplanpunkt;;;;;;;211148;;;;;
 76843;Studienleistungen Erasmus;;;Sammelstudienplanpunkt;;;;;;;;;;;;
 212367;Interessensmodul;;;Sammelstudienplanpunkt;;;;;;;;;;;;

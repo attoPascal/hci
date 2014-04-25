@@ -25,14 +25,13 @@ Screenshots + Beschreibung
 
 \begin{description}
  \item[Url:] \url{http://wwwlab.cs.univie.ac.at/~a1151917/hci/}
- \item[Datei auf cewebs:]Meilenstein 2 - Team 1 - Webseite
+ \item[File auf cewebs:]Meilenstein 2 - Team 1 - Webseite
   \begin{itemize}
+  \item[]
   \item css/: CSS-Dateien von Bootstrap und eine angepasste CSS-Datei ``ecurriculum.css''
   \item js/: Java-Script-Dateien von Bootstrap
-  \item fonts/: Fonts und Glyphicons von Bootstrap
-  \item plan/: PHP-Dateien zum persönlichem Plan, der Überprüfung der aktuellen Session, Login/Logout und eine modifizierte csv-Datei
-  \item ecurriculum/: PHP-Dateien zum eCurriculum
-  \item img/: Logo der Universität Wien
+  \item plan/: Enthält d
+  \item Passwort: passwort
  \end{itemize}
 \end{description}
 
@@ -58,12 +57,6 @@ Screenshots + Beschreibung
 Nutzeranalyse aus Meilenstein 1
 
 \section*{Typische Fehlermeldungen}
-
-\subsubsection*{Aufrufen des persönlichen Plans ohne eingeloggt zu sein}
-
-\subsubsection*{Login mit falschem Benutzernamen oder falschem Passwort}
-
-\subsubsection*{Aufrufen eines nicht vorhandenen Moduls}
 
 
 \end{document}

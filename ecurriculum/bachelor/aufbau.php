@@ -61,6 +61,7 @@
     <!-- 2nd Navbar -->
     <div class="container">
     <h1>Aufbau des Studiums</h1>
+    <h2>§ 5 Aufbau – Module mit ECTS-Punktezuweisung</h2>
       <ul class="nav nav-pills">
 	<li><h4>Sortieren nach: </h4></li>
 	<li <?php if ($_GET["sortieren"] == "modul")
@@ -72,7 +73,7 @@
     
     <!-- Content -->
     <div class="container">
-    <h2>Information zur STEOP</h2>
+    <h3>Information zur STEOP</h3>
     <div class="panel-group" id="accordion2">
   <div class="panel panel-default">
     <div class="panel-heading">
@@ -128,24 +129,26 @@
   } 
 
   if ($_GET["sortieren"] == "modul") {
-    echo "<h2>(1) Studieneingangs- und Orientierungsphase (STEOP) (18 ECTS)</h2>";
+    echo "<h3>(1) Studieneingangs- und Orientierungsphase (STEOP) (18 ECTS)</h4>";
     printModuls($plan, "(1) Studieneingangs- und Orientierungsphase (STEOP) (18 ECTS)", 13);
-    echo "<h2>(2) Pflichtmodulgruppen ( 84 ECTS)</h2>";
-    echo "<h3>Pflichtmodulgruppe A Informationstechnologie (36 ECTS)</h3>";
+    echo "<h3>(2) Pflichtmodulgruppen ( 84 ECTS)</h4>";
+    echo "<h4>Pflichtmodulgruppe A Informationstechnologie (36 ECTS)</h4>";
     printModuls($plan, "Pflichtmodulgruppe A Informationstechnologie (36 ECTS)", 13);
-    echo "<h3>Pflichtmodulgruppe B. Allgemeine Grundlagen (18 ECTS)</h3>";
+    echo "<h4>Pflichtmodulgruppe B. Allgemeine Grundlagen (18 ECTS)</h4>";
     printModuls($plan, "Pflichtmodulgruppe B. Allgemeine Grundlagen (18 ECTS)", 13);
-    echo "<h3>Pflichtmodulgruppe C Strukturwissenschaften (24 ECTS)</h3>";
+    echo "<h4>Pflichtmodulgruppe C Strukturwissenschaften (24 ECTS)</h4>";
     printModuls($plan, "Pflichtmodulgruppe C Strukturwissenschaften (24 ECTS)", 13);
-    echo "<h3>Pflichtmodul D Kompetenzerweiterung (6 ECTS)</h3>";
+    echo "<h4>Pflichtmodul D Kompetenzerweiterung (6 ECTS)</h4>";
     printModuls($plan, "Pflichtmodul D Kompetenzerweiterung (6 ECTS)", 13);
-    echo "<h2>(3) Alternative Pflichtmodulgruppen Ausprägungsfach (zu je 72 ECTS)</h2>";
-    echo "<h3>APMgruppe Medieninformatik und Medien- und Kommunikationswissenschaften (72 ECTS)</h3>";
+    echo "<h3>(3) Alternative Pflichtmodulgruppen Ausprägungsfach (zu je 72 ECTS)</h4>";
+    echo "<h4>APMgruppe Medieninformatik und Medien- und Kommunikationswissenschaften (72 ECTS)</h4>";
     printModuls($plan, "APMgruppe Medieninformatik und Medien- und Kommunikationswissenschaften (72 ECTS)", 13);
+    echo "<h4>(4) Pflichtmodul „Freifächer“ (6 ECTS)</h4>";
+    printModuls($plan, "(4) Pflichtmodul „Freifächer“ (6 ECTS)", 13);
   }
   else {
     for ($i = 1; $i < 7; $i++) {
-      echo "<h2>".$i.". Semester</h2>";
+      echo "<h3>".$i.". Semester</h3>";
       printModuls($plan, $i, 7);
     }  
   }
