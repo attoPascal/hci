@@ -1,36 +1,33 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.10.15)  26 APR 2014 14:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.25)  26 APR 2014 21:52
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **HCI_MS2.tex
 (./HCI_MS2.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ba
-sque, danish, dutch, ukenglish, usenglishmax, finnish, french, german, ngerman,
- swissgerman, hungarian, italian, bokmal, nynorsk, polish, portuguese, spanish,
- swedish, loaded.
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/koma-script/scrartcl.cls
-Document Class: scrartcl 2012/05/15 v3.11 KOMA-Script document class (article)
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2012/05/15 v3.11 KOMA-Script package (KOMA-Script-dependent b
-asics and keyval usage)
+Babel <3.9f> and hyphenation patterns for 7 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2012/07/29 v3.11b KOMA-Script document class (article)
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2012/05/15 v3.11 KOMA-Script package (KOMA-Script-independent 
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-dependent 
 basics and keyval usage)
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2011/03/09 v3.09 KOMA-Script package (loading files)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2012/06/15 v3.12 KOMA-Script package (loading files)
 
-Package scrlfile, 2011/03/09 v3.09 KOMA-Script package (loading files)
+Package scrlfile, 2012/06/15 v3.12 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
-))) (/usr/local/texlive/2012basic/texmf-dist/tex/latex/koma-script/tocbasic.sty
+))) (/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
 Package: tocbasic 2012/04/04 v3.10b KOMA-Script package (handling toc-files)
 )
 Package tocbasic Info: omitting babel extension for `toc'
@@ -48,15 +45,16 @@ Package scrartcl Info: You've used obsolete option `10pt'.
 (scrartcl)             You may simply replace `10pt'
 (scrartcl)             by `fontsize=10pt'.
 Class scrartcl Info: File `scrsize10pt.clo' used to setup font sizes on input l
-ine 1265.
+ine 1267.
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/koma-script/scrsize10pt.clo
-File: scrsize10pt.clo 2012/05/15 v3.11 KOMA-Script font size class option (10pt
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize10pt.clo
+File: scrsize10pt.clo 2012/07/29 v3.11b KOMA-Script font size class option (10p
+t)
 )
-) (/usr/local/texlive/2012basic/texmf-dist/tex/latex/koma-script/typearea.sty
-Package: typearea 2012/05/15 v3.11 KOMA-Script package (type area)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2012/07/29 v3.11b KOMA-Script package (type area)
 
-Package typearea, 2012/05/15 v3.11 KOMA-Script package (type area)
+Package typearea, 2012/07/29 v3.11b KOMA-Script package (type area)
                   Copyright (C) Frank Neukam, 1992-1994
                   Copyright (C) Markus Kohm, 1994-
 
@@ -87,7 +85,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 10.0pt
 (typearea)              \footskip       = 42.0pt
 (typearea)              \baselineskip   = 12.0pt
-(typearea)              on input line 1211.
+(typearea)              on input line 1213.
 )
 \c@part=\count80
 \c@section=\count81
@@ -101,19 +99,19 @@ Package typearea Info: These are the values describing the layout:
 \c@figure=\count86
 \c@table=\count87
 \bibindent=\dimen102
-) (/usr/local/texlive/2012basic/texmf-dist/tex/latex/base/inputenc.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/base/utf8.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/base/t1enc.dfu
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -263,7 +261,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/base/ot1enc.dfu
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -294,7 +292,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/base/omsenc.dfu
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -318,55 +316,55 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/local/texlive/2012basic/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2008/07/08 v3.8m The Babel package
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/05/16 v3.9f The Babel package
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/generic/babel/ngermanb.ldf
+(/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngermanb.ldf
 Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2008/07/08 v3.8m Babel common definitions
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2013/05/16 v3.9f Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
 \l@naustrian = a dialect from \language\l@ngerman 
 Package babel Info: Making " an active character on input line 92.
 ))
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2000/07/18 v2.13 AMS math features
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip47
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks17
 \ex@=\dimen104
 ))
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen105
 )
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count89
-LaTeX Info: Redefining \frac on input line 211.
+LaTeX Info: Redefining \frac on input line 210.
 \uproot@=\count90
 \leftroot@=\count91
-LaTeX Info: Redefining \overline on input line 307.
+LaTeX Info: Redefining \overline on input line 306.
 \classnum@=\count92
 \DOTSCASE@=\count93
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box27
 \strutbox@=\box28
 \big@size=\dimen106
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count94
 \c@MaxMatrixCols=\count95
 \dotsspace@=\muskip10
@@ -387,30 +385,30 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \multlinegap=\skip48
 \multlinetaggap=\skip49
 \mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2012basic/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count101
@@ -418,10 +416,10 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/tools/tabularx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/tools/array.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen115
 \extrarowheight=\dimen116
@@ -437,16 +435,14 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \TX@cols=\count102
 \TX@ftn=\toks23
 )
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.s
-ty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/generic/oberdiek/hobsub-generic.st
-y
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -486,52 +482,57 @@ Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
-) (/usr/local/texlive/2012basic/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen122
 \Hy@linkcounter=\count103
 \Hy@pagecounter=\count104
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count105
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4062.
-Package hyperref Info: Link nesting OFF on input line 4067.
-Package hyperref Info: Hyper index ON on input line 4070.
-Package hyperref Info: Plain pages OFF on input line 4077.
-Package hyperref Info: Backreferencing OFF on input line 4082.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4300.
+Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count106
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/url/url.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4653.
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen123
 \Fld@menulength=\count107
-\Field@Width=\dimen123
-\Fld@charsize=\dimen124
-Package hyperref Info: Hyper figures OFF on input line 5773.
-Package hyperref Info: Link nesting OFF on input line 5778.
-Package hyperref Info: Hyper index ON on input line 5781.
-Package hyperref Info: backreferencing OFF on input line 5788.
-Package hyperref Info: Link coloring OFF on input line 5793.
-Package hyperref Info: Link coloring with OCG OFF on input line 5798.
-Package hyperref Info: PDF/A mode OFF on input line 5803.
-LaTeX Info: Redefining \ref on input line 5843.
-LaTeX Info: Redefining \pageref on input line 5847.
+\Field@Width=\dimen124
+\Fld@charsize=\dimen125
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
 \Hy@abspage=\count108
 \c@Item=\count109
 \c@Hfootnote=\count110
@@ -539,18 +540,19 @@ LaTeX Info: Redefining \pageref on input line 5847.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count111
 \c@bookmark@seq@number=\count112
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip52
-) (./HCI_MS2.aux)
+)
+(./HCI_MS2.aux)
 \openout1 = `HCI_MS2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -567,23 +569,23 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
-
-(/usr/local/texlive/2012basic/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count113
-\scratchdimen=\dimen125
+\scratchdimen=\dimen126
 \scratchbox=\box29
 \nofMPsegments=\count114
 \nofMParguments=\count115
 \everyMPshowfont=\toks24
 \MPscratchCnt=\count116
-\MPscratchDim=\dimen126
+\MPscratchDim=\dimen127
 \MPnumerator=\count117
 \makeMPintoPDFobject=\count118
 \everyMPtoPDFconversion=\toks25
-) (/usr/local/texlive/2012basic/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/oberdiek/grfext.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
 Package grfext Info: Graphics extension search list:
@@ -591,17 +593,17 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box30
 Package hyperref Info: Link coloring OFF on input line 14.
- (/usr/local/texlive/2012basic/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/generic/oberdiek/gettitlestring.st
-y
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count119
@@ -609,7 +611,8 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 14.
 LaTeX Info: Redefining \pageref on input line 14.
 LaTeX Info: Redefining \nameref on input line 14.
- (./HCI_MS2.out) (./HCI_MS2.out)
+
+(./HCI_MS2.out) (./HCI_MS2.out)
 \@outlinefile=\write3
 \openout3 = `HCI_MS2.out'.
 
@@ -625,11 +628,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 25.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 25.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 25.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 25.
 [1
 
 
-{/usr/local/texlive/2012basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2 <./lowfi-curriculum.png>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 31.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 31.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 31.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 31.
+ [2 <./lowfi-curriculum.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
@@ -649,6 +668,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 40.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 40.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 40.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 40.
 [3 <./lowfi-plan.png>] <./lowfi-modul.png, id=30, 1088.065pt x 624.3325pt>
 File: ./lowfi-modul.png Graphic file (type png)
 
@@ -665,88 +692,345 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 56.
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/base/omscmr.fd
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 50.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 50.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 50.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 50.
+[4 <./lowfi-modul.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 57.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
- [4 <./lowfi-modul.png>] <./fehlermeldung1.png, id=41, 1011.78pt x 587.19376pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 57.
+ <./hifi_screenshots/hifi_startseite.png, id=38, 1926.19624pt x 930.47626pt>
+File: ./hifi_screenshots/hifi_startseite.png Graphic file (type png)
+
+<use ./hifi_screenshots/hifi_startseite.png>
+Package pdftex.def Info: ./hifi_screenshots/hifi_startseite.png used on input l
+ine 78.
+(pdftex.def)             Requested size: 365.9811pt x 176.79233pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+<./hifi_screenshots/hifi_allgemeines.png, id=39, 1926.19624pt x 929.4725pt>
+File: ./hifi_screenshots/hifi_allgemeines.png Graphic file (type png)
+
+<use ./hifi_screenshots/hifi_allgemeines.png>
+Package pdftex.def Info: ./hifi_screenshots/hifi_allgemeines.png used on input 
+line 84.
+(pdftex.def)             Requested size: 365.9811pt x 176.60161pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 85.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 85.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 85.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 85.
+[5 <./hifi_screenshots/hifi_startseite.png>]
+<./hifi_screenshots/hifi_aufbau1.png, id=49, 1924.18875pt x 929.4725pt>
+File: ./hifi_screenshots/hifi_aufbau1.png Graphic file (type png)
+
+<use ./hifi_screenshots/hifi_aufbau1.png>
+Package pdftex.def Info: ./hifi_screenshots/hifi_aufbau1.png used on input line
+ 90.
+(pdftex.def)             Requested size: 365.59966pt x 176.60161pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+<./hifi_screenshots/hifi_aufbau2.png, id=50, 1926.19624pt x 930.47626pt>
+File: ./hifi_screenshots/hifi_aufbau2.png Graphic file (type png)
+
+<use ./hifi_screenshots/hifi_aufbau2.png>
+Package pdftex.def Info: ./hifi_screenshots/hifi_aufbau2.png used on input line
+ 94.
+(pdftex.def)             Requested size: 365.9811pt x 176.79233pt.
+
+Overfull \hbox (2.53865pt too wide) in paragraph at lines 94--95
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 95.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 95.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 95.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 95.
+[6 <./hifi_screenshots/hifi_allgemeines.png> <./hifi_screenshots/hifi_aufbau1.p
+ng>] <./hifi_screenshots/hifi_ausland.png, id=59, 1926.19624pt x 928.46875pt>
+File: ./hifi_screenshots/hifi_ausland.png Graphic file (type png)
+
+<use ./hifi_screenshots/hifi_ausland.png>
+Package pdftex.def Info: ./hifi_screenshots/hifi_ausland.png used on input line
+ 100.
+(pdftex.def)             Requested size: 365.9811pt x 176.41089pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+
+ []
+
+<./hifi_screenshots/hifi_einteilung.png, id=60, 1926.19624pt x 930.47626pt>
+File: ./hifi_screenshots/hifi_einteilung.png Graphic file (type png)
+
+<use ./hifi_screenshots/hifi_einteilung.png>
+Package pdftex.def Info: ./hifi_screenshots/hifi_einteilung.png used on input l
+ine 106.
+(pdftex.def)             Requested size: 365.9811pt x 176.79233pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 107.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 107.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 107.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 107.
+[7 <./hifi_screenshots/hifi_aufbau2.png> <./hifi_screenshots/hifi_ausland.png>]
+<./hifi_screenshots/hifi_bachelor.png, id=69, 1926.19624pt x 930.47626pt>
+File: ./hifi_screenshots/hifi_bachelor.png Graphic file (type png)
+
+<use ./hifi_screenshots/hifi_bachelor.png>
+Package pdftex.def Info: ./hifi_screenshots/hifi_bachelor.png used on input lin
+e 112.
+(pdftex.def)             Requested size: 365.9811pt x 176.79233pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+
+ []
+
+<./hifi_screenshots/hifi_lv.png, id=70, 1926.19624pt x 928.46875pt>
+File: ./hifi_screenshots/hifi_lv.png Graphic file (type png)
+
+<use ./hifi_screenshots/hifi_lv.png>
+Package pdftex.def Info: ./hifi_screenshots/hifi_lv.png used on input line 118.
+
+(pdftex.def)             Requested size: 365.9811pt x 176.41089pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 119.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 119.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 119.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 119.
+[8 <./hifi_screenshots/hifi_einteilung.png> <./hifi_screenshots/hifi_bachelor.p
+ng>] <./hifi_screenshots/hifi_recht.png, id=79, 1926.19624pt x 929.4725pt>
+File: ./hifi_screenshots/hifi_recht.png Graphic file (type png)
+
+<use ./hifi_screenshots/hifi_recht.png>
+Package pdftex.def Info: ./hifi_screenshots/hifi_recht.png used on input line 1
+24.
+(pdftex.def)             Requested size: 365.9811pt x 176.60161pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+<./hifi_screenshots/hifi_login.png, id=80, 1926.19624pt x 928.46875pt>
+File: ./hifi_screenshots/hifi_login.png Graphic file (type png)
+
+<use ./hifi_screenshots/hifi_login.png>
+Package pdftex.def Info: ./hifi_screenshots/hifi_login.png used on input line 1
+30.
+(pdftex.def)             Requested size: 365.9811pt x 176.41089pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 131.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 131.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 131.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 131.
+[9 <./hifi_screenshots/hifi_lv.png> <./hifi_screenshots/hifi_recht.png>]
+<./hifi_screenshots/hifi_persplan.png, id=89, 1926.19624pt x 929.4725pt>
+File: ./hifi_screenshots/hifi_persplan.png Graphic file (type png)
+
+<use ./hifi_screenshots/hifi_persplan.png>
+Package pdftex.def Info: ./hifi_screenshots/hifi_persplan.png used on input lin
+e 136.
+(pdftex.def)             Requested size: 365.9811pt x 176.60161pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+<./hifi_screenshots/hifi_persplan2.png, id=90, 1926.19624pt x 927.465pt>
+File: ./hifi_screenshots/hifi_persplan2.png Graphic file (type png)
+
+<use ./hifi_screenshots/hifi_persplan2.png>
+Package pdftex.def Info: ./hifi_screenshots/hifi_persplan2.png used on input li
+ne 140.
+(pdftex.def)             Requested size: 365.9811pt x 176.22018pt.
+
+Overfull \hbox (2.53865pt too wide) in paragraph at lines 140--141
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 141.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 141.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 141.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 141.
+[10 <./hifi_screenshots/hifi_login.png> <./hifi_screenshots/hifi_persplan.png>]
+<./fehlermeldung1.png, id=99, 1011.78pt x 587.19376pt>
 File: ./fehlermeldung1.png Graphic file (type png)
 
 <use ./fehlermeldung1.png>
-Package pdftex.def Info: ./fehlermeldung1.png used on input line 98.
+Package pdftex.def Info: ./fehlermeldung1.png used on input line 165.
 (pdftex.def)             Requested size: 404.70483pt x 234.87334pt.
 
-Overfull \hbox (31.26237pt too wide) in paragraph at lines 98--100
+Overfull \hbox (31.26237pt too wide) in paragraph at lines 165--167
  [] 
  []
 
-[5] <./fehlermeldung2.png, id=53, 1011.78pt x 587.19376pt>
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 167.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 167.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 167.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 167.
+[11 <./hifi_screenshots/hifi_persplan2.png>]
+<./fehlermeldung2.png, id=111, 1011.78pt x 587.19376pt>
 File: ./fehlermeldung2.png Graphic file (type png)
 
 <use ./fehlermeldung2.png>
-Package pdftex.def Info: ./fehlermeldung2.png used on input line 113.
+Package pdftex.def Info: ./fehlermeldung2.png used on input line 180.
 (pdftex.def)             Requested size: 404.70483pt x 234.87334pt.
 
-Overfull \hbox (31.26237pt too wide) in paragraph at lines 113--115
+Overfull \hbox (31.26237pt too wide) in paragraph at lines 180--182
  [] 
  []
 
-[6 <./fehlermeldung1.png>]
-<./fehlermeldung3.png, id=60, 1011.78pt x 587.19376pt>
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 182.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 182.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 182.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 182.
+[12 <./fehlermeldung1.png>]
+<./fehlermeldung3.png, id=118, 1011.78pt x 587.19376pt>
 File: ./fehlermeldung3.png Graphic file (type png)
 
 <use ./fehlermeldung3.png>
-Package pdftex.def Info: ./fehlermeldung3.png used on input line 125.
+Package pdftex.def Info: ./fehlermeldung3.png used on input line 192.
 (pdftex.def)             Requested size: 404.70483pt x 234.87334pt.
 
-Overfull \hbox (31.26237pt too wide) in paragraph at lines 125--127
+Overfull \hbox (31.26237pt too wide) in paragraph at lines 192--194
  [] 
  []
 
-[7 <./fehlermeldung2.png>]
-<./fehlermeldung4.png, id=67, 1011.78pt x 587.19376pt>
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 194.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 194.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 194.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 194.
+[13 <./fehlermeldung2.png>]
+<./fehlermeldung4.png, id=125, 1011.78pt x 587.19376pt>
 File: ./fehlermeldung4.png Graphic file (type png)
 
 <use ./fehlermeldung4.png>
-Package pdftex.def Info: ./fehlermeldung4.png used on input line 142.
+Package pdftex.def Info: ./fehlermeldung4.png used on input line 209.
 (pdftex.def)             Requested size: 404.70483pt x 234.87334pt.
 
-Overfull \hbox (31.26237pt too wide) in paragraph at lines 142--144
+Overfull \hbox (31.26237pt too wide) in paragraph at lines 209--211
  [] 
  []
 
-[8 <./fehlermeldung3.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
- [9 <./fehlermeldung4.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 211.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 211.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 211.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 211.
+[14 <./fehlermeldung3.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 215.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 215.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 215.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 215.
+ [15 <./fehlermeldung4.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
  (./HCI_MS2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 148.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 215.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
 Package rerunfilecheck Info: File `HCI_MS2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 148.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 215.
  ) 
 Here is how much of TeX's memory you used:
- 7386 strings out of 494578
- 109522 string characters out of 3168573
- 218653 words of memory out of 3000000
- 10504 multiletter control sequences out of 15000+200000
- 7226 words of font info for 27 fonts, out of 3000000 for 9000
- 314 hyphenation exceptions out of 8191
- 38i,7n,47p,402b,455s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
-.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r12.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmssbx10.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmti10.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmtt10.pfb>
-Output written on HCI_MS2.pdf (9 pages, 792557 bytes).
+ 7655 strings out of 494979
+ 113868 string characters out of 6179171
+ 223218 words of memory out of 5000000
+ 10738 multiletter control sequences out of 15000+600000
+ 7226 words of font info for 27 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 38i,7n,47p,402b,404s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on HCI_MS2.pdf (15 pages, 1907416 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
- 25 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 170 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
