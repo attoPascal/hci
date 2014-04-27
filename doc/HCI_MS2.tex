@@ -148,7 +148,21 @@ Wie auch schon beim Menüpunkt Aufbau ist es auch möglich, mehr Informationen (
 \subsection*{Ergebnisse}
 
 \section*{Begründen der Designentscheidungen}
-Nutzeranalyse aus Meilenstein 1
+Das System richtet sich in erster Linie an Studierende; hierbei werden zwei Nutzungstypen unterschieden: Einerseits sollen Studienanfänger leicht an die für sie nötigen Informationen gelangen können, andererseits sollen fortgeschrittene Studierende einfach und übersichtlich ihren derzeitigen Studienfortschritt einsehen können.
+
+In der Implementierung wurde dies durch eine Zweiteilung des Systems erreicht: Das eCurriculum, das die Mitteilungsblätter in allen praktischen Belangen ersetzen soll, ist – genau wie diese – öffentlich einsehbar. Die (rechtlichen) Informationen wurden auf mehrere Unterseiten aufgeteilt und sind so weniger überwältigend und intuitiver auffindbar.
+
+Beim Studienablauf ermöglicht die nach empfohlener Semesterzuordnung sortierte Ansicht eine schnelle Erfassung der Modulabfolgen; darauf basierend lässt sich die Semesterplanung besser vornehmen, als das beim alten Mitteilungsblatt der Fall war. Besonders für Erstsemestrige stellt dies eine erhebliche Verbesserung dar.
+
+Eine Designentscheidung, die aus Gründen der Übersichtlichkeit getroffen wurde, war, den beispielhaften BSc-Studienplan der Informatik mit seinen 4 Ausprägungsfächern auf 4 einzelne Studienpläne aufzuteilen; bei der tatsächlichen Anwendung in der Praxis müsste geprüft werden, ob diese Abstraktion mit den gegebenen rechtlichen Umständen vereinbar wäre.
+
+Der zweite Teil des Systems, der persönliche Semesterplan, richtet sich gezielt an Studierende, die ihr Studium bereits begonnen haben, und ist daher durch eine Anmeldemaske mit den u:net-Daten zugriffsbeschränkt.
+
+(Für den Prototypen wurde die Anmeldung mit Beispieldaten selbst implementiert. In der tatsächlichen Anwendung wäre dies natürlich in das bestehende Anmeldesystem eingebunden.)
+
+Als Designentscheidungen ist hierbei zu erwähnen, dass die Markierung der Module – hinsichtlich ``abgeschlossen", ``teilweise abgeschlossen" oder ``noch nicht abgeschlossen" – nicht wie bisher in schriftlicher Form passiert, sondern sowohl durch Farbmarkierung wie auch durch Symbole. Farblich wurde nicht wie ursprünglich angedacht ein Ampelsystem verwendet, sondern eine Abstufung dreier Grautöne. Einerseits, weil es sich so rein ästhetisch besser in das Farbkonzept einbindet, aber auch um Diskriminierung bezüglich Farbenfehlsichtigkeit vorzubeugen.
+
+Zuletzt wurde auch eine optische Markierung – ``Neue Note" – eingeführt, um Verän-derungen seit dem letzten Login schnell sichtbar zu machen.
 
 \section*{Typische Fehlermeldungen}
 
