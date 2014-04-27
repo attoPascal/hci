@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.10.15)  27 APR 2014 19:27
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.10.15)  27 APR 2014 19:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -614,7 +614,7 @@ LaTeX Info: Redefining \nameref on input line 14.
 \openout3 = `HCI_MS2.out'.
 
 
-<./lowfi-curriculum.png, id=4, 894.34125pt x 918.43124pt>
+<./lowfi-curriculum.png, id=92, 894.34125pt x 918.43124pt>
 File: ./lowfi-curriculum.png Graphic file (type png)
 
 <use ./lowfi-curriculum.png>
@@ -634,7 +634,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-<./lowfi-plan.png, id=22, 1088.065pt x 917.4275pt>
+<./lowfi-plan.png, id=107, 1088.065pt x 917.4275pt>
 File: ./lowfi-plan.png Graphic file (type png)
  <use ./lowfi-plan.png>
 Package pdftex.def Info: ./lowfi-plan.png used on input line 36.
@@ -649,7 +649,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
-[3 <./lowfi-plan.png>] <./lowfi-modul.png, id=30, 1088.065pt x 624.3325pt>
+[3 <./lowfi-plan.png>] <./lowfi-modul.png, id=114, 1088.065pt x 624.3325pt>
 File: ./lowfi-modul.png Graphic file (type png)
 
 <use ./lowfi-modul.png>
@@ -674,7 +674,7 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 57.
 
-<./hifi_screenshots/hifi_startseite.png, id=38, 1926.19624pt x 930.47626pt>
+<./hifi_screenshots/hifi_startseite.png, id=121, 1926.19624pt x 930.47626pt>
 File: ./hifi_screenshots/hifi_startseite.png Graphic file (type png)
 
 <use ./hifi_screenshots/hifi_startseite.png>
@@ -686,7 +686,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
-<./hifi_screenshots/hifi_allgemeines.png, id=39, 1926.19624pt x 929.4725pt>
+<./hifi_screenshots/hifi_allgemeines.png, id=122, 1926.19624pt x 929.4725pt>
 File: ./hifi_screenshots/hifi_allgemeines.png Graphic file (type png)
 
 <use ./hifi_screenshots/hifi_allgemeines.png>
@@ -699,7 +699,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
  []
 
 [5 <./hifi_screenshots/hifi_startseite.png>]
-<./hifi_screenshots/hifi_aufbau1.png, id=49, 1924.18875pt x 929.4725pt>
+<./hifi_screenshots/hifi_aufbau1.png, id=130, 1924.18875pt x 929.4725pt>
 File: ./hifi_screenshots/hifi_aufbau1.png Graphic file (type png)
 
 <use ./hifi_screenshots/hifi_aufbau1.png>
@@ -711,7 +711,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
-<./hifi_screenshots/hifi_aufbau2.png, id=50, 1926.19624pt x 930.47626pt>
+<./hifi_screenshots/hifi_aufbau2.png, id=131, 1926.19624pt x 930.47626pt>
 File: ./hifi_screenshots/hifi_aufbau2.png Graphic file (type png)
 
 <use ./hifi_screenshots/hifi_aufbau2.png>
@@ -729,7 +729,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
  []
 
 [6 <./hifi_screenshots/hifi_allgemeines.png> <./hifi_screenshots/hifi_aufbau1.p
-ng>] <./hifi_screenshots/hifi_ausland.png, id=59, 1926.19624pt x 928.46875pt>
+ng>] <./hifi_screenshots/hifi_ausland.png, id=138, 1926.19624pt x 928.46875pt>
 File: ./hifi_screenshots/hifi_ausland.png Graphic file (type png)
 
 <use ./hifi_screenshots/hifi_ausland.png>
@@ -741,7 +741,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
-<./hifi_screenshots/hifi_einteilung.png, id=60, 1926.19624pt x 930.47626pt>
+<./hifi_screenshots/hifi_einteilung.png, id=139, 1926.19624pt x 930.47626pt>
 File: ./hifi_screenshots/hifi_einteilung.png Graphic file (type png)
 
 <use ./hifi_screenshots/hifi_einteilung.png>
@@ -754,7 +754,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--107
  []
 
 [7 <./hifi_screenshots/hifi_aufbau2.png> <./hifi_screenshots/hifi_ausland.png>]
-<./hifi_screenshots/hifi_bachelor.png, id=69, 1926.19624pt x 930.47626pt>
+<./hifi_screenshots/hifi_bachelor.png, id=147, 1926.19624pt x 930.47626pt>
 File: ./hifi_screenshots/hifi_bachelor.png Graphic file (type png)
 
 <use ./hifi_screenshots/hifi_bachelor.png>
@@ -766,7 +766,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
 
-<./hifi_screenshots/hifi_lv.png, id=70, 1926.19624pt x 928.46875pt>
+<./hifi_screenshots/hifi_lv.png, id=148, 1926.19624pt x 928.46875pt>
 File: ./hifi_screenshots/hifi_lv.png Graphic file (type png)
 
 <use ./hifi_screenshots/hifi_lv.png>
@@ -779,7 +779,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--119
  []
 
 [8 <./hifi_screenshots/hifi_einteilung.png> <./hifi_screenshots/hifi_bachelor.p
-ng>] <./hifi_screenshots/hifi_recht.png, id=79, 1926.19624pt x 929.4725pt>
+ng>] <./hifi_screenshots/hifi_recht.png, id=155, 1926.19624pt x 929.4725pt>
 File: ./hifi_screenshots/hifi_recht.png Graphic file (type png)
 
 <use ./hifi_screenshots/hifi_recht.png>
@@ -791,7 +791,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
-<./hifi_screenshots/hifi_login.png, id=80, 1926.19624pt x 928.46875pt>
+<./hifi_screenshots/hifi_login.png, id=156, 1926.19624pt x 928.46875pt>
 File: ./hifi_screenshots/hifi_login.png Graphic file (type png)
 
 <use ./hifi_screenshots/hifi_login.png>
@@ -804,7 +804,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--131
  []
 
 [9 <./hifi_screenshots/hifi_lv.png> <./hifi_screenshots/hifi_recht.png>]
-<./hifi_screenshots/hifi_persplan.png, id=89, 1926.19624pt x 929.4725pt>
+<./hifi_screenshots/hifi_persplan.png, id=163, 1926.19624pt x 929.4725pt>
 File: ./hifi_screenshots/hifi_persplan.png Graphic file (type png)
 
 <use ./hifi_screenshots/hifi_persplan.png>
@@ -816,7 +816,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
-<./hifi_screenshots/hifi_persplan2.png, id=90, 1926.19624pt x 927.465pt>
+<./hifi_screenshots/hifi_persplan2.png, id=164, 1926.19624pt x 927.465pt>
 File: ./hifi_screenshots/hifi_persplan2.png Graphic file (type png)
 
 <use ./hifi_screenshots/hifi_persplan2.png>
@@ -840,7 +840,7 @@ Overfull \hbox (8.72607pt too wide) in paragraph at lines 166--167
 t sei-nen 4 Aus-pr[]agungsf[]achern
  []
 
-[12] <./fehlermeldung1.png, id=112, 1011.78pt x 587.19376pt>
+[12] <./fehlermeldung1.png, id=182, 1011.78pt x 587.19376pt>
 File: ./fehlermeldung1.png Graphic file (type png)
 
 <use ./fehlermeldung1.png>
@@ -851,7 +851,7 @@ Overfull \hbox (31.26237pt too wide) in paragraph at lines 188--190
  [] 
  []
 
-<./fehlermeldung2.png, id=113, 1011.78pt x 587.19376pt>
+<./fehlermeldung2.png, id=183, 1011.78pt x 587.19376pt>
 File: ./fehlermeldung2.png Graphic file (type png)
 
 <use ./fehlermeldung2.png>
@@ -863,7 +863,7 @@ Overfull \hbox (31.26237pt too wide) in paragraph at lines 203--205
  []
 
 [13 <./fehlermeldung1.png>]
-<./fehlermeldung3.png, id=121, 1011.78pt x 587.19376pt>
+<./fehlermeldung3.png, id=191, 1011.78pt x 587.19376pt>
 File: ./fehlermeldung3.png Graphic file (type png)
 
 <use ./fehlermeldung3.png>
@@ -875,7 +875,7 @@ Overfull \hbox (31.26237pt too wide) in paragraph at lines 215--217
  []
 
 [14 <./fehlermeldung2.png>]
-<./fehlermeldung4.png, id=127, 1011.78pt x 587.19376pt>
+<./fehlermeldung4.png, id=197, 1011.78pt x 587.19376pt>
 File: ./fehlermeldung4.png Graphic file (type png)
 
 <use ./fehlermeldung4.png>
@@ -893,29 +893,45 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
  (./HCI_MS2.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 238.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 238.
-Package rerunfilecheck Info: File `HCI_MS2.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+Package rerunfilecheck Warning: File `HCI_MS2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `HCI_MS2.out':
+(rerunfilecheck)             Before: 72AE2849F34A0C9460280A59B6DAB7A9;1655
+(rerunfilecheck)             After:  62EB254990D39B43B50D46942655550E;1615.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 238.
  ) 
 Here is how much of TeX's memory you used:
- 7466 strings out of 494578
- 111858 string characters out of 3168573
+ 7493 strings out of 494578
+ 112481 string characters out of 3168573
  222653 words of memory out of 3000000
- 10557 multiletter control sequences out of 15000+200000
+ 10581 multiletter control sequences out of 15000+200000
  7226 words of font info for 27 fonts, out of 3000000 for 9000
  314 hyphenation exceptions out of 8191
- 38i,7n,47p,598b,402s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
-.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r12.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmssbx10.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmti10.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmtt10.pfb>
-Output written on HCI_MS2.pdf (16 pages, 1911543 bytes).
+ 38i,7n,47p,598b,400s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{subsubsection.4.0.13} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.4.0.12} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.4.0.11} has been referenced but does 
+not exist, replaced by a fixed one
+
+</usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
+fb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+2.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mssbx10.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmti10.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmtt10.pfb>
+Output written on HCI_MS2.pdf (16 pages, 1914584 bytes).
 PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 242 PDF objects out of 1000 (max. 8388607)
+ 178 compressed objects within 2 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 272 words of extra memory for PDF output out of 10000 (max. 10000000)
 
