@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.10.15)  27 APR 2014 16:38
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.10.15)  27 APR 2014 19:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -834,78 +834,77 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--141
  []
 
 [10 <./hifi_screenshots/hifi_login.png> <./hifi_screenshots/hifi_persplan.png>]
-
-Overfull \hbox (8.72607pt too wide) in paragraph at lines 157--158
+[11 <./hifi_screenshots/hifi_persplan2.png>]
+Overfull \hbox (8.72607pt too wide) in paragraph at lines 166--167
 \OT1/cmr/m/n/10 war, den bei-spiel-haf-ten BSc-Studienplan der In-for-ma-tik mi
 t sei-nen 4 Aus-pr[]agungsf[]achern
  []
 
-[11 <./hifi_screenshots/hifi_persplan2.png>]
-<./fehlermeldung1.png, id=108, 1011.78pt x 587.19376pt>
+[12] <./fehlermeldung1.png, id=112, 1011.78pt x 587.19376pt>
 File: ./fehlermeldung1.png Graphic file (type png)
 
 <use ./fehlermeldung1.png>
-Package pdftex.def Info: ./fehlermeldung1.png used on input line 179.
+Package pdftex.def Info: ./fehlermeldung1.png used on input line 188.
 (pdftex.def)             Requested size: 404.70483pt x 234.87334pt.
 
-Overfull \hbox (31.26237pt too wide) in paragraph at lines 179--181
+Overfull \hbox (31.26237pt too wide) in paragraph at lines 188--190
  [] 
  []
 
-[12] <./fehlermeldung2.png, id=115, 1011.78pt x 587.19376pt>
+<./fehlermeldung2.png, id=113, 1011.78pt x 587.19376pt>
 File: ./fehlermeldung2.png Graphic file (type png)
 
 <use ./fehlermeldung2.png>
-Package pdftex.def Info: ./fehlermeldung2.png used on input line 194.
+Package pdftex.def Info: ./fehlermeldung2.png used on input line 203.
 (pdftex.def)             Requested size: 404.70483pt x 234.87334pt.
 
-Overfull \hbox (31.26237pt too wide) in paragraph at lines 194--196
+Overfull \hbox (31.26237pt too wide) in paragraph at lines 203--205
  [] 
  []
 
 [13 <./fehlermeldung1.png>]
-<./fehlermeldung3.png, id=123, 1011.78pt x 587.19376pt>
+<./fehlermeldung3.png, id=121, 1011.78pt x 587.19376pt>
 File: ./fehlermeldung3.png Graphic file (type png)
 
 <use ./fehlermeldung3.png>
-Package pdftex.def Info: ./fehlermeldung3.png used on input line 206.
+Package pdftex.def Info: ./fehlermeldung3.png used on input line 215.
 (pdftex.def)             Requested size: 404.70483pt x 234.87334pt.
 
-Overfull \hbox (31.26237pt too wide) in paragraph at lines 206--208
+Overfull \hbox (31.26237pt too wide) in paragraph at lines 215--217
  [] 
  []
 
 [14 <./fehlermeldung2.png>]
-<./fehlermeldung4.png, id=129, 1011.78pt x 587.19376pt>
+<./fehlermeldung4.png, id=127, 1011.78pt x 587.19376pt>
 File: ./fehlermeldung4.png Graphic file (type png)
 
 <use ./fehlermeldung4.png>
-Package pdftex.def Info: ./fehlermeldung4.png used on input line 223.
+Package pdftex.def Info: ./fehlermeldung4.png used on input line 232.
 (pdftex.def)             Requested size: 404.70483pt x 234.87334pt.
 
-Overfull \hbox (31.26237pt too wide) in paragraph at lines 223--225
+Overfull \hbox (31.26237pt too wide) in paragraph at lines 232--234
  [] 
  []
 
 [15 <./fehlermeldung3.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 229.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 238.
  [16 <./fehlermeldung4.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
  (./HCI_MS2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 238.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 238.
 Package rerunfilecheck Info: File `HCI_MS2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 229.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 238.
  ) 
 Here is how much of TeX's memory you used:
- 7468 strings out of 494578
- 111880 string characters out of 3168573
- 218653 words of memory out of 3000000
+ 7466 strings out of 494578
+ 111858 string characters out of 3168573
+ 222653 words of memory out of 3000000
  10557 multiletter control sequences out of 15000+200000
  7226 words of font info for 27 fonts, out of 3000000 for 9000
  314 hyphenation exceptions out of 8191
- 38i,7n,47p,598b,400s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,7n,47p,598b,402s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
 .pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 r12.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/cm
@@ -913,10 +912,10 @@ r12.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/cm
 nts/cm/cmsy10.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmti10.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmtt10.pfb>
-Output written on HCI_MS2.pdf (16 pages, 1910141 bytes).
+Output written on HCI_MS2.pdf (16 pages, 1911543 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 110 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 500000)
+ 172 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
+ 39 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
