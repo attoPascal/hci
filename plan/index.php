@@ -9,7 +9,8 @@
 <!DOCTYPE html>
 <html lang="de">
   <head>
-    <meta charset="utf-8"> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Persönlicher Plan</title>
 
     <!-- Bootstrap core CSS -->
@@ -85,12 +86,12 @@ if (($handle = fopen("eCurriculum_Bachelor_Informatik_Plan.csv", "r")) !== FALSE
 } 
 
 printCalculatedGrades($plan);
-echo "<table class='table table-bordered'>";
+echo "<div class='table-responsive'><table class='table table-bordered'>";
 
 for ($i=1; $i < 7; $i++)
   printModulSemester($plan, $i);
   
-echo "</table>";
+echo "</table></div>";
 
 ?>
       
@@ -108,7 +109,7 @@ echo "</table>";
   function printModulSemester($plan, $semester) {
     $count = count($plan);
     echo "<tr height='100px'>";
-    echo "<th>".$semester.". Semester</th>";
+    echo "<th>".$semester.".&nbsp;Semester</th>";
       for ($i=1; $i < $count; $i++) {
 	if (($plan[$i][6] == "Medieninformatik") AND ($plan[$i][7] == $semester)) {
 	  if ($plan[$i][8] AND  $plan[$i][8] < 5) {
@@ -116,7 +117,7 @@ echo "</table>";
 	      <a href='modul.php?modulid=".$plan[$i][0]."'>".$plan[$i][1]."</a>\n  
 	      <div align='right'>
 	      <span class='label label-primary'>".$plan[$i][8]."</span>
-	      <span class='glyphicon glyphicon-ok'></span>";
+	      <span class='glyphicon glyphicon-ok' title='abgeschlossen'></span>";
 	    if (strtotime($plan[$i][9]) == strtotime("04/23/2014"))
 	      echo "</br></br><span class='label label-default'>neue Note</span>";
 	    echo "</div></td>";
@@ -126,7 +127,7 @@ echo "</table>";
 	      echo "<td width='18%' bgcolor=#f8f8f8>
 	      <a href='modul.php?modulid=".$plan[$i][0]."'>".$plan[$i][1]."</a>\n 
 	      <div align='right'>
-	      <span class='glyphicon glyphicon-saved'></span>";
+	      <span class='glyphicon glyphicon-saved' title='teilweise abgeschlossen'></span>";
 	      if (strtotime($plan[$i][9]) == strtotime("04/23/2014"))
 		echo "</br></br><span class='label label-default'>neue Note</span>";
 	      echo "</div></td>";
