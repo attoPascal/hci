@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.10.15)  27 APR 2014 23:52
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.10.15)  29 APR 2014 14:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -808,7 +808,7 @@ basic/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2012basic
 /texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2012basic/te
 xmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2012basic/texmf-d
 ist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on HCI_MS2.pdf (15 pages, 1961051 bytes).
+Output written on HCI_MS2.pdf (15 pages, 1961102 bytes).
 PDF statistics:
  237 PDF objects out of 1000 (max. 8388607)
  174 compressed objects within 2 object streams
