@@ -28,7 +28,7 @@ $modulid = $_GET["modulid"];
       <div class="container">
 	<div class="row">
 	  <!-- Page Title -->
-	  <div class="col-md-6"><h1 class="page-header-ecurriculum-title">Persönlicher Plan - Max Mustermann (a1234567)</div>
+	  <div class="col-md-6"><h1 class="page-header-ecurriculum-title">Persönlicher Plan</h1></div>
 	  <!-- Page Logo -->
 	  <div class="col-md-6">
 	    <div class="page-header-ecurriculum-logo">
@@ -55,6 +55,7 @@ $modulid = $_GET["modulid"];
             <li class="active"><a href="../plan/">Bachelor Medieninformatik</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Max Mustermann (a1234567)</a></li>
 	    <li><a href="logout.php">
             <span class="glyphicon glyphicon-log-out"></span>
             Logout</a></li>

@@ -21,7 +21,7 @@
       <div class="container">
 	<div class="row">
 	  <!-- Page Title -->
-	  <div class="col-md-6"><h1 class="page-header-ecurriculum-title">Persönlicher Plan - Login</h1></div>
+	  <div class="col-md-6"><h1 class="page-header-ecurriculum-title">Persönlicher Plan</h1></div>
 	  <!-- Page Logo -->
 	  <div class="col-md-6">
 	    <div class="page-header-ecurriculum-logo">
