@@ -112,27 +112,33 @@ $modulid = $_GET["modulid"];
       }
       if ($plan[$i][11] == $modulid) { // wenn mehr Noten dann einen Zähler einfügen
 	echo "<div class='row'>";
-	echo "<div class='col-md-6'><table class='table table-bordered'><tr><td>";
-	echo $plan[$i][1]." (".$plan[$i][3]." ECTS)";
-	echo "</table></td></tr></div>";
-	echo "<div class='col-md-2'><table class='table table-bordered'><tr><td>";
+	echo "<div class='col-md-6'><p>";
+	echo "<b>".$plan[$i][1]." (".$plan[$i][3]." ECTS)"."</b>";
+	echo "</p></div>";
+	echo "<div class='col-md-2'><p>";
 	echo "Note: ".$plan[$i][8];
-	echo "</table></td></tr></div>";
-	echo "<div class='col-md-4'><table class='table table-bordered'><tr><td>";
+	echo "</p></div>";
+	echo "<div class='col-md-4'><p>";
 	if ($plan[$i][8] == "")
 	  $antritte = 4;
 	else {
 	  $antritte = 3;
 	}
 	echo "Verbleibende Antritte: ".$antritte;
-	echo "</table></td></tr></div>";
+	echo "</p></div>";
 	echo "</div>";
 	if ($antritte < 4) {
-	  echo "<ul><li>";
+	  echo "<ul class='list-unstyled'><li>";
 	  echo $plan[$i][0].", erbracht am: ".$plan[$i][9].", Prüfer: Erika Musterfrau, Note: ".$plan[$i][8];
 	  echo "</li></ul>";
-	  echo "<hr>";
+	} else {
+	  echo "<ul class='list-unstyled'><li>";
+	  echo "<a href='http://online.univie.ac.at/vlvz?kapitel=502&semester=current#502_".$plan[$i][13]."'>
+	  <span class='glyphicon glyphicon-arrow-right'></span> Anmeldung zur Lehrveranstaltung</a>";
+	  echo "</li></ul>";
+	
 	}
+	echo "<hr>";
       }
     }
     if ($exists == 0)

@@ -145,16 +145,40 @@ echo "</table></div>";
     $count = count($plan);
     $noteects = 0;
     $gesamtects = 0;
+    $notensum = 0;
+    for ($note = 1; $note < 6; $note++) {
+	  $noten[$note] = 0;
+	}
     for ($i = 0; $i < $count; $i++) {
       if (($plan[$i][6] != "Medieninformatik") AND ($plan[$i][8] != "")) {
 	$gesamtects = $gesamtects + $plan[$i][3];
 	$noteects = $noteects + $plan[$i][3]*$plan[$i][8];
+	for ($note = 1; $note < 6; $note++) {
+	  if ($plan[$i][8] == $note) {
+	    $noten[$note]++;
+	    $notensum++;
+	  }
+	}
       }
     }
     $prozent = round($gesamtects/180*100, 2);
     $notendurchschnitt = round($noteects/$gesamtects, 2);
-    echo "
-    <dl class='dl-horizontal'><dt>Notendurchschnitt:</dt><dd>".$notendurchschnitt."</dd></dl><div class='progress'>
-    <div class='progress-bar' role='progressbar' aria-valuenow='".$prozent."' aria-valuemin='0' aria-valuemax='100' style='width: ".$prozent."%;'>".$prozent."% - ".$gesamtects."/180 ECTS</div></div>";
+    echo "<div class='panel panel-default'>
+    <div class='panel-heading'>
+    <h4 class='panel-title'><a data-toggle='collapse' data-parent='#accordion' href='#statistik'><span class='glyphicon glyphicon-list'></span> Statistik</a></h4>
+    </div>
+    <div class='panel-collapse collapse' id='statistik'>
+      <div class='panel-body'>
+	<dl class='dl-horizontal'><dt>Notendurchschnitt:</dt><dd>".$notendurchschnitt."</dd><hr>";
+    for ($note = 1; $note < 6; $note++) {
+      echo "<dt>".$note.":</dt><dd>".$noten[$note]." von ".$notensum."</dd>";
+    }
+    echo "</dl>
+      </div>
+    </div>
+    </div>
+    <div class='progress'>
+      <div class='progress-bar' role='progressbar' aria-valuenow='".$prozent."' aria-valuemin='0' aria-valuemax='100' style='width: ".$prozent."%;'>".$prozent."% - ".$gesamtects."/180 ECTS</div>
+    </div>";
   }
 ?>
