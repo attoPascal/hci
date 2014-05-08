@@ -1,0 +1,107 @@
+\documentclass[10pt,fleqn]{scrreprt}
+\usepackage[top=2.5cm,bottom=2.5cm,left=1.5cm,right=1.5cm]{geometry}
+\usepackage{papi}
+
+\title{HCI Meilenstein 3}
+\subtitle{Elektronisches Curriculum - Fragebogen}
+\author{Team 1 \\Pascal Attwenger, Philipp Hiermann, Sandra Markhart}
+
+\begin{document}
+
+
+\maketitle
+
+
+\begin{questionnaire}
+
+\question{}{\textbf{Vorinterview}}
+
+\separator
+
+\question{1a}{Was sind deine Erfahrungen mit den aktuellen IT-Systemen im Studium (univis, TISS, etc.)?
+Hast du schon einmal mit solch einem System gearbeitet?}
+
+  \answer{Ja.}
+  \answer{Nein.}
+  
+\question{1b}{Wenn ja, welche Erfahrungen genau?}
+
+\longline
+
+\longline
+
+\separator
+
+\question{2}{Was sind deiner Meinung nach die größten Schwächen dieser Systeme?}
+
+\longline
+
+\longline
+
+\separator
+
+\question{3}{Was würdest du dir von einem neuem System erwarten?}
+
+\longline
+
+\longline
+
+\pageseparator
+
+\question{}{\textbf{Abschlussinterview}}
+
+\separator
+
+\question{2}{Was sind deine allgemeinen Eindrücke vom System?}
+
+\longline
+
+\longline
+
+\question{}{}
+
+\blockBfour{Stimme voll und ganz zu}{Stimme eher zu}{Stimme eher nicht zu}{Stimme über\-haupt nicht zu}{
+\textBfour{b}{Das System erfordert wenig Zeit zum Lernen.}    
+
+}
+
+\separator
+
+\question{3}{Wie gut kannst du mit diesem System die im Studium anfallenden Aufgaben bewältigen?}
+
+\longline
+
+\longline
+
+\question{}{}
+
+\blockBfour{Stimme voll und ganz zu}{Stimme eher zu}{Stimme eher nicht zu}{Stimme über\-haupt nicht zu}{
+\textBfour{b}{Das System bietet alle Funktionen um die anfallenden Aufgaben zu bewältigen.}   
+\textBfour{c}{Das System ist gut auf die Anforderungen der Arbeit zugeschnitten.} 
+
+}
+
+\separator
+
+\question{4}{Wie gut kannst du mit diesem System die im Studium anfallenden Aufgaben bewältigen?}
+
+\longline
+
+\longline
+
+\question{}{}
+
+\blockBfour{Stimme voll und ganz zu}{Stimme eher zu}{Stimme eher nicht zu}{Stimme über\-haupt nicht zu}{
+\textBfour{b}{Das System bietet alle Funktionen um die anfallenden Aufgaben zu bewältigen.}   
+\textBfour{c}{Das System ist gut auf die Anforderungen der Arbeit zugeschnitten.} 
+
+}
+
+\separator
+
+
+\end{questionnaire}
+
+\lastpage
+
+\end{document}

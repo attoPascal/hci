@@ -5,6 +5,7 @@
 \usepackage{lmodern}
 \usepackage{graphicx}
 \usepackage{hyperref}
+
 %\usepackage{tabularx}
 %\usepackage{amsmath}
 
@@ -53,46 +54,90 @@ Du studierst an der Universität Wien und willst wissen ob du dich für ein Leis
 
 \section{Interviewleitfaden}
 
-Usability Test Beispiel
-•
-Zielperson: Jugendliche
-•
-System: Webportal
-•
-Vorinterview
-–
-Erfahrungen mit ähnlichen Portalen
-–
-Erwartung vom Portal
-•
-Aufgaben mit jeweils Abschlussfragen
-–
-Zufriedenheit mit dem System
-–
-Verbesserungsvorschläge
-•
-Abschlussinterview
-–
-Allgemeine Eindrücke
-–
-Gut bzw. schlecht gefallen
-–
-Orientierung
-–
-Erwartungen erfüllt?
-
 \subsection{Vorinterview}
 
+
+\begin{questionnaire}
+    \begin{info}
+      Some information here. Nothing special, just adds a line above/below.
+    \end{info}
+
+    \section{Section Heading}
+
+    \begin{markgroup}{This is a group of mark questions}
+      \markline{first}{lower bound}{upper bound}
+      \markline{second}{lower bound}{upper bound}
+    \end{markgroup}
+
+    \singlemark{Mark Question}{lower bound}{upper bound}
+
+    \section{Section Heading}
+
+    \begin{choicequestion}[4]{Some choices}
+      \choiceitem{first}
+      \choiceitem{second}
+      \choiceitem{third}
+      \choiceitem{fourth}
+      \choicemulticolitem{2}{one with a very long text}
+      \choiceitemtext{1.2cm}{2}{Other:}
+    \end{choicequestion}
+
+    \textbox{5cm}{A Textbox}
+
+  \end{questionnaire}
+
 \begin{itemize}
- \item Hast du schon Erfahrungen mit ähnlichen Systemen gesammelt?
- \item Welche Erwartungen hast du an das System?
+ \item Was sind deine Erfahrungen mit den aktuellen IT-Systemen im Studium? (univis, TISS, etc.)
+ \item Was sind deiner Meinung nach die größten Schwächen dieser Systeme?
+ \item Was würdest du dir von einem neuem System erwarten?
 \end{itemize}
 
+\subsection{Fragen nach der Aufgabe}
 
-\subsection{Fragen nach jeder Aufgabe}
+Die Fragen werden je nach Aufgabe mündlich gestellt, und die Antworten dazu notiert.
 
+\subsubsection*{Ad Aufgabe 1}
 
-\section{Abschlussinterview}
+\begin{itemize}
+ \item Ist dir klar, was die StEOP generell ist?
+ \item Angenommen, du würdest nur die unbedingt vorausgesetzten StEOP-Fächer belegen wollen -- welche wären das?
+ \item Angenommen, du würdest alles belegen wollen, was im ersten Semester überhaupt möglich ist -- welche Fächer wären jetzt zusätzlich dabei?
+ \item Was hältst du von der Darstellungsart, bei der immer nur genau ein Modul angezeigt wird?
+ \item Vergleiche die Sortierung nach Modulgruppen mit der nach Semestereinteilung -- welche erscheint dir vernünftiger, und wieso?
+ \item Wirf noch einen Blick auf die anderen Rubriken des eCurriculums (Allgemeines, Ausland, etc.) -- macht diese Aufteilung so für dich Sinn? Was würdest du evtl. anders gruppieren?
+ \item Hast du noch andere Anmerkungen zu dieser Oberfläche?
+\end{itemize}
+
+\subsubsection*{Ad Aufgabe 2}
+
+\begin{itemize}
+ \item Ist dir klar, was es mit dem ``Persönlichen Plan'' auf sich hat?
+ \item Ist dir der Unterschied zwischen Modulnote und LV-Note bewusst?
+ \item Was bedeuten die kleinen Symbole (``Hakerl'') in der Tabellen-Übersicht?
+ \item Kann diese Art der Darstellung die Listen-Ansicht der Prüfungsleistungen ersetzen oder nur ergänzen?
+ \item Kannst du dir vorstellen, dass diese Art des Semesterplans auch für dein Studium möglich wäre? Wo wären eventuelle Probleme?
+ \item Hast du noch andere Anmerkungen zu dieser Oberfläche?
+\end{itemize}
+
+\subsubsection*{Ad Aufgabe 3}
+
+\begin{itemize}
+ \item Findest du die automatische Berechnung des Notenschnitts sinnvoll? Wozu braucht man diese Information?
+ \item Welche anderen Statistiken fändest du praktisch?
+ \item Was hältst du von der Studienfortschrittsanzeige?
+ \item Hast du noch andere Anmerkungen zu dieser Oberfläche?
+\end{itemize}
+
+\subsection{Abschlussfragen}
+
+\begin{itemize}
+ \item Was sind deine allgemeinen Eindrücke vom System?
+ \item Wie gut konntest du dich orientieren?
+ \item Was hat dir besonders gut/schlecht gefallen?
+ \item Wurden deine Erwartungen an das System erfüllt?
+ \item Hast du Verbesserungsvorschläge?
+\end{itemize}
+
 
 
 
@@ -116,7 +161,28 @@ Erwartungen erfüllt?
  \item[Datei auf cewebs:]Meilenstein 3 - Team 1 - Webseite
 \end{description}
 
+Einerseits haben wir Verbesserungsvorschläge die bei der Präsentation des Meilensteins 2 aufgekommen sind, andererseits auch
+die Verbesserungsvorschläge die wir aus den Interviews erhalten haben implementiert.
+
 \subsection{Weiterentwicklung nach der Präsentation}
+
+\subsubsection*{Statistik mit Anzahl der jeweiligen Noten}
+
+Es gibt jetzt eine Statistik, in welcher zusätzlich die Anzahl der erbrachten Noten angezeigt wird.
+
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./verbesserung1.png}}
+\medskip
+
+\subsubsection*{Verlinkung zur Anmeldung zur Lehrveranstaltung}
+
+Wenn eine Lehrveranstaltung noch nicht absolviert wurde, wird direkt ins Vorlesungsverzeichnis zum jeweiligen Modul verlinkt.
+
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./verbesserung2.png}}
+\medskip
+
+\subsubsection*{Aufklappen aller Module im eCurriculum}
+
+
 
 
 \subsection{Weiterentwicklung nach dem Interview}
