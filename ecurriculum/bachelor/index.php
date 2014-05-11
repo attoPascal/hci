@@ -44,8 +44,8 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="../bachelor">Allgemeines</a></li>
             <li><a href="aufbau.php">Aufbau</a></li>
-            <li><a href="ausland.php">Ausland</a></li>
-            <li><a href="einteilung.php">Einteilung der LVs</a></li>
+            <li><a href="ausland.php">Auslandsaufenthalt</a></li>
+            <li><a href="einteilung.php">Arten von LVs</a></li>
             <li><a href="bachelorarbeit.php">Bachelorarbeit</a></li>
             <li><a href="lvspruefungen.php">LVs und Prüfungen</a></li>
             <li><a href="rechtliches.php">Rechtliches zum Curriculum</a></li>

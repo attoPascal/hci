@@ -87,12 +87,14 @@ if (($handle = fopen("eCurriculum_Bachelor_Informatik_Plan.csv", "r")) !== FALSE
 } 
 
 printCalculatedGrades($plan);
+
 echo "<div class='table-responsive'><table class='table table-bordered'>";
 
 for ($i=1; $i < 7; $i++)
   printModulSemester($plan, $i);
   
 echo "</table></div>";
+
 
 ?>
       
@@ -120,7 +122,7 @@ echo "</table></div>";
 	      <span class='label label-primary'>".$plan[$i][8]."</span>
 	      <span class='glyphicon glyphicon-ok' title='abgeschlossen'></span>";
 	    if (strtotime($plan[$i][9]) == strtotime("04/23/2014"))
-	      echo "</br></br><span class='label label-default'>neue Note</span>";
+	      echo "</br></br><span class='label label-success'>neue Note</span>";
 	    echo "</div></td>";
 	  }
 	  else {
@@ -128,9 +130,9 @@ echo "</table></div>";
 	      echo "<td width='18%' bgcolor=#f8f8f8>
 	      <a href='modul.php?modulid=".$plan[$i][0]."'>".$plan[$i][1]."</a>\n 
 	      <div align='right'>
-	      <span class='glyphicon glyphicon-saved' title='teilweise abgeschlossen'></span>";
+	      <span title='teilweise abgeschlossen'></span>";
 	      if (strtotime($plan[$i][9]) == strtotime("04/23/2014"))
-		echo "</br></br><span class='label label-default'>neue Note</span>";
+		echo "</br></br><span class='label label-success'>neue Note</span>";
 	      echo "</div></td>";
 	    }
 	    else
@@ -171,14 +173,32 @@ echo "</table></div>";
       <div class='panel-body'>
 	<dl class='dl-horizontal'><dt>Notendurchschnitt:</dt><dd>".$notendurchschnitt."</dd><hr>";
     for ($note = 1; $note < 6; $note++) {
-      echo "<dt>".$note.":</dt><dd>".$noten[$note]." von ".$notensum."</dd>";
+      echo "<dt>".$note.":</dt><dd>".$noten[$note]."/".$notensum."</dd>";
     }
     echo "</dl>
       </div>
     </div>
-    </div>
+    </div>";
+    printNotAssignedGrades();
+    echo "
     <div class='progress'>
       <div class='progress-bar' role='progressbar' aria-valuenow='".$prozent."' aria-valuemin='0' aria-valuemax='100' style='width: ".$prozent."%;'>".$prozent."% - ".$gesamtects."/180 ECTS</div>
+    </div>";
+  }
+  
+  function printNotAssignedGrades() {
+    echo "<div class='panel panel-default'>
+    <div class='panel-heading'>
+    <h4 class='panel-title'><a data-toggle='collapse' data-parent='#accordion' href='#notassignedgrades'><span class='glyphicon glyphicon-list-alt'></span> Nicht zugewiesene Noten</a> <span class='label label-success'>neue Note</span></h4>
+    </div>
+    <div class='panel-collapse collapse' id='notassignedgrades'>
+      <div class='panel-body'>
+      <div class='table-responsive'>
+	<table class='table table-bordered'><tr><th>Nummer</th><th>Semester</th><th>Prüfung</th><th>PrüferIn</th><th>ECTS</th><th>Erbracht am</th><th>Note</th></tr>
+	<tr><td>012345</td><td>2014W</td><td>VO Great Principles of Information technology</td><td>Erika Musterfrau</td><td>3</td><td>23/05/2014</td><td>2</td></tr></table>
+      </div>
+      </div>
+    </div>
     </div>";
   }
 ?>

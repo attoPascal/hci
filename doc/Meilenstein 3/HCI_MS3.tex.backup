@@ -22,6 +22,9 @@
 
 \subsection{Aufgabe 1}
 
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./aufgabe1.png}}
+\medskip
+
 \subsubsection*{Ziel:}
  
 Der User soll herausfinden welche Fächer er im 1. Semester absolvieren muss und kann.
@@ -31,6 +34,10 @@ Der User soll herausfinden welche Fächer er im 1. Semester absolvieren muss und
 Du fängst nächstes Semester an Medieninformatik zu studieren. Für welche Fächer sollst du dich anmelden?
  
 \subsection{Aufgabe 2}
+
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./aufgabe2.png}}
+\medskip
+
 
 \subsubsection*{Ziel:}
 
@@ -42,6 +49,9 @@ Du hast vor 2 Wochen die Vorlesungsprüfung zu VO Netzwerktechnologien abgelegt.
 
 \subsection{Aufgabe 3}
 
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./aufgabe3.png}}
+\medskip
+
 \subsubsection*{Ziel:}
 
 Der User soll seinen Notendurchschnitt herausfinden.
@@ -51,40 +61,11 @@ Der User soll seinen Notendurchschnitt herausfinden.
 Du studierst an der Universität Wien und willst wissen ob du dich für ein Leistungsstipendium eignest. Das Stipendium verlangt einen Notendurchschnitt von
 1,8. Kannst du ein Leistungsstipendium erhalten?
 
-
 \section{Interviewleitfaden}
 
 \subsection{Vorinterview}
 
-
-\begin{questionnaire}
-    \begin{info}
-      Some information here. Nothing special, just adds a line above/below.
-    \end{info}
-
-    \section{Section Heading}
-
-    \begin{markgroup}{This is a group of mark questions}
-      \markline{first}{lower bound}{upper bound}
-      \markline{second}{lower bound}{upper bound}
-    \end{markgroup}
-
-    \singlemark{Mark Question}{lower bound}{upper bound}
-
-    \section{Section Heading}
-
-    \begin{choicequestion}[4]{Some choices}
-      \choiceitem{first}
-      \choiceitem{second}
-      \choiceitem{third}
-      \choiceitem{fourth}
-      \choicemulticolitem{2}{one with a very long text}
-      \choiceitemtext{1.2cm}{2}{Other:}
-    \end{choicequestion}
-
-    \textbox{5cm}{A Textbox}
-
-  \end{questionnaire}
+Zu Beginn des Interviews werden Fragen in schriftlicher Form zu den Erfahrungen und den Erwartungen an ein solches System gestellt.
 
 \begin{itemize}
  \item Was sind deine Erfahrungen mit den aktuellen IT-Systemen im Studium? (univis, TISS, etc.)
@@ -94,7 +75,7 @@ Du studierst an der Universität Wien und willst wissen ob du dich für ein Leis
 
 \subsection{Fragen nach der Aufgabe}
 
-Die Fragen werden je nach Aufgabe mündlich gestellt, und die Antworten dazu notiert.
+Als nächstes folgt die Durchführung der definierten Usability-Aufgaben. Fragen werden je nach Aufgabe mündlich gestellt, und die Antworten dazu notiert.
 
 \subsubsection*{Ad Aufgabe 1}
 
@@ -128,19 +109,41 @@ Die Fragen werden je nach Aufgabe mündlich gestellt, und die Antworten dazu not
  \item Hast du noch andere Anmerkungen zu dieser Oberfläche?
 \end{itemize}
 
-\subsection{Abschlussfragen}
+\subsection{Abschlussinterview}
+
+Zum Abschluss wird ein Fragebogen in schriftlicher Form vorgelegt, der von der interviewten Person auszufüllen ist. 
+Für den Fragenbogen wurde ein Teil der Fragen aus dem Fragebogen 
+der ISONORM 9241/110-S adaptiert.
 
 \begin{itemize}
+
  \item Was sind deine allgemeinen Eindrücke vom System?
+ \begin{itemize}
+    \item Das System erfordert wenig Zeit zum Lernen.
+ \end{itemize}
+ \item Wie gut konntest du mit diesem System die Aufgaben bewältigen?
+ \begin{itemize}
+    \item Das System bietet alle Funktionen um die anfallenden Aufgaben zu bewältigen.
+    \item Das System ist gut auf die im Studium zu bewältigenden Aufgaben zugeschnitten.
+ \end{itemize}
  \item Wie gut konntest du dich orientieren?
+ \begin{itemize}
+    \item Das System liefert Informationen darüber, welche Eingaben zulässig oder nötig sind.
+    \item Das System erleichtert die Orientierung durch eine einheitliche Gestaltung.
+    \item Das System lässt sich nach einem einheitlichen Prinzip bedienen.
+ \end{itemize}
  \item Was hat dir besonders gut/schlecht gefallen?
  \item Wurden deine Erwartungen an das System erfüllt?
  \item Hast du Verbesserungsvorschläge?
 \end{itemize}
 
+\subsection{Fragebogen}
 
+Für das Vorinterview und das Nachinterview liegen die Fragen als Fragebogen vor, welcher schriftlich ausgefüllt werden kann.
 
-
+\begin{description}
+ \item[Datei auf cewebs:]Meilenstein 3 - Team 1 - Fragebogen
+\end{description}
 
 \section{Bericht}
 
@@ -180,11 +183,34 @@ Wenn eine Lehrveranstaltung noch nicht absolviert wurde, wird direkt ins Vorlesu
 \noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./verbesserung2.png}}
 \medskip
 
-\subsubsection*{Aufklappen aller Module im eCurriculum}
-
-
-
-
 \subsection{Weiterentwicklung nach dem Interview}
+
+\subsubsection*{Kennzeichnung der STEOP im eCurriculum}
+
+Da Probleme dabei auftraten, die für die STEOP relevanten Module zu erkennen, und dies auch als Verbesserung vorgeschlagen wurde, wird die STEOP jetzt auch in der
+Semesteransicht hervorgehoben. Außerdem wurde eingebracht, dass die Information zur STEOP zu schlecht ersichtlich ist, weshalb die Information zur STEOP jetzt
+schon beim Aufruf aufgeklappt ist.
+
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./verbesserungInterview1.png}}
+\medskip
+
+\subsubsection*{Linkbezeichnungen im eCurriculum}
+
+Für einen Interviewten war die Namensgebung ``Ausland'' irreführend, weshalb der Link in ``Auslandsaufenthalt'' umbenannt wurde. Auch wurde die Bezeichnung für
+die ``Einteilung der Lehrveranstaltunge'' in ``Arten von Lehrveranstaltungen'' umbenannt, da dies besser den Zweck des Links verständlich macht.
+
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./verbesserungInterview2.png}}
+\medskip
+
+\subsubsection*{Nicht zugewiesene Noten im persönlichen Plan}
+
+Es wurde in einem Interview bemerkt, dass es auch manchmal vorkommt, dass Noten nicht einem Studienplanpunkt zugewiesen wurden, oder, dass eine Prüfung in diesem
+Studium absolviert wurde, jedoch nicht dem Studienfortschritt zugeordnet wird. Daher gibt es jetzt eine Liste aller nicht-zugewiesener Noten.
+
+\section{Protokoll der Interviews}
+
+\begin{description}
+ \item[Datei auf cewebs:]Meilenstein 3 - Team 1 - Protokoll
+\end{description}
 
 \end{document}

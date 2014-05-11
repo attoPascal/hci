@@ -60,9 +60,9 @@
 	  mit Ihrer Matrikelnummer und Ihrem Passwort einloggen.</p>
 	<?php
 	  if ($_GET["message"] == 1)
-	    echo "<div class='alert alert-danger'>Diese Matrikelnummer existiert nicht.</div>";
+	    echo "<div class='alert alert-danger'>Diese Matrikelnummer existiert nicht. Eine gültige Matrikelnummer besteht aus a + 7 Ziffern (z.B. a1234567).</div>";
 	  if ($_GET["message"] == 2)  
-	    echo "<div class='alert alert-danger'>Das Passwort ist falsch.</div>";
+	    echo "<div class='alert alert-danger'>Das Passwort ist falsch. Wenn Sie Ihr Passwort vergessen haben, wenden Sie sich bitte an den <a href='https://zid.univie.ac.at/passwort/#vergessen'>ZID</a>.</div>";
 	?>
 	<div class="col-md-4">
 	  <form class="form-signin" role="form" action="logincheck.php" method="post">

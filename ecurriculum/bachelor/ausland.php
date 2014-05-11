@@ -44,8 +44,8 @@
           <ul class="nav navbar-nav">
             <li><a href="../bachelor">Allgemeines</a></li>
             <li><a href="aufbau.php">Aufbau</a></li>
-            <li class="active"><a href="ausland.php">Ausland</a></li>
-            <li><a href="einteilung.php">Einteilung der LVs</a></li>
+            <li class="active"><a href="ausland.php">Auslandsaufenthalt</a></li>
+            <li><a href="einteilung.php">Arten von LVs</a></li>
             <li><a href="bachelorarbeit.php">Bachelorarbeit</a></li>
             <li><a href="lvspruefungen.php">LVs und Prüfungen</a></li>
             <li><a href="rechtliches.php">Rechtliches zum Curriculum</a></li>
@@ -62,7 +62,7 @@
     <!-- Content -->
     <div class="container">
     
-    <h1>Studieren im Ausland</h1>
+    <h1>Auslandsaufenthalt</h1>
     
 <h2>§ 6 Mobilität im Bachelorstudium</h2>
 <p>Es wird empfohlen, dass Studierende maximal
@@ -72,7 +72,7 @@ mische Organ mittels Vorausbescheid. </p>
 
 <ul class="pager">
   <li class="previous"><a href="aufbau.php">&larr; Aufbau</a></li>
-  <li class="next"><a href="einteilung.php">Einteilung der LVs &rarr; </a></li>
+  <li class="next"><a href="einteilung.php">Arten von LVs &rarr; </a></li>
 </ul>
 
 

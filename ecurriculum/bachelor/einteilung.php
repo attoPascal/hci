@@ -44,8 +44,8 @@
           <ul class="nav navbar-nav">
             <li><a href="../bachelor">Allgemeines</a></li>
             <li><a href="aufbau.php">Aufbau</a></li>
-            <li><a href="ausland.php">Ausland</a></li>
-            <li class="active"><a href="einteilung.php">Einteilung der LVs</a></li>
+            <li><a href="ausland.php">Auslandsaufenthalt</a></li>
+            <li class="active"><a href="einteilung.php">Arten von LVs</a></li>
             <li><a href="bachelorarbeit.php">Bachelorarbeit</a></li>
             <li><a href="lvspruefungen.php">LVs und Prüfungen</a></li>
             <li><a href="rechtliches.php">Rechtliches zum Curriculum</a></li>
@@ -62,7 +62,7 @@
     <!-- Content -->
     <div class="container">
     
-    <h1>Einteilung der Lehrveranstaltungen</h1>
+    <h1>Arten von Lehrveranstaltungen</h1>
     
 <h2>§ 7 Einteilung der Lehrveranstaltungen</h2>
 <h3>(1) Nicht-prüfungsimmane
@@ -118,7 +118,7 @@ abgeschlossen.</dd>
 </dl>
 
 <ul class="pager">
-  <li class="previous"><a href="ausland.php">&larr; Ausland</a></li>
+  <li class="previous"><a href="ausland.php">&larr; Auslandsaufenthalt</a></li>
   <li class="next"><a href="bachelorarbeit.php">Bachelorarbeit &rarr; </a></li>
 </ul>
 

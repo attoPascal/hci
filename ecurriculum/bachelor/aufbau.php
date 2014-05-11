@@ -44,8 +44,8 @@
           <ul class="nav navbar-nav">
             <li><a href="../bachelor">Allgemeines</a></li>
             <li class="active"><a href="aufbau.php">Aufbau</a></li>
-            <li><a href="ausland.php">Ausland</a></li>
-            <li><a href="einteilung.php">Einteilung der LVs</a></li>
+            <li><a href="ausland.php">Auslandsaufenthalt</a></li>
+            <li><a href="einteilung.php">Arten von LVs</a></li>
             <li><a href="bachelorarbeit.php">Bachelorarbeit</a></li>
             <li><a href="lvspruefungen.php">LVs und Prüfungen</a></li>
             <li><a href="rechtliches.php">Rechtliches zum Curriculum</a></li>
@@ -84,7 +84,7 @@
         </a>
       </h4>
     </div>
-    <div id="collapseSteop" class="panel-collapse collapse">
+    <div id="collapseSteop" class="panel-collapse collapse in">
       <div class="panel-body">
         <p>Für die prüfungsimmanenten Lehrveranstaltungen im
 	    Rahmen der StEOP legt das studienrechtlich
@@ -157,7 +157,7 @@
 
 <ul class="pager">
   <li class="previous"><a href="../bachelor">&larr; Allgemeines</a></li>
-  <li class="next"><a href="ausland.php">Ausland &rarr; </a></li>
+  <li class="next"><a href="ausland.php">Auslandsaufenthalt &rarr; </a></li>
 </ul>
 
     </div> <!-- /container -->

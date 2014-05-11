@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.7)  8 MAY 2014 23:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.7)  11 MAY 2014 23:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -626,7 +626,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 23.
 
-<./aufgabe1.png, id=76, 1011.78pt x 587.19376pt>
+<./aufgabe1.png, id=80, 1011.78pt x 587.19376pt>
 File: ./aufgabe1.png Graphic file (type png)
  <use ./aufgabe1.png>
 Package pdftex.def Info: ./aufgabe1.png used on input line 25.
@@ -648,7 +648,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 36.
 
-<./aufgabe2.png, id=88, 1011.78pt x 587.19376pt>
+<./aufgabe2.png, id=92, 1011.78pt x 587.19376pt>
 File: ./aufgabe2.png Graphic file (type png)
  <use ./aufgabe2.png>
 Package pdftex.def Info: ./aufgabe2.png used on input line 38.
@@ -658,7 +658,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 50.
 
-<./aufgabe3.png, id=89, 1011.78pt x 587.19376pt>
+<./aufgabe3.png, id=93, 1011.78pt x 587.19376pt>
 File: ./aufgabe3.png Graphic file (type png)
  <use ./aufgabe3.png>
 Package pdftex.def Info: ./aufgabe3.png used on input line 52.
@@ -770,45 +770,160 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 170.
 
-<./verbesserung1.png, id=119, 1011.78pt x 587.19376pt>
+<./verbesserungfehlermeldung1.png, id=123, 1011.78pt x 587.19376pt>
+File: ./verbesserungfehlermeldung1.png Graphic file (type png)
+
+<use ./verbesserungfehlermeldung1.png>
+Package pdftex.def Info: ./verbesserungfehlermeldung1.png used on input line 17
+4.
+(pdftex.def)             Requested size: 373.44246pt x 216.72966pt.
+
+<./verbesserungfehlermeldung2.png, id=124, 1011.78pt x 587.19376pt>
+File: ./verbesserungfehlermeldung2.png Graphic file (type png)
+
+<use ./verbesserungfehlermeldung2.png>
+Package pdftex.def Info: ./verbesserungfehlermeldung2.png used on input line 17
+8.
+(pdftex.def)             Requested size: 373.44246pt x 216.72966pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 180.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 180.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 180.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 180.
+ [6 <./verbesserungfehlermeldung1.png>]
+<./verbesserungfehlermeldung3.png, id=131, 1011.78pt x 587.19376pt>
+File: ./verbesserungfehlermeldung3.png Graphic file (type png)
+
+<use ./verbesserungfehlermeldung3.png>
+Package pdftex.def Info: ./verbesserungfehlermeldung3.png used on input line 18
+2.
+(pdftex.def)             Requested size: 373.44246pt x 216.72966pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 185.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 185.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 191.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 191.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 191.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 191.
+ [7 <./verbesserungfehlermeldung2.png> <./verbesserungfehlermeldung3.png>]
+<./verbesserung1.png, id=139, 1011.78pt x 587.19376pt>
 File: ./verbesserung1.png Graphic file (type png)
 
 <use ./verbesserung1.png>
-Package pdftex.def Info: ./verbesserung1.png used on input line 176.
+Package pdftex.def Info: ./verbesserung1.png used on input line 191.
 (pdftex.def)             Requested size: 373.44246pt x 216.72966pt.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 183.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 183.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 183.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 183.
- [6 <./verbesserung1.png>]
-<./verbesserung2.png, id=127, 1011.78pt x 587.19376pt>
+
+<./verbesserung2.png, id=140, 1011.78pt x 587.19376pt>
 File: ./verbesserung2.png Graphic file (type png)
 
 <use ./verbesserung2.png>
-Package pdftex.def Info: ./verbesserung2.png used on input line 183.
+Package pdftex.def Info: ./verbesserung2.png used on input line 198.
 (pdftex.def)             Requested size: 373.44246pt x 216.72966pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 200.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 191.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 193.
+(babel)             in language  on input line 200.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 193.
+(babel)             in language  on input line 200.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 193.
+(babel)             in language  on input line 200.
+ [8 <./verbesserung1.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 193.
+(babel)             in language  on input line 201.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 193.
- [7 <./verbesserung2.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 193.
- (./HCI_MS3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 193.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 193.
+(babel)             in language  on input line 201.
+
+<./verbesserungInterview1.png, id=148, 1011.78pt x 587.19376pt>
+File: ./verbesserungInterview1.png Graphic file (type png)
+
+<use ./verbesserungInterview1.png>
+Package pdftex.def Info: ./verbesserungInterview1.png used on input line 209.
+(pdftex.def)             Requested size: 373.44246pt x 216.72966pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 211.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 211.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 211.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 211.
+ [9 <./verbesserung2.png>]
+<./verbesserungInterview2.png, id=156, 1011.78pt x 587.19376pt>
+File: ./verbesserungInterview2.png Graphic file (type png)
+
+<use ./verbesserungInterview2.png>
+Package pdftex.def Info: ./verbesserungInterview2.png used on input line 217.
+(pdftex.def)             Requested size: 373.44246pt x 216.72966pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 219.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 219.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 219.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 219.
+ [10 <./verbesserungInterview1.png> <./verbesserungInterview2.png>]
+<./verbesserungInterview3.png, id=165, 1011.78pt x 587.19376pt>
+File: ./verbesserungInterview3.png Graphic file (type png)
+
+<use ./verbesserungInterview3.png>
+Package pdftex.def Info: ./verbesserungInterview3.png used on input line 225.
+(pdftex.def)             Requested size: 373.44246pt x 216.72966pt.
+File: ./verbesserungInterview3.png Graphic file (type png)
+ <use ./verbesserungInterview3.png>
+Package pdftex.def Info: ./verbesserungInterview3.png used on input line 232.
+(pdftex.def)             Requested size: 373.44246pt x 216.72966pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 234.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 234.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 234.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 234.
+ [11 <./verbesserungInterview3.png>]
+<./verbesserungInterview4.png, id=173, 1011.78pt x 587.19376pt>
+File: ./verbesserungInterview4.png Graphic file (type png)
+
+<use ./verbesserungInterview4.png>
+Package pdftex.def Info: ./verbesserungInterview4.png used on input line 240.
+(pdftex.def)             Requested size: 373.44246pt x 216.72966pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 245.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 245.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 249.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 249.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 249.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 249.
+ [12 <./verbesserungInterview4.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 251.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 251.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 251.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 251.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 251.
+ [13]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
+
+(./HCI_MS3.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 251.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 251.
 
 
 Package rerunfilecheck Warning: File `HCI_MS3.out' has changed.
@@ -816,28 +931,28 @@ Package rerunfilecheck Warning: File `HCI_MS3.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `HCI_MS3.out':
-(rerunfilecheck)             Before: 53ECD678B15E9E51C55AA28DCA31DFFA;1149
-(rerunfilecheck)             After:  EF99EC98C88C13E4D904E9DD9FBC5EC1;1152.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 193.
+(rerunfilecheck)             Before: 45279F90DE56EBC84D08E156BA8A8DEC;1212
+(rerunfilecheck)             After:  49645D8790A5BD18C79D53A87370CFBA;1299.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 251.
  ) 
 Here is how much of TeX's memory you used:
- 7311 strings out of 494979
- 109270 string characters out of 6179172
+ 7359 strings out of 494979
+ 110547 string characters out of 6179172
  212149 words of memory out of 5000000
- 10391 multiletter control sequences out of 15000+600000
+ 10420 multiletter control sequences out of 15000+600000
  42167 words of font info for 37 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,7n,47p,248b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,7n,47p,248b,399s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/
 texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/
 lmtt10.pfb>
-Output written on HCI_MS3.pdf (7 pages, 750046 bytes).
+Output written on HCI_MS3.pdf (13 pages, 1601572 bytes).
 PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
- 145 compressed objects within 2 object streams
- 38 named destinations out of 1000 (max. 500000)
- 170 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 222 PDF objects out of 1000 (max. 8388607)
+ 175 compressed objects within 2 object streams
+ 50 named destinations out of 1000 (max. 500000)
+ 213 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,3 +1,9 @@
+#note dt{
+overflow: visible;
+width: 190px !important;
+margin-right: 8px;
+}
+
 .page-header-ecurriculum {
   padding: 20px 20px 20px 20px;
   margin: 0px 0 00px;

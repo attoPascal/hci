@@ -116,7 +116,7 @@ $modulid = $_GET["modulid"];
 	echo "<b>".$plan[$i][1]." (".$plan[$i][3]." ECTS)"."</b>";
 	echo "</p></div>";
 	echo "<div class='col-md-2'><p>";
-	echo "Note: ".$plan[$i][8];
+	echo "<b>Note: </b>".$plan[$i][8];
 	echo "</p></div>";
 	echo "<div class='col-md-4'><p>";
 	if ($plan[$i][8] == "")
@@ -124,13 +124,15 @@ $modulid = $_GET["modulid"];
 	else {
 	  $antritte = 3;
 	}
-	echo "Verbleibende Antritte: ".$antritte;
+	echo "<b>Verbleibende Antritte: </b>".$antritte;
 	echo "</p></div>";
 	echo "</div>";
 	if ($antritte < 4) {
 	  echo "<ul class='list-unstyled'><li>";
-	  echo $plan[$i][0].", erbracht am: ".$plan[$i][9].", Prüfer: Erika Musterfrau, Note: ".$plan[$i][8];
-	  echo "</li></ul>";
+	  echo "<table class='table table-bordered'><tr><th>Nummer</th><th>Semester</th><th>PrüferIn</th><th>Erbracht am</th><th>Note</th></tr>
+	<tr><td>".$plan[$i][0]."</td><td>2014W</td><td>Erika Musterfrau</td><td>".$plan[$i][9]."</td><td>".$plan[$i][8]."</td></tr></table>";
+	  //echo $plan[$i][0].", erbracht am: ".$plan[$i][9].", Prüfer: Erika Musterfrau, Note: ".$plan[$i][8];
+	  //echo "</li></ul>";
 	} else {
 	  echo "<ul class='list-unstyled'><li>";
 	  echo "<a href='http://online.univie.ac.at/vlvz?kapitel=502&semester=current#502_".$plan[$i][13]."'>
@@ -142,11 +144,11 @@ $modulid = $_GET["modulid"];
       }
     }
     if ($exists == 0)
-      echo "Das Modul mit der Modulnummer ".$modulid." existiert nicht.";
+      echo "Das Modul mit der Modulnummer ".$modulid." existiert nicht. Bitte rufen Sie ein anderes Modul auf. <br> Zurück zum <a href='../plan/'>persönlichen Plan</a>.";
     else {
-      echo "<dl class='dl-horizontal'>
-      <dt>Abgeschlossen am:</dt><dd>".$modulerbracht."</dd>
-      <dt>Note:</dt><dd>".$modulnote."</dd></dl>";
+      echo "<dl class='dl-horizontal' id='note'>
+      <dt>Modul abgeschlossen am:</dt><dd>".$modulerbracht."</dd>
+      <dt>Modulnote:</dt><dd>".$modulnote."</dd></dl>";
     }
 
 

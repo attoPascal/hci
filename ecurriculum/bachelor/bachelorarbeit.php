@@ -44,8 +44,8 @@
           <ul class="nav navbar-nav">
             <li><a href="../bachelor">Allgemeines</a></li>
             <li><a href="aufbau.php">Aufbau</a></li>
-            <li><a href="ausland.php">Ausland</a></li>
-            <li><a href="einteilung.php">Einteilung der LVs</a></li>
+            <li><a href="ausland.php">Auslandsaufenthalt</a></li>
+            <li><a href="einteilung.php">Arten von LVs</a></li>
             <li class="active"><a href="bachelorarbeit.php">Bachelorarbeit</a></li>
             <li><a href="lvspruefungen.php">LVs und Prüfungen</a></li>
             <li><a href="rechtliches.php">Rechtliches zum Curriculum</a></li>
@@ -81,7 +81,7 @@ skussion der Ergebni
 sse abgeschlossen. </p>
 
 <ul class="pager">
-  <li class="previous"><a href="einteilung.php">&larr; Einteilung der LVs</a></li>
+  <li class="previous"><a href="einteilung.php">&larr; Arten von LVs</a></li>
   <li class="next"><a href="lvspruefungen.php">LVs und Prüfungen &rarr; </a></li>
 </ul>
 
