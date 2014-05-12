@@ -5,6 +5,7 @@
 \usepackage{lmodern}
 \usepackage{graphicx}
 \usepackage{hyperref}
+
 %\usepackage{tabularx}
 %\usepackage{amsmath}
 
@@ -21,6 +22,9 @@
 
 \subsection{Aufgabe 1}
 
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./aufgabe1.png}}
+\medskip
+
 \subsubsection*{Ziel:}
  
 Der User soll herausfinden welche Fächer er im 1. Semester absolvieren muss und kann.
@@ -30,6 +34,10 @@ Der User soll herausfinden welche Fächer er im 1. Semester absolvieren muss und
 Du fängst nächstes Semester an Medieninformatik zu studieren. Für welche Fächer sollst du dich anmelden?
  
 \subsection{Aufgabe 2}
+
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./aufgabe2.png}}
+\medskip
+
 
 \subsubsection*{Ziel:}
 
@@ -41,6 +49,9 @@ Du hast vor 2 Wochen die Vorlesungsprüfung zu VO Netzwerktechnologien abgelegt.
 
 \subsection{Aufgabe 3}
 
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./aufgabe3.png}}
+\medskip
+
 \subsubsection*{Ziel:}
 
 Der User soll seinen Notendurchschnitt herausfinden.
@@ -50,49 +61,89 @@ Der User soll seinen Notendurchschnitt herausfinden.
 Du studierst an der Universität Wien und willst wissen ob du dich für ein Leistungsstipendium eignest. Das Stipendium verlangt einen Notendurchschnitt von
 1,8. Kannst du ein Leistungsstipendium erhalten?
 
-
 \section{Interviewleitfaden}
-
-Usability Test Beispiel
-•
-Zielperson: Jugendliche
-•
-System: Webportal
-•
-Vorinterview
-–
-Erfahrungen mit ähnlichen Portalen
-–
-Erwartung vom Portal
-•
-Aufgaben mit jeweils Abschlussfragen
-–
-Zufriedenheit mit dem System
-–
-Verbesserungsvorschläge
-•
-Abschlussinterview
-–
-Allgemeine Eindrücke
-–
-Gut bzw. schlecht gefallen
-–
-Orientierung
-–
-Erwartungen erfüllt?
 
 \subsection{Vorinterview}
 
+Zu Beginn des Interviews werden Fragen in schriftlicher Form zu den Erfahrungen und den Erwartungen an ein solches System gestellt.
+
 \begin{itemize}
- \item Hast du schon Erfahrungen mit ähnlichen Systemen gesammelt?
- \item Welche Erwartungen hast du an das System?
+ \item Was sind deine Erfahrungen mit den aktuellen IT-Systemen im Studium? (univis, TISS, etc.)
+ \item Was sind deiner Meinung nach die größten Schwächen dieser Systeme?
+ \item Was würdest du dir von einem neuem System erwarten?
 \end{itemize}
 
+\subsection{Fragen nach der Aufgabe}
 
-\subsection{Fragen nach jeder Aufgabe}
+Als nächstes folgt die Durchführung der definierten Usability-Aufgaben. Fragen werden je nach Aufgabe mündlich gestellt, und die Antworten dazu notiert.
 
-\section{Abschlussinterview}
+\subsubsection*{Ad Aufgabe 1}
 
+\begin{itemize}
+ \item Ist dir klar, was die StEOP generell ist?
+ \item Angenommen, du würdest nur die unbedingt vorausgesetzten StEOP-Fächer belegen wollen -- welche wären das?
+ \item Angenommen, du würdest alles belegen wollen, was im ersten Semester überhaupt möglich ist -- welche Fächer wären jetzt zusätzlich dabei?
+ \item Was hältst du von der Darstellungsart, bei der immer nur genau ein Modul angezeigt wird?
+ \item Vergleiche die Sortierung nach Modulgruppen mit der nach Semestereinteilung -- welche erscheint dir vernünftiger, und wieso?
+ \item Wirf noch einen Blick auf die anderen Rubriken des eCurriculums (Allgemeines, Ausland, etc.) -- macht diese Aufteilung so für dich Sinn? Was würdest du evtl. anders gruppieren?
+ \item Hast du noch andere Anmerkungen zu dieser Oberfläche?
+\end{itemize}
+
+\subsubsection*{Ad Aufgabe 2}
+
+\begin{itemize}
+ \item Ist dir klar, was es mit dem ``Persönlichen Plan'' auf sich hat?
+ \item Ist dir der Unterschied zwischen Modulnote und LV-Note bewusst?
+ \item Was bedeuten die kleinen Symbole (``Hakerl'') in der Tabellen-Übersicht?
+ \item Kann diese Art der Darstellung die Listen-Ansicht der Prüfungsleistungen ersetzen oder nur ergänzen?
+ \item Kannst du dir vorstellen, dass diese Art des Semesterplans auch für dein Studium möglich wäre? Wo wären eventuelle Probleme?
+ \item Hast du noch andere Anmerkungen zu dieser Oberfläche?
+\end{itemize}
+
+\subsubsection*{Ad Aufgabe 3}
+
+\begin{itemize}
+ \item Findest du die automatische Berechnung des Notenschnitts sinnvoll? Wozu braucht man diese Information?
+ \item Welche anderen Statistiken fändest du praktisch?
+ \item Was hältst du von der Studienfortschrittsanzeige?
+ \item Hast du noch andere Anmerkungen zu dieser Oberfläche?
+\end{itemize}
+
+\subsection{Abschlussinterview}
+
+Zum Abschluss wird ein Fragebogen in schriftlicher Form vorgelegt, der von der interviewten Person auszufüllen ist. 
+Für den Fragenbogen wurde ein Teil der Fragen aus dem Fragebogen 
+der ISONORM 9241/110-S adaptiert.
+
+\begin{itemize}
+
+ \item Was sind deine allgemeinen Eindrücke vom System?
+ \begin{itemize}
+    \item Das System erfordert wenig Zeit zum Lernen.
+ \end{itemize}
+ \item Wie gut konntest du mit diesem System die Aufgaben bewältigen?
+ \begin{itemize}
+    \item Das System bietet alle Funktionen um die anfallenden Aufgaben zu bewältigen.
+    \item Das System ist gut auf die im Studium zu bewältigenden Aufgaben zugeschnitten.
+ \end{itemize}
+ \item Wie gut konntest du dich orientieren?
+ \begin{itemize}
+    \item Das System liefert Informationen darüber, welche Eingaben zulässig oder nötig sind.
+    \item Das System erleichtert die Orientierung durch eine einheitliche Gestaltung.
+    \item Das System lässt sich nach einem einheitlichen Prinzip bedienen.
+ \end{itemize}
+ \item Was hat dir besonders gut/schlecht gefallen?
+ \item Wurden deine Erwartungen an das System erfüllt?
+ \item Hast du Verbesserungsvorschläge?
+\end{itemize}
+
+\subsection{Fragebogen}
+
+Für das Vorinterview und das Nachinterview liegen die Fragen als Fragebogen vor, welcher schriftlich ausgefüllt werden kann.
+
+\begin{description}
+ \item[Datei auf cewebs:]Meilenstein 3 - Team 1 - Fragebogen
+\end{description}
 
 \section{Bericht}
 
@@ -106,6 +157,113 @@ Erwartungen erfüllt?
 
 \subsection{Verbesserungsvorschläge}
 
+\begin{description}
+ \item[Kennzeichnung der STEOP hinzufügen \textit{(implementiert)}] Es wurde aus dem Interview ersichtlich, dass nicht auf den ersten Blick klar ist, welche Module zur STEOP gehören, weshalb darauf hingewiesen wurde, dass es gut wäre diese Module
+ zu kennzeichnen und die Information zur STEOP hervorzuheben.
+ \item[Linkbezeichnungen im eCurriculum ändern \textit{(implementiert)}] Manche Linkbezeichnungen waren irreführend (z.B. Ausland), weshalb hier vorgeschlagen wurde bessere Bezeichnungen gewählt werden sollten (z.B. Auslandsaufenthalt).
+ Auch sollte die Bezeichnung für
+die ``Einteilung der Lehrveranstaltunge'' in ``Arten von Lehrveranstaltungen'' umbenannt werden, da dies besser den Zweck des Links verständlich macht.
+ \item[Paragraphen im eCurriculum entfernen] Die einzelnen Paragraphen im eCurriculum sind für Studenten unwichtig und irreführend, weshalb hier stattdessen ein studentenfreundlicherer
+ Text zu den einzelnen Unterpunkten verfasst werden sollten. Es wurde u.a. auch angemerkt, dass z.B. vielen Studienanfängern nicht klar ist, was eine UE oder eine VU ist, weshalb dies auch erklärt werden sollte.
+ \item[Nicht zugewiesene Noten im persönlichen Plan anzeigen \textit{(implementiert)}] Es wurde in einem Interview angemerkt, dass es auch manchmal vorkommt, dass Noten nicht einem Studienplanpunkt zugewiesen wurden, oder, dass eine Prüfung in diesem
+Studium absolviert wurde, jedoch nicht dem Studienfortschritt zugeordnet wird. Daher sollten auch diese Noten im persönlichen Plan angezeigt werden.
+ \item[Kennzeichnung neuer Noten ändern \textit{(implementiert)}] Die graue Kennzeichnung einer neuen Note bietet keine gute farbliche Hervorhebung, weshalb vorgeschlagen wurde, die Note in einer anderen Farbe, welche mehr hervorsticht, zu kennzeichnen.
+ \item[Kennzeichnung für derzeit besuchte Module hinzufügen] Fälschlicherweise wurde in einem Interview angenommen, dass die Hakerln für ``teilweise abgeschlossen'' bedeuten, dass diese
+ Lehrveranstaltungen gerade besucht werden. Da dies nicht der Fall war, wurde erwähnt, dass es gut wäre die Module extra zu kennzeichnen, welche gerade in dem aktuellen Semester absolviert werden (
+ daher die Module für die der Student angemeldet ist).
+ \item[Notentabelle in der Modulansicht übersichtlicher gestalten \textit{(implementiert)}] Die derzeitige Ansicht der einzelnen Modulen und die zugehörigen Auflistung der einzelnen Prüfungsantritte wurde als unübersichtlich angesehen. Ein Vorschlag eines
+ Interviewten war dabei, dass man die Noten besser in einer richtigen Tabelle darstellen sollte. Auch wurde vorgeschlagen die Modulnote als ``Modulnote'' hervorzuheben um Missverständnissen vorzubeugen.
+ 
+ 
+\end{description}
 
+\section{Weiterentwickelter Prototyp}
+
+\begin{description}
+ \item[Url:] \url{http://wwwlab.cs.univie.ac.at/~a1151917/hci/}
+ \item[Datei auf cewebs:]Meilenstein 3 - Team 1 - Webseite
+\end{description}
+
+Einerseits haben wir Verbesserungsvorschläge die bei der Präsentation des Meilensteins 2 aufgekommen sind, andererseits auch
+die Verbesserungsvorschläge die wir aus den Interviews erhalten haben implementiert.
+
+\subsection{Weiterentwicklung der Fehlermeldungen}
+
+Bei den Fehlermeldungen wurden jetzt Hilfestellungen hinzugefügt.
+
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./verbesserungfehlermeldung1.png}}
+\medskip
+
+
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./verbesserungfehlermeldung2.png}}
+\medskip
+
+
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./verbesserungfehlermeldung3.png}}
+\medskip
+
+\subsection{Weiterentwicklung nach der Präsentation}
+
+\subsubsection*{Statistik mit Anzahl der jeweiligen Noten}
+
+Es gibt jetzt eine Statistik, in welcher zusätzlich die Anzahl der erbrachten Noten angezeigt wird.
+
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./verbesserung1.png}}
+\medskip
+
+\subsubsection*{Verlinkung zur Anmeldung zur Lehrveranstaltung}
+
+Wenn eine Lehrveranstaltung noch nicht absolviert wurde, wird direkt ins Vorlesungsverzeichnis zum jeweiligen Modul verlinkt.
+
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./verbesserung2.png}}
+\medskip
+
+\subsection{Weiterentwicklung nach dem Interview}
+
+\subsubsection*{Kennzeichnung der STEOP im eCurriculum}
+
+Da Probleme dabei auftraten, die für die STEOP relevanten Module zu erkennen, und dies auch als Verbesserung vorgeschlagen wurde, wird die STEOP jetzt auch in der
+Semesteransicht hervorgehoben. Außerdem wurde eingebracht, dass die Information zur STEOP zu schlecht ersichtlich ist, weshalb die Information zur STEOP jetzt
+schon beim Aufruf aufgeklappt ist.
+
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./verbesserungInterview1.png}}
+\medskip
+
+\subsubsection*{Linkbezeichnungen im eCurriculum}
+
+Es wurden Linkbezeichnungen gewählt, die besser den Nutzen des jeweiligen Links ersichtlich machen (z.B. statt Ausland Auslandsaufenthalt).
+
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./verbesserungInterview2.png}}
+\medskip
+
+\subsubsection*{Nicht zugewiesene Noten im persönlichen Plan}
+
+Nicht einem Modul zugewiesene Noten, die aber einem Studium (z.B. als Interessensmodul) zugewiesen sind, werden jetzt auch im persönlichen Plan in einem auklappbaren Fenster angezeigt.
+
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./verbesserungInterview3.png}}
+\medskip
+
+\subsubsection*{Kennzeichnung neuer Noten}
+
+Die graue Kennzeichnung einer neuen Note war nicht immer ersichtlich, weshalb die neuen Noten jetzt in grün gekennzeichnet werden.
+
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./verbesserungInterview3.png}}
+\medskip
+
+\subsubsection*{Notentabelle in der Modulansicht}
+
+Die einzelnen Prüfungsantritte und die zugehörigen Noten werden in der Modulansicht jetzt in einer Tabelle dargestellt. Dadurch soll die Modulansicht übersichtlicher werden. Auch wird
+die Modulnote als ``Modulnote'' gekennzeichnet.
+
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./verbesserungInterview4.png}}
+\medskip
+
+
+
+\section{Protokoll der Interviews}
+
+\begin{description}
+ \item[Datei auf cewebs:]Meilenstein 3 - Team 1 - Protokoll
+\end{description}
 
 \end{document}

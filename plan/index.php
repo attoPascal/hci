@@ -85,7 +85,8 @@ if (($handle = fopen("eCurriculum_Bachelor_Informatik_Plan.csv", "r")) !== FALSE
     }
     fclose($handle);    //close file handle
 } 
-
+printNotAssignedGrades();
+echo "<hr>";
 printCalculatedGrades($plan);
 
 echo "<div class='table-responsive'><table class='table table-bordered'>";
@@ -167,7 +168,7 @@ echo "</table></div>";
     $notendurchschnitt = round($noteects/$gesamtects, 2);
     echo "<div class='panel panel-default'>
     <div class='panel-heading'>
-    <h4 class='panel-title'><a data-toggle='collapse' data-parent='#accordion' href='#statistik'><span class='glyphicon glyphicon-list'></span> Statistik</a></h4>
+    <h4 class='panel-title'><a data-toggle='collapse' data-parent='#accordion' href='#statistik'><span class='glyphicon glyphicon-list'></span> Statistik: Bachelor Medieninformatik</a></h4>
     </div>
     <div class='panel-collapse collapse' id='statistik'>
       <div class='panel-body'>
@@ -179,7 +180,7 @@ echo "</table></div>";
       </div>
     </div>
     </div>";
-    printNotAssignedGrades();
+    
     echo "
     <div class='progress'>
       <div class='progress-bar' role='progressbar' aria-valuenow='".$prozent."' aria-valuemin='0' aria-valuemax='100' style='width: ".$prozent."%;'>".$prozent."% - ".$gesamtects."/180 ECTS</div>

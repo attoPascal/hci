@@ -157,6 +157,24 @@ Für das Vorinterview und das Nachinterview liegen die Fragen als Fragebogen vor
 
 \subsection{Verbesserungsvorschläge}
 
+\begin{description}
+ \item[Kennzeichnung der STEOP hinzufügen \textit{(implementiert)}] Es wurde aus dem Interview ersichtlich, dass nicht auf den ersten Blick klar ist, welche Module zur STEOP gehören, weshalb darauf hingewiesen wurde, dass es gut wäre diese Module
+ zu kennzeichnen und die Information zur STEOP hervorzuheben.
+ \item[Linkbezeichnungen im eCurriculum ändern \textit{(implementiert)}] Manche Linkbezeichnungen waren irreführend (z.B. Ausland), weshalb hier vorgeschlagen wurde bessere Bezeichnungen gewählt werden sollten (z.B. Auslandsaufenthalt).
+ Auch sollte die Bezeichnung für
+die ``Einteilung der Lehrveranstaltunge'' in ``Arten von Lehrveranstaltungen'' umbenannt werden, da dies besser den Zweck des Links verständlich macht.
+ \item[Paragraphen im eCurriculum entfernen] Die einzelnen Paragraphen im eCurriculum sind für Studenten unwichtig und irreführend, weshalb hier stattdessen ein studentenfreundlicherer
+ Text zu den einzelnen Unterpunkten verfasst werden sollten. Es wurde u.a. auch angemerkt, dass z.B. vielen Studienanfängern nicht klar ist, was eine UE oder eine VU ist, weshalb dies auch erklärt werden sollte.
+ \item[Nicht zugewiesene Noten im persönlichen Plan anzeigen \textit{(implementiert)}] Es wurde in einem Interview angemerkt, dass es auch manchmal vorkommt, dass Noten nicht einem Studienplanpunkt zugewiesen wurden, oder, dass eine Prüfung in diesem
+Studium absolviert wurde, jedoch nicht dem Studienfortschritt zugeordnet wird. Daher sollten auch diese Noten im persönlichen Plan angezeigt werden.
+ \item[Kennzeichnung neuer Noten ändern \textit{(implementiert)}] Die graue Kennzeichnung einer neuen Note bietet keine gute farbliche Hervorhebung, weshalb vorgeschlagen wurde, die Note in einer anderen Farbe, welche mehr hervorsticht, zu kennzeichnen.
+ \item[Kennzeichnung für derzeit besuchte Module hinzufügen] B
+ \item[Notentabelle in der Modulansicht übersichtlicher gestalten \textit{(implementiert)}] Die derzeitige Ansicht der einzelnen Modulen und die zugehörigen Auflistung der einzelnen Prüfungsantritte wurde als unübersichtlich angesehen. Ein Vorschlag eines
+ Interviewten war dabei, dass man die Noten besser in einer richtigen Tabelle darstellen sollte.
+ 
+ 
+\end{description}
+
 \section{Weiterentwickelter Prototyp}
 
 \begin{description}
@@ -166,6 +184,21 @@ Für das Vorinterview und das Nachinterview liegen die Fragen als Fragebogen vor
 
 Einerseits haben wir Verbesserungsvorschläge die bei der Präsentation des Meilensteins 2 aufgekommen sind, andererseits auch
 die Verbesserungsvorschläge die wir aus den Interviews erhalten haben implementiert.
+
+\subsection{Weiterentwicklung der Fehlermeldungen}
+
+Bei den Fehlermeldungen wurden jetzt Hilfestellungen hinzugefügt.
+
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./verbesserungfehlermeldung1.png}}
+\medskip
+
+
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./verbesserungfehlermeldung2.png}}
+\medskip
+
+
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./verbesserungfehlermeldung3.png}}
+\medskip
 
 \subsection{Weiterentwicklung nach der Präsentation}
 
@@ -196,16 +229,34 @@ schon beim Aufruf aufgeklappt ist.
 
 \subsubsection*{Linkbezeichnungen im eCurriculum}
 
-Für einen Interviewten war die Namensgebung ``Ausland'' irreführend, weshalb der Link in ``Auslandsaufenthalt'' umbenannt wurde. Auch wurde die Bezeichnung für
-die ``Einteilung der Lehrveranstaltunge'' in ``Arten von Lehrveranstaltungen'' umbenannt, da dies besser den Zweck des Links verständlich macht.
+Es wurden Linkbezeichnungen gewählt, die besser den Nutzen des jeweiligen Links ersichtlich machen (z.B. statt Ausland Auslandsaufenthalt).
 
 \noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./verbesserungInterview2.png}}
 \medskip
 
 \subsubsection*{Nicht zugewiesene Noten im persönlichen Plan}
 
-Es wurde in einem Interview bemerkt, dass es auch manchmal vorkommt, dass Noten nicht einem Studienplanpunkt zugewiesen wurden, oder, dass eine Prüfung in diesem
-Studium absolviert wurde, jedoch nicht dem Studienfortschritt zugeordnet wird. Daher gibt es jetzt eine Liste aller nicht-zugewiesener Noten.
+Nicht einem Modul zugewiesene Noten, die aber einem Studium (z.B. als Interessensmodul) zugewiesen sind, werden jetzt auch im persönlichen Plan in einem auklappbaren Fenster angezeigt.
+
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./verbesserungInterview3.png}}
+\medskip
+
+\subsubsection*{Kennzeichnung neuer Noten}
+
+Die graue Kennzeichnung einer neuen Note war nicht immer ersichtlich, weshalb die neuen Noten jetzt in grün gekennzeichnet werden.
+
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./verbesserungInterview3.png}}
+\medskip
+
+\subsubsection*{Notentabelle in der Modulansicht}
+
+Da die vorhergehende Ansicht der Noten als nicht-übersichtlich befunden wurde, wurde diese Aufgrund eines Vorschlags eines Interviewten durch eine tabellarische Ansicht ersetzt.
+Auch wurde die Modulnote extra als ``Modulnote'' gekennzeichnet.
+
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./verbesserungInterview4.png}}
+\medskip
+
+
 
 \section{Protokoll der Interviews}
 
