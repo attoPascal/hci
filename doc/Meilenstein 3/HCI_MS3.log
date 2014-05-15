@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.10.15)  15 MAY 2014 18:01
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.10.15)  15 MAY 2014 22:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -616,7 +616,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 20.
 
-<./aufgabe1.png, id=96, 1011.78pt x 587.19376pt>
+<./aufgabe1.png, id=68, 1011.78pt x 587.19376pt>
 File: ./aufgabe1.png Graphic file (type png)
  <use ./aufgabe1.png>
 Package pdftex.def Info: ./aufgabe1.png used on input line 25.
@@ -625,13 +625,13 @@ Package pdftex.def Info: ./aufgabe1.png used on input line 25.
 
 
 {/usr/local/texlive/2012basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./
-aufgabe1.png>] <./aufgabe2.png, id=108, 1011.78pt x 587.19376pt>
+aufgabe1.png>] <./aufgabe2.png, id=80, 1011.78pt x 587.19376pt>
 File: ./aufgabe2.png Graphic file (type png)
  <use ./aufgabe2.png>
 Package pdftex.def Info: ./aufgabe2.png used on input line 38.
 (pdftex.def)             Requested size: 373.44246pt x 216.72966pt.
 
-<./aufgabe3.png, id=109, 1011.78pt x 587.19376pt>
+<./aufgabe3.png, id=81, 1011.78pt x 587.19376pt>
 File: ./aufgabe3.png Graphic file (type png)
  <use ./aufgabe3.png>
 Package pdftex.def Info: ./aufgabe3.png used on input line 52.
@@ -650,121 +650,128 @@ Overfull \hbox (6.39088pt too wide) in paragraph at lines 106--107
 ts sinn-voll? Wo-zu braucht
  []
 
-[4] [5] [6] [7]
+[4] [5] [6] [7] [8] [9]
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 313.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 365.
 
 
-Overfull \hbox (9.14024pt too wide) in paragraph at lines 315--318
+Overfull \hbox (9.14024pt too wide) in paragraph at lines 367--370
 []\T1/lmr/m/n/10 Manche Link-be-zeich-nun-
  []
 
-[8]
-Overfull \hbox (0.49306pt too wide) in paragraph at lines 323--326
+[10]
+Overfull \hbox (0.49306pt too wide) in paragraph at lines 375--378
 []\T1/lmr/m/n/10 Fälschlicherweise wur-de in
  []
 
 
-Overfull \hbox (10.38608pt too wide) in paragraph at lines 326--328
+Overfull \hbox (10.38608pt too wide) in paragraph at lines 378--380
 []\T1/lmr/m/n/10 Die der-
  []
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 335.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 387.
 
 (/usr/local/texlive/2012basic/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 335.
- [9]
-<./verbesserungfehlermeldung1.png, id=164, 1011.78pt x 587.19376pt>
+(Font)              <5> on input line 387.
+
+<./verbesserungfehlermeldung1.png, id=151, 1011.78pt x 587.19376pt>
 File: ./verbesserungfehlermeldung1.png Graphic file (type png)
 
 <use ./verbesserungfehlermeldung1.png>
-Package pdftex.def Info: ./verbesserungfehlermeldung1.png used on input line 34
-6.
+Package pdftex.def Info: ./verbesserungfehlermeldung1.png used on input line 39
+8.
 (pdftex.def)             Requested size: 373.44246pt x 216.72966pt.
-
-<./verbesserungfehlermeldung2.png, id=165, 1011.78pt x 587.19376pt>
+ [11]
+<./verbesserungfehlermeldung2.png, id=157, 1011.78pt x 587.19376pt>
 File: ./verbesserungfehlermeldung2.png Graphic file (type png)
 
 <use ./verbesserungfehlermeldung2.png>
-Package pdftex.def Info: ./verbesserungfehlermeldung2.png used on input line 35
-0.
+Package pdftex.def Info: ./verbesserungfehlermeldung2.png used on input line 40
+2.
 (pdftex.def)             Requested size: 373.44246pt x 216.72966pt.
 
-<./verbesserungfehlermeldung3.png, id=166, 1011.78pt x 587.19376pt>
+<./verbesserungfehlermeldung3.png, id=158, 1011.78pt x 587.19376pt>
 File: ./verbesserungfehlermeldung3.png Graphic file (type png)
 
 <use ./verbesserungfehlermeldung3.png>
-Package pdftex.def Info: ./verbesserungfehlermeldung3.png used on input line 35
-4.
+Package pdftex.def Info: ./verbesserungfehlermeldung3.png used on input line 40
+6.
 (pdftex.def)             Requested size: 373.44246pt x 216.72966pt.
- [10 <./verbesserungfehlermeldung1.png> <./verbesserungfehlermeldung2.png>]
-<./verbesserung1.png, id=173, 1011.78pt x 587.19376pt>
+ [12 <./verbesserungfehlermeldung1.png> <./verbesserungfehlermeldung2.png>]
+<./verbesserung1.png, id=165, 1011.78pt x 587.19376pt>
 File: ./verbesserung1.png Graphic file (type png)
 
 <use ./verbesserung1.png>
-Package pdftex.def Info: ./verbesserung1.png used on input line 363.
+Package pdftex.def Info: ./verbesserung1.png used on input line 415.
 (pdftex.def)             Requested size: 373.44246pt x 216.72966pt.
- [11 <./verbesserungfehlermeldung3.png> <./verbesserung1.png>] <./verbesserung2
-.png, id=181, 1011.78pt x 587.19376pt>
+ [13 <./verbesserungfehlermeldung3.png> <./verbesserung1.png>] <./verbesserung2
+.png, id=174, 1011.78pt x 587.19376pt>
 File: ./verbesserung2.png Graphic file (type png)
 
 <use ./verbesserung2.png>
-Package pdftex.def Info: ./verbesserung2.png used on input line 370.
+Package pdftex.def Info: ./verbesserung2.png used on input line 422.
 (pdftex.def)             Requested size: 373.44246pt x 216.72966pt.
 
-<./verbesserungInterview1.png, id=182, 1011.78pt x 587.19376pt>
+<./verbesserungInterview1.png, id=175, 1011.78pt x 587.19376pt>
 File: ./verbesserungInterview1.png Graphic file (type png)
 
 <use ./verbesserungInterview1.png>
-Package pdftex.def Info: ./verbesserungInterview1.png used on input line 381.
+Package pdftex.def Info: ./verbesserungInterview1.png used on input line 433.
 (pdftex.def)             Requested size: 373.44246pt x 216.72966pt.
- [12 <./verbesserung2.png>]
-<./verbesserungInterview2.png, id=190, 1011.78pt x 587.19376pt>
+ [14 <./verbesserung2.png>]
+<./verbesserungInterview2.png, id=183, 1011.78pt x 587.19376pt>
 File: ./verbesserungInterview2.png Graphic file (type png)
 
 <use ./verbesserungInterview2.png>
-Package pdftex.def Info: ./verbesserungInterview2.png used on input line 388.
+Package pdftex.def Info: ./verbesserungInterview2.png used on input line 440.
 (pdftex.def)             Requested size: 373.44246pt x 216.72966pt.
- [13 <./verbesserungInterview1.png> <./verbesserungInterview2.png>]
-<./verbesserungInterview3.png, id=199, 963.6pt x 504.08325pt>
+ [15 <./verbesserungInterview1.png> <./verbesserungInterview2.png>]
+<./verbesserungInterview3.png, id=191, 963.6pt x 504.08325pt>
 File: ./verbesserungInterview3.png Graphic file (type png)
 
 <use ./verbesserungInterview3.png>
-Package pdftex.def Info: ./verbesserungInterview3.png used on input line 395.
+Package pdftex.def Info: ./verbesserungInterview3.png used on input line 447.
 (pdftex.def)             Requested size: 373.44246pt x 195.35332pt.
 File: ./verbesserungInterview3.png Graphic file (type png)
  <use ./verbesserungInterview3.png>
-Package pdftex.def Info: ./verbesserungInterview3.png used on input line 402.
+Package pdftex.def Info: ./verbesserungInterview3.png used on input line 454.
 (pdftex.def)             Requested size: 373.44246pt x 195.35332pt.
- [14 <./verbesserungInterview3.png>]
-<./verbesserungInterview4.png, id=207, 1011.78pt x 587.19376pt>
+ [16 <./verbesserungInterview3.png>]
+<./verbesserungInterview4.png, id=199, 1011.78pt x 587.19376pt>
 File: ./verbesserungInterview4.png Graphic file (type png)
 
 <use ./verbesserungInterview4.png>
-Package pdftex.def Info: ./verbesserungInterview4.png used on input line 410.
+Package pdftex.def Info: ./verbesserungInterview4.png used on input line 462.
 (pdftex.def)             Requested size: 373.44246pt x 216.72966pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 421.
- [15 <./verbesserungInterview4.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 421.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 473.
+ [17 <./verbesserungInterview4.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 473.
 
 (./HCI_MS3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 421.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 421.
-Package rerunfilecheck Info: File `HCI_MS3.out' has not changed.
-(rerunfilecheck)             Checksum: 4673D454C8D4A8C8BF41EBBBF4D46E68;1471.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 421.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 473.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 473.
+
+
+Package rerunfilecheck Warning: File `HCI_MS3.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `HCI_MS3.out':
+(rerunfilecheck)             Before: C21A02CC6E86A78EFB331D80AFA7A7A4;1040
+(rerunfilecheck)             After:  D02A72349DFD52B897D6955F46DA6B89;1029.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 473.
  ) 
 Here is how much of TeX's memory you used:
- 7200 strings out of 494578
- 109233 string characters out of 3168573
+ 7201 strings out of 494578
+ 109184 string characters out of 3168573
  209584 words of memory out of 3000000
- 10257 multiletter control sequences out of 15000+200000
+ 10251 multiletter control sequences out of 15000+200000
  44969 words of font info for 38 fonts, out of 3000000 for 9000
  314 hyphenation exceptions out of 8191
- 38i,7n,47p,541b,395s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,7n,47p,604b,395s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012basic/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/l
 ocal/texlive/2012basic/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/
 texlive/2012basic/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texli
@@ -774,10 +781,10 @@ ve/2012basic/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/201
 xmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2012basic/texmf
 -dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2012basic/texmf-dist
 /fonts/type1/public/lm/lmtt10.pfb>
-Output written on HCI_MS3.pdf (15 pages, 1570435 bytes).
+Output written on HCI_MS3.pdf (17 pages, 1574651 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
- 205 compressed objects within 3 object streams
- 60 named destinations out of 1000 (max. 500000)
- 245 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 249 PDF objects out of 1000 (max. 8388607)
+ 197 compressed objects within 2 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 189 words of extra memory for PDF output out of 10000 (max. 10000000)
 
