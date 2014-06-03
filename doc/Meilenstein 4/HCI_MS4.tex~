@@ -1,0 +1,115 @@
+\documentclass[a4paper,10pt]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[naustrian]{babel}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+%\usepackage{tabularx}
+%\usepackage{amsmath}
+
+%opening
+\title{HCI Meilenstein 4}
+\subtitle{Elektronisches Curriculum}
+\author{Team 1 \\Pascal Attwenger, Philipp Hiermann, Sandra Markhart}
+
+\begin{document}
+
+\maketitle
+
+\section{Einleitung}
+
+Im Verlauf der letzten Wochen wurde in Gruppenarbeit ein neues Interface für die Prüfungsleistungen und das Mittelungsblatt (``eCurriculum'') entwickelt.
+Ziel dieser Studie ist es zu überprüfen, ob unser neues Interface wirklich besser zu bedienen ist als das alte Interface.
+
+x
+
+\section{Beschreibung des Studienaufbaus} 
+
+Die Studie vergleicht unser neues Interface mit dem altem Interface (univis/Mitteilungsblatt), in Folge dessen, sind alle Hypothesen auf diese
+Interfaces anzuwenden und die Aufgaben werden immer jeweils mit beiden Interfaces durchgeführt.
+
+\subsection{Hypothesen}
+
+\begin{description}
+ \item[Alternativhypothese 1: ] User sind mit unserem neu erstellten Interface zufriedener als mit dem alten Interface. 
+\end{description}
+
+\begin{description}
+ \item[Alternativhypothese 2: ] User können mit unserem neu erstellten Interface Aufgaben besser lösen als mit dem alten Interface. 
+\end{description}
+
+\subsection{Testbare Aufgaben}
+
+\begin{itemize}
+ \item Welche Lehrveranstaltungen können im Modul ``Modul VMI Vertiefung Medieninformatik'' absolviert werden? (Mitteilungsblatt)
+ \item Wieviele ECTS bringt die UE Arbeitstechniken Multimediajournalismus? (Mitteilungsblatt)
+ %\item Wieviele ECTS habe ich in meinem Studium bereits absolviert?
+ %\item Wieviele Module habe ich bereits in meinem Studium abgeschlossen?
+ \item Welche Note Note habe ich in der Übung ``UE Technische Grundlagen und Systemsoftware''? (univis)
+\end{itemize}
+
+\subsection{Variablen}
+
+\subsubsection{Performanzmetriken}
+
+\begin{itemize}
+ \item Zeit in Sekunden
+ \item Anzahl der Klicks bei den univis-Aufgaben
+\end{itemize}
+
+\subsubsection{Subjektives Nutzerfeedback}
+
+Ein AttrakDiff-Fragebogen, bei dem folgende Eigenschaften mit 7 verschiedenen Möglichkeiten zu bewerten sind:
+
+\begin{itemize}
+\item schön - hässlich
+\item übersichtlich - unübersichtlich   
+\item einfach - kompliziert 
+\item menschlich - technisch 
+\item verständlich - unverständlich 
+\item fröhlich - deprimierend 
+\end{itemize}
+
+\begin{description}
+ \item[Datei auf cewebs:]Meilenstein 4 - Team 1 - Fragebogen
+\end{description}
+
+\subsection{Testpersonen}
+
+\subsection{Methodik}
+
+
+
+\section{Resultaten} 
+
+Stellen sie die Ergebnisse mittels deskriptiver Statistiken dar (tabellarisch und visuell). 
+Optional: Führen sie statistische Signifikanztests durch, z.b. mittels t-test oder ANOVA (maximal +10 Bonuspunkte). 
+
+\section{Diskussion}
+
+
+\section{Schlussfolgerungen}
+
+
+\section{Appendix}
+
+\section{Reflexion über das Gesamtprojekt}
+
+\subsection{Kernerkenntnisse und Designempfehlungen aus dem Projekt}
+
+tabellarische Form des Studienplans ist gut angekommen, Mitteilungsblatt in elektronischer Form, Gliederung des Curriculums nach Semester anstatt der eigenartigen
+Modulgruppen, direkte Anmeldung zu den Lehrveranstaltungen wenn diese noch nicht absolviert wurden, Studienfortschritt als Anzeige, we are motherfucking awesome
+
+\subsection{Arbeitsverteilung, Kommunikation, Lernprozess und Zufriedenheit}
+
+
+    Fassen Sie die Kern-Erkenntnisse ihres Projektes zusammen. Beschreiben sie insb. 3-5 konkrete Empfehlungen zu Designverbesserungen, 
+    die sie aus ihrem Gesamtprojekt abgeleitet haben. Diese Zusammenfassung ist als "executive summary" für das UniVis- bzw. das Literacy-team gedacht, 
+    bzw. fuer einen imaginären Kunden, falls sie ein eigenes Thema gewählt haben (max. 1 Seite Text + evtl. Screenshots).
+    Kurze Beschreibung zu Arbeitsverteilung, Kommunikation, Lernprozess und Zufriedenheit (max 1 Seite). 
+
+
+
+\end{document}

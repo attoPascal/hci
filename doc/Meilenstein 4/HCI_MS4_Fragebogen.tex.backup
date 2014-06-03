@@ -1,0 +1,30 @@
+\documentclass[10pt,fleqn]{scrreprt}
+\usepackage[top=2.5cm,bottom=2.5cm,left=1.5cm,right=1.5cm]{geometry}
+\usepackage{papi}
+
+\title{HCI Meilenstein 3}
+\subtitle{Elektronisches Curriculum - Fragebogen}
+\author{Team 1 \\Pascal Attwenger, Philipp Hiermann, Sandra Markhart}
+
+\begin{document}
+
+
+\maketitle
+
+
+\begin{questionnaire}
+
+
+\question{}{Das System ______________ ist:}
+
+\blockBfour{1}{2}{3}{4}{5}{
+\textBfour{1}{übersichtlich}   
+\textBfour{2}{zuverlässig} 
+
+}
+
+
+\end{questionnaire}
+
+
+\end{document}

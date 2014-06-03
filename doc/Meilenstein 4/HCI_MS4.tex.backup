@@ -1,0 +1,101 @@
+\documentclass[a4paper,10pt]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[naustrian]{babel}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+%\usepackage{tabularx}
+%\usepackage{amsmath}
+
+%opening
+\title{HCI Meilenstein 4}
+\subtitle{Elektronisches Curriculum}
+\author{Team 1 \\Pascal Attwenger, Philipp Hiermann, Sandra Markhart}
+
+\begin{document}
+
+\maketitle
+
+\section{Einleitung}
+
+
+\section{Beschreibung des Studienaufbaus} 
+
+
+\subsection{Hypothesen}
+
+\begin{description}
+ \item[Nullhypothese:] 
+ \item[Alternativhypothese:] 
+\end{description}
+
+\begin{description}
+ \item[Nullhypothese:] 
+ \item[Alternativhypothese:] 
+\end{description}
+
+\begin{description}
+ \item[Nullhypothese:] 
+ \item[Alternativhypothese:] 
+\end{description}
+
+
+ Unabhängige Variablen:
+
+    Vergleichen sie das von ihnen erstellte Interface mit dem aktuellen/alten Interface;
+    Alternativ: Vergleichen sie verschiedene Designalternativen ihres Prototypen. 
+
+Stellen sie Hypothesen auf.
+Wählen sie (mindestens) 3 testbare Aufgaben aus.
+
+\subsection{Testbare Aufgaben}
+
+Alle Aufgaben sind im univis/Mitteilungsblatt und in unserem System durchzuführen.
+
+\begin{itemize}
+ \item Welche Lehrveranstaltungen können im Modul ``Modul VMI Vertiefung Medieninformatik'' absolviert werden? (Mitteilungsblatt)
+ \item Wieviele ECTS bringt die UE Arbeitstechniken Multimediajournalismus? (Mitteilungsblatt)
+ %\item Wieviele ECTS habe ich in meinem Studium bereits absolviert?
+ %\item Wieviele Module habe ich bereits in meinem Studium abgeschlossen?
+ \item Welche Note Note habe ich in der Übung ``UE Technische Grundlagen und Systemsoftware''? (univis)
+\end{itemize}
+
+\subsection{Variablen}
+
+\subsubsection{Performanzmetriken}
+
+\begin{itemize}
+ \item Zeit in Sekunden
+ \item Anzahl der Klicks bei den univis-Aufgaben
+\end{itemize}
+
+\subsubsection{Subjektives Nutzerfeedback}
+
+
+
+Legen sie abhängige Variablen fest:
+
+    Es müssen sowohl Performanz Metriken (z.B. time and errors),
+    als auch Subjektives Nutzerfeedback (z.B. Fragebogen, oder AttrakDiff) erhoben werden. 
+
+
+
+
+\section{Resultaten} 
+
+
+Stellen sie die Ergebnisse mittels deskriptiver Statistiken dar (tabellarisch und visuell). 
+
+\section{Diskussion}
+
+
+\section{Schlussfolgerungen}
+
+
+\section{Appendix}
+
+
+
+\end{document}
