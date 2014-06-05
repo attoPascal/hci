@@ -2,7 +2,7 @@
 \usepackage[top=2.5cm,bottom=2.5cm,left=1.5cm,right=1.5cm]{geometry}
 \usepackage{papi}
 
-\title{HCI Meilenstein 3}
+\title{HCI Meilenstein 4}
 \subtitle{Elektronisches Curriculum - Fragebogen}
 \author{Team 1 \\Pascal Attwenger, Philipp Hiermann, Sandra Markhart}
 
@@ -11,21 +11,25 @@
 
 \maketitle
 
-
 \begin{questionnaire}
 
 
-\question{}{Weis den folgenden Eigenschaften die Noten 1-7 zu. }
+\question{}{Weise den folgenden Eigenschaften die Noten 1-7 zu.
+\instruction{z.B. 1 = schön, 7 = hässlich}}
+\separator
 
-\blockBfour{}{}{}{}{}{}{}{
-\textBfour{1}{schön - hässlich} 
-\textBfour{2}{übersichtlich - unübersichtlich}   
-\textBfour{3}{einfach - kompliziert} 
-\textBfour{4}{menschlich - technisch} 
-\textBfour{5}{verständlich - unverständlich} 
-\textBfour{6}{fröhlich - deprimierend} 
+\blockAseven{1}{2}{3}{4}{5}{6}{7}{
+\textAseven{1}{einfach - kompliziert} 
+\textAseven{1}{menschlich - technisch} 
+\textAseven{1}{verständlich - unverständlich} 
+\textAseven{1}{übersichtlich - unübersichtlich}   
+\textAseven{2}{innovativ - konservativ}
+\textAseven{2}{kreativ - phantasielos}
+\textAseven{2}{schön - hässlich}
+\textAseven{2}{fröhlich - deprimierend} 
 
 }
+
 
 
 \end{questionnaire}

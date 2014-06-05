@@ -1,30 +1,30 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2012.12.23)  2 JUN 2014 16:07
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.7)  5 JUN 2014 14:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **HCI_MS4.tex
 (./HCI_MS4.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ng
-erman, german, swissgerman, ngerman-x-2012-05-30, german-x-2012-05-30, loaded.
+Babel <3.9f> and hyphenation patterns for 7 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
-Document Class: scrartcl 2012/05/15 v3.11 KOMA-Script document class (article)
+Document Class: scrartcl 2012/07/29 v3.11b KOMA-Script document class (article)
+
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2012/05/15 v3.11 KOMA-Script package (KOMA-Script-dependent b
-asics and keyval usage)
+Package: scrkbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-dependent 
+basics and keyval usage)
 
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2012/05/15 v3.11 KOMA-Script package (KOMA-Script-independent 
-basics and keyval usage)
+Package: scrbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2011/03/09 v3.09 KOMA-Script package (loading files)
+Package: scrlfile 2012/06/15 v3.12 KOMA-Script package (loading files)
 
-Package scrlfile, 2011/03/09 v3.09 KOMA-Script package (loading files)
+Package scrlfile, 2012/06/15 v3.12 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
 ))) (/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
@@ -45,16 +45,16 @@ Package scrartcl Info: You've used obsolete option `10pt'.
 (scrartcl)             You may simply replace `10pt'
 (scrartcl)             by `fontsize=10pt'.
 Class scrartcl Info: File `scrsize10pt.clo' used to setup font sizes on input l
-ine 1265.
+ine 1267.
 
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize10pt.clo
-File: scrsize10pt.clo 2012/05/15 v3.11 KOMA-Script font size class option (10pt
-)
+File: scrsize10pt.clo 2012/07/29 v3.11b KOMA-Script font size class option (10p
+t)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
-Package: typearea 2012/05/15 v3.11 KOMA-Script package (type area)
+Package: typearea 2012/07/29 v3.11b KOMA-Script package (type area)
 
-Package typearea, 2012/05/15 v3.11 KOMA-Script package (type area)
+Package typearea, 2012/07/29 v3.11b KOMA-Script package (type area)
                   Copyright (C) Frank Neukam, 1992-1994
                   Copyright (C) Markus Kohm, 1994-
 
@@ -85,7 +85,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 10.0pt
 (typearea)              \footskip       = 42.0pt
 (typearea)              \baselineskip   = 12.0pt
-(typearea)              on input line 1211.
+(typearea)              on input line 1213.
 )
 \c@part=\count80
 \c@section=\count81
@@ -324,13 +324,13 @@ File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2008/07/08 v3.8m The Babel package
+Package: babel 2013/05/16 v3.9f The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/ngermanb.ldf
+(/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngermanb.ldf
 Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2008/07/08 v3.8m Babel common definitions
+File: babel.def 2013/05/16 v3.9f Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
@@ -401,7 +401,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@width=\dimen105
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
@@ -451,6 +451,9 @@ Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
@@ -459,7 +462,7 @@ Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 \Hy@pagecounter=\count91
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
@@ -468,32 +471,33 @@ Now handling font encoding PD1 ...
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4062.
-Package hyperref Info: Link nesting OFF on input line 4067.
-Package hyperref Info: Hyper index ON on input line 4070.
-Package hyperref Info: Plain pages OFF on input line 4077.
-Package hyperref Info: Backreferencing OFF on input line 4082.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4300.
+Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count93
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4653.
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen107
 \Fld@menulength=\count94
-\Field@Width=\dimen107
-\Fld@charsize=\dimen108
-Package hyperref Info: Hyper figures OFF on input line 5773.
-Package hyperref Info: Link nesting OFF on input line 5778.
-Package hyperref Info: Hyper index ON on input line 5781.
-Package hyperref Info: backreferencing OFF on input line 5788.
-Package hyperref Info: Link coloring OFF on input line 5793.
-Package hyperref Info: Link coloring with OCG OFF on input line 5798.
-Package hyperref Info: PDF/A mode OFF on input line 5803.
-LaTeX Info: Redefining \ref on input line 5843.
-LaTeX Info: Redefining \pageref on input line 5847.
+\Field@Width=\dimen108
+\Fld@charsize=\dimen109
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
 \Hy@abspage=\count95
 \c@Item=\count96
 \c@Hfootnote=\count97
@@ -502,7 +506,7 @@ LaTeX Info: Redefining \pageref on input line 5847.
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count98
 \c@bookmark@seq@number=\count99
 
@@ -537,13 +541,13 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count100
-\scratchdimen=\dimen109
+\scratchdimen=\dimen110
 \scratchbox=\box27
 \nofMPsegments=\count101
 \nofMParguments=\count102
 \everyMPshowfont=\toks17
 \MPscratchCnt=\count103
-\MPscratchDim=\dimen110
+\MPscratchDim=\dimen111
 \MPnumerator=\count104
 \makeMPintoPDFobject=\count105
 \everyMPtoPDFconversion=\toks18
@@ -566,7 +570,7 @@ e
 Package hyperref Info: Link coloring OFF on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
@@ -613,23 +617,112 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 20.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 20.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 21.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 21.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 28.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 28.
 
 Overfull \hbox (26.75273pt too wide) in paragraph at lines 30--32
 \T1/lmr/m/n/10 Die Stu-die ver-gleicht un-ser neu-es In-ter-face mit dem al-tem
  In-ter-face (uni-vis/Mitteilungsblatt),
  []
 
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 33.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 33.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 43.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 43.
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 46.
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 46.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 51.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 51.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 51.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 51.
  [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 53.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 53.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 55.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 55.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 62.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 62.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 79.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 79.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 81.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 81.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 85.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 85.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 90.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 90.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 93.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 93.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 96.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 96.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 98.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 98.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 100.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 100.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 104.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 104.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 104.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 104.
+ [2]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 105.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 105.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 115.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 115.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 115.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 115.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 115.
  [3]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
  (./HCI_MS4.aux)
@@ -640,18 +733,18 @@ Package rerunfilecheck Info: File `HCI_MS4.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
  ) 
 Here is how much of TeX's memory you used:
- 7031 strings out of 495007
- 104865 string characters out of 3179689
- 207155 words of memory out of 3000000
- 10125 multiletter control sequences out of 15000+200000
- 35272 words of font info for 32 fonts, out of 3000000 for 9000
+ 7220 strings out of 494979
+ 107913 string characters out of 6179172
+ 211149 words of memory out of 5000000
+ 10332 multiletter control sequences out of 15000+600000
+ 35272 words of font info for 32 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,6n,47p,248b,394s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,6n,47p,248b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/sh
 are/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on HCI_MS4.pdf (3 pages, 97907 bytes).
+Output written on HCI_MS4.pdf (3 pages, 98243 bytes).
 PDF statistics:
  108 PDF objects out of 1000 (max. 8388607)
  98 compressed objects within 1 object stream
