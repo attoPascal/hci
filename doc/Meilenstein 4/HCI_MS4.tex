@@ -5,6 +5,7 @@
 \usepackage{lmodern}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{multirow}
 
 %\usepackage{tabularx}
 %\usepackage{amsmath}
@@ -47,7 +48,7 @@ Interfaces anzuwenden und die Aufgaben werden immer jeweils mit beiden Interface
  \item Wieviele ECTS bringt die UE Arbeitstechniken Multimediajournalismus? (Mitteilungsblatt)
  %\item Wieviele ECTS habe ich in meinem Studium bereits absolviert?
  %\item Wieviele Module habe ich bereits in meinem Studium abgeschlossen?
- \item Welche Note Note habe ich in der Übung ``UE Technische Grundlagen und Systemsoftware''? (univis)
+ \item Welche Note habe ich in der Übung ``UE Technische Grundlagen und Systemsoftware''? (univis)
 \end{itemize}
 
 \subsection{Variablen}
@@ -64,11 +65,13 @@ Interfaces anzuwenden und die Aufgaben werden immer jeweils mit beiden Interface
 Ein AttrakDiff-Fragebogen, bei dem folgende Eigenschaften mit 7 verschiedenen Möglichkeiten zu bewerten sind:
 
 \begin{itemize}
-\item schön - hässlich
-\item übersichtlich - unübersichtlich   
 \item einfach - kompliziert 
-\item menschlich - technisch 
-\item verständlich - unverständlich 
+\item menschlich - technisch
+\item verständlich - unverständlich
+\item übersichtlich - unübersichtlich 
+\item innovativ - konservativ
+\item kreativ - phantasielos
+\item schön - hässlich
 \item fröhlich - deprimierend 
 \end{itemize}
 
@@ -78,11 +81,28 @@ Ein AttrakDiff-Fragebogen, bei dem folgende Eigenschaften mit 7 verschiedenen M�
 
 \subsection{Testpersonen}
 
+\begin{description}
+ \item[Testperson 1:] weiblich, 47, noch nie mit Univis gearbeitet
+ \item[Testperson 2:] männlich, 27, studiert Medieninformatik an der Uni Wien
+\end{description}
+
 \subsection{Methodik}
 
 
 
 \section{Resultaten} 
+
+\begin{center}
+\begin{tabular}{r|r|r|r|r}
+    & & Aufgabe 1 & Aufgabe 2 & Aufgabe 3 \\
+    \hline
+    \multirow{2}{*}{Testperson 1} & Univis & 1min 30s & 1min 29s & 2min 28s\\
+    & eCurriculum & 10s & 51s & 19s\\
+    \hline
+    \multirow{2}{*}{Testperson 2} & Univis & 5s & 8s & 32s\\
+    & eCurriculum & 10s & 15s & 16s\\
+\end{tabular}
+\end{center}
 
 Stellen sie die Ergebnisse mittels deskriptiver Statistiken dar (tabellarisch und visuell). 
 Optional: Führen sie statistische Signifikanztests durch, z.b. mittels t-test oder ANOVA (maximal +10 Bonuspunkte). 
