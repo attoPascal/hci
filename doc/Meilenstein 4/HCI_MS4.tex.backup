@@ -5,6 +5,7 @@
 \usepackage{lmodern}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{multirow}
 
 %\usepackage{tabularx}
 %\usepackage{amsmath}
@@ -20,46 +21,34 @@
 
 \section{Einleitung}
 
+Im Verlauf der letzten Wochen wurde in Gruppenarbeit ein neues Interface für die Prüfungsleistungen und das Mittelungsblatt (``eCurriculum'') entwickelt.
+Ziel dieser Studie ist es zu überprüfen, ob unser neues Interface wirklich besser zu bedienen ist als das alte Interface.
+
+x
 
 \section{Beschreibung des Studienaufbaus} 
 
+Die Studie vergleicht unser neues Interface mit dem altem Interface (univis/Mitteilungsblatt), in Folge dessen, sind alle Hypothesen auf diese
+Interfaces anzuwenden und die Aufgaben werden immer jeweils mit beiden Interfaces durchgeführt.
 
 \subsection{Hypothesen}
 
 \begin{description}
- \item[Nullhypothese:] 
- \item[Alternativhypothese:] 
+ \item[Alternativhypothese 1: ] User sind mit unserem neu erstellten Interface zufriedener als mit dem alten Interface. 
 \end{description}
 
 \begin{description}
- \item[Nullhypothese:] 
- \item[Alternativhypothese:] 
+ \item[Alternativhypothese 2: ] User können mit unserem neu erstellten Interface Aufgaben besser lösen als mit dem alten Interface. 
 \end{description}
-
-\begin{description}
- \item[Nullhypothese:] 
- \item[Alternativhypothese:] 
-\end{description}
-
-
- Unabhängige Variablen:
-
-    Vergleichen sie das von ihnen erstellte Interface mit dem aktuellen/alten Interface;
-    Alternativ: Vergleichen sie verschiedene Designalternativen ihres Prototypen. 
-
-Stellen sie Hypothesen auf.
-Wählen sie (mindestens) 3 testbare Aufgaben aus.
 
 \subsection{Testbare Aufgaben}
-
-Alle Aufgaben sind im univis/Mitteilungsblatt und in unserem System durchzuführen.
 
 \begin{itemize}
  \item Welche Lehrveranstaltungen können im Modul ``Modul VMI Vertiefung Medieninformatik'' absolviert werden? (Mitteilungsblatt)
  \item Wieviele ECTS bringt die UE Arbeitstechniken Multimediajournalismus? (Mitteilungsblatt)
  %\item Wieviele ECTS habe ich in meinem Studium bereits absolviert?
  %\item Wieviele Module habe ich bereits in meinem Studium abgeschlossen?
- \item Welche Note Note habe ich in der Übung ``UE Technische Grundlagen und Systemsoftware''? (univis)
+ \item Welche Note habe ich in der Übung ``UE Technische Grundlagen und Systemsoftware''? (univis)
 \end{itemize}
 
 \subsection{Variablen}
@@ -73,20 +62,49 @@ Alle Aufgaben sind im univis/Mitteilungsblatt und in unserem System durchzuführ
 
 \subsubsection{Subjektives Nutzerfeedback}
 
+Ein AttrakDiff-Fragebogen, bei dem folgende Eigenschaften mit 7 verschiedenen Möglichkeiten zu bewerten sind:
 
+\begin{itemize}
+\item einfach - kompliziert 
+\item menschlich - technisch
+\item verständlich - unverständlich
+\item übersichtlich - unübersichtlich 
+\item innovativ - konservativ
+\item kreativ - phantasielos
+\item schön - hässlich
+\item fröhlich - deprimierend 
+\end{itemize}
 
-Legen sie abhängige Variablen fest:
+\begin{description}
+ \item[Datei auf cewebs:]Meilenstein 4 - Team 1 - Fragebogen
+\end{description}
 
-    Es müssen sowohl Performanz Metriken (z.B. time and errors),
-    als auch Subjektives Nutzerfeedback (z.B. Fragebogen, oder AttrakDiff) erhoben werden. 
+\subsection{Testpersonen}
 
+\begin{description}
+ \item[NM:] weiblich, 47, noch nie mit dem Univis gearbeitet
+ \item[DK:] männlich, 27, studiert Medieninformatik an der Uni Wien
+\end{description}
+
+\subsection{Methodik}
 
 
 
 \section{Resultaten} 
 
+\subsubsection*{Zeit in Sekunden} 
+
+\begin{center}
+\begin{tabular}{r|r|r|r|r|r|r}
+    & \multicolumn{3}{c|}{Univis/Mitteilungsblatt} & \multicolumn{3}{c}{eCurriculum} \\ \hline
+    & Aufgabe 1 & Aufgabe 2 & Aufgabe 3 & Aufgabe 1 & Aufgabe 2 & Aufgabe 3  \\ \hline
+    NM & 90s & 89s & 148s & 10s & 51s & 19s\\ \hline
+    DK & 5s & 8s & 32s & 10s & 15s & 16s\\
+\end{tabular}
+\end{center}
 
 Stellen sie die Ergebnisse mittels deskriptiver Statistiken dar (tabellarisch und visuell). 
+Optional: Führen sie statistische Signifikanztests durch, z.b. mittels t-test oder ANOVA (maximal +10 Bonuspunkte). 
 
 \section{Diskussion}
 
@@ -96,6 +114,39 @@ Stellen sie die Ergebnisse mittels deskriptiver Statistiken dar (tabellarisch un
 
 \section{Appendix}
 
+\section{Reflexion über das Gesamtprojekt}
+
+\subsection{Kernerkenntnisse und Designempfehlungen aus dem Projekt}
+
+% 
+%     Fassen Sie die Kern-Erkenntnisse ihres Projektes zusammen. Beschreiben sie insb. 3-5 konkrete Empfehlungen zu Designverbesserungen, 
+%     die sie aus ihrem Gesamtprojekt abgeleitet haben. Diese Zusammenfassung ist als "executive summary" für das UniVis- bzw. das Literacy-team gedacht, 
+%     bzw. fuer einen imaginären Kunden, falls sie ein eigenes Thema gewählt haben (max. 1 Seite Text + evtl. Screenshots).
+
+tabellarische Form des Studienplans ist gut angekommen, Mitteilungsblatt in elektronischer Form, Gliederung des Curriculums nach Semester anstatt der eigenartigen
+Modulgruppen, direkte Anmeldung zu den Lehrveranstaltungen wenn diese noch nicht absolviert wurden, Studienfortschritt als Anzeige, we are motherfucking awesome
+
+\subsection{Arbeitsverteilung, Kommunikation, Lernprozess und Zufriedenheit}
+
+
+%     Kurze Beschreibung zu Arbeitsverteilung, Kommunikation, Lernprozess und Zufriedenheit (max 1 Seite). 
+
+Meistens trafen wir uns alle 2 Wochen bzw. dann wenn ein neuer Meilenstein anstand für etwa 3,5 Stunden um den Meilenstein zu besprechen und zu bearbeiten. Die Treffen haben wir uns
+dabei entweder direkt in der Einheit oder per Email ausgemacht. Den 1. Meilenstein haben wir dabei bis auf die Erwartungen jedes einzelnen Teammitglieds zusammen gelöst.
+Für den 2. Meilenstein trafen wir uns nur für die Erstellung des Low-Fidelity-Prototypen. Der restliche Meilenstein 2 wurde dann in Einzelarbeit, mit Absprache per Mail
+gelöst. Bei Meilenstein 3 und 4 haben wir die Fragebögen und die Vorgehensweise für die Interviews
+jeweils in unseren Treffen festgelegt. Die Befragung hat dann jeder für sich geführt. Die Auswertung der Interview bzw. des Experiments wurde dann wieder in einem Treffen
+durchgeführt.
+\\ \\
+Zur Arbeitsverteilung ist dabei insgesamt zu sagen, dass viele Aufgaben zusammen gelöst wurden. Der High-Fidelity-Prototyp wurde, bis auf ein paar visuelle Änderungen
+und Verbesserungsvorschläge von mir erstellt.
+Bei der Durchführung der Interviews und des Experiments haben zwar alle Teammitglieder beigetragen, jedoch wurden die meisten Befragungen von Pascal durchgeführt. Beschreibung
+der Prototypen und die Beschreibung und Diskussion der Auswertungen wurde dann wieder von allen Teammitgliedern durchgeführt.
+\\ \\
+Mitnehmen kann ich aus Human-Computer-Interaction und dem damit verbundenem Projekt, dass die Einbeziehung der späteren Enduser viel zur Usability beiträgt. Durch die Erstellung von Prototypen und anschließende Usability-Interviews wurde man auf viele Usability-Probleme aufmerksam und
+konnte diese dann auch verbessern. Auch hat man durch die Durchführung Aspekte die die Usability verbessern und Methoden mit denen die Usability mit Endusern oder auch ohne
+getestet werden kann, kennen gelernt.
+\\ \\
 
 
 \end{document}

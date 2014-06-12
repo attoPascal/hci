@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.7)  12 JUN 2014 17:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.7)  12 JUN 2014 22:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -715,43 +715,67 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 119.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 124.
+(babel)             in language  on input line 129.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 124.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
+(babel)             in language  on input line 129.
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--154
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--154
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--154
+
+ []
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 134.
+(babel)             in language  on input line 154.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 134.
+(babel)             in language  on input line 154.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 134.
+(babel)             in language  on input line 154.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 134.
- [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
+(babel)             in language  on input line 154.
+[3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 155.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 155.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 155.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 155.
+ [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
  (./HCI_MS4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
 Package rerunfilecheck Info: File `HCI_MS4.out' has not changed.
 (rerunfilecheck)             Checksum: A4E52CF8D14E1E333B7B711D592801CA;1053.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
  ) 
 Here is how much of TeX's memory you used:
- 7245 strings out of 494979
- 108378 string characters out of 6179172
+ 7240 strings out of 494979
+ 108306 string characters out of 6179172
  213348 words of memory out of 5000000
- 10349 multiletter control sequences out of 15000+600000
+ 10343 multiletter control sequences out of 15000+600000
  38853 words of font info for 35 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,7n,47p,248b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,7n,47p,310b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/sh
 are/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on HCI_MS4.pdf (3 pages, 99305 bytes).
+Output written on HCI_MS4.pdf (4 pages, 101652 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
+ 114 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
+ 22 named destinations out of 1000 (max. 500000)
  129 words of extra memory for PDF output out of 10000 (max. 10000000)
 
