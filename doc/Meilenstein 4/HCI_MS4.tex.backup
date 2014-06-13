@@ -135,13 +135,23 @@ Den Testpersonen wurden zuerst die zwei Aufgaben zum Mitteilungsblatt gestellt u
  \includegraphics[width=\linewidth]{./Appendix/Plots/Boxplots/a1_boxplot.pdf}
 \end{center}
 
+Bei der ersten Aufgabe (Finden der LVs zum Modul VMI) zeigt sich bei Betrachtung des Boxplots über die benötigte Zeit ein deutliches Bild, demzufolge die Bearbeitung der Aufgabe mit dem alten Mitteilungsblatt deutlich mehr Zeit in Anspruch nimmt als mit dem neuen eCurriculum. Ein einziger Ausreißer der Mitteilungsblatt-Zeiten liegt unter allen des eCurriculums, alle anderen Versuchspersonen waren mit dem neuen System schneller.
+
 \begin{center}
  \includegraphics[width=\linewidth]{./Appendix/Plots/Boxplots/a2_boxplot.pdf}
 \end{center}
 
+Bei der zweiten Aufgabe (Finden der ECTS-Punkte einer Lehrveranstaltung) zeigt sich bei den Versuchen mit dem Mitteilungsblatt eine deutlich größere Streuung als beim eCurriculum. Zwar liegt der Median beim neuen System deutlich unter dem alten, jedoch gab es auch einige Personen, die mit dem alten System schneller waren.
+
 \begin{center}
  \includegraphics[width=\linewidth]{./Appendix/Plots/Boxplots/a3_boxplot.pdf}
 \end{center}
+
+Bei der dritten Aufgabe wurde das Finden einer einzelnen Prüfungsleistung zwischen Univis und eCurriculum verglichen. Hier zeigt sich beim neuen System, dass bei durchschnittlich weniger Bearbeitungszeit auch die Streuung geringer war, viele Versuchspersonen also ähnlich wenig Zeit benötigten.
+
+Beim Univis liegen zwar auch Werte vor, die ähnlich schnell wie im eCurriculum waren, allerdings ist die Streuung bedeutend größer, und es kam auch zu einem sehr auffälligen Ausreißer.
+
+\pagebreak
 
 \subsubsection*{Subjektives Nutzerfeedback} 
 
@@ -281,8 +291,13 @@ mean of x mean of y
 
 \section{Diskussion}
 
-\subsection{Alternativhypothese 1:  User können mit unserem neu erstellten Interface Aufgaben besser lösen als mit dem alten Interface.} 
+\subsection{Alternativhypothese 1:  User können mit unserem neu erstellten Interface Aufgaben besser lösen als mit dem alten Interface.}
 
+Man kann anhand der Zeiten in Sekunden in der tabellarischen ansicht und anhand der Boxplots schon erkennen, dass die Aufgaben
+mit dem neuen Interface von den Usern schneller gelöst wurden, als mit dem alten Interface. Jedoch kann
+man hier noch nichts über die Signfikants aussagen, weshalb wir hier jeweils zu jeder Aufgabe noch einen T-Test zu den
+Zeiten in Sekunden durchgeführt haben.
+\\ \\
 Nachdem wir einen Two-Sampled-T-Test durchgeführt haben und uns die p-Value angesehen haben, können wir bei
 der 1. Aufgabe sagen, dass bei einem Signfikantsniveau von 95\% die 1. Aufgabe mit dem neuem Interface besser bzw. schneller gelöst werden
 kann als mit dem altem Interface, da die Nullhypothese mit einer Fehlerwahrscheinlichkeit von 0,0004839 verworfen werden kann.
@@ -296,9 +311,19 @@ als mit dem alten Interface.
 
 \subsection{Alternativhypothese 2: User sind mit unserem neu erstellten Interface zufriedener als mit dem alten Interface. }
 
-Auch hier haben wir wieder einen Two-Sampled-T-Test durchgeführt. Dabei haben wir uns zuerst den Mittelwert je Eigenschaft
+Anhand der verschiedenen Barplots ist hier auch wieder ersichtlich, dass das eCurriculum insgesamt als ``einfacher'', ``menschlicher'', ``verständlicher'', ``schöner'', usw.
+wahrgenommen wurde, als das Mitteilungblatt und das Univis. Wobei man hier auch gut sieht, dass das Univis insgesamt als am wenigsten benutzerfreundlich
+wahrgenommen wurde. 
+\\ \\
+Auch hier haben wir dann wieder einen Two-Sampled-T-Test durchgeführt um etwas über die Signifikanz aussagen zu können. 
+Dabei haben wir uns zuerst den Mittelwert je Eigenschaft
 berechnet (von ``einfach'' bis ``fröhlich'') und mit diesen Werten dann den T-Test durchgeführt.
 \\ \\
+Das Ergebnis erhielten wir eine p-Value von 1,721e-05 weshalb man hier auch wieder sagen kann, dass die Nullhypothese bei
+einem Signifikantsniveau von 95\% mit einer Fehlerwahrscheinlichkeit von 1,721e-05 verworfen werden kann. Somit ist hier auch wieder unsere
+Alternativhypothese bewiesen, welche besagt, dass User mit dem neu erstellten Interface zufriedener sind als mit dem alten Interface.
+
+\subsection{Schlussfolgerungen}
 
 
 
@@ -310,7 +335,7 @@ Enthält:
  \item Beantwortete Fragebögen als .pdf oder .jpg
  \item Daten als .csv-Datei
  \item Plots als .pdf oder .png
- \item R-Skripte
+ \item R-Skripte für die Plots und die T-Tests
 \end{itemize}
 
 
