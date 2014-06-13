@@ -5,6 +5,8 @@
 \usepackage{lmodern}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{alltt}
+\renewcommand{\ttdefault}{txtt}
 
 %\usepackage{tabularx}
 %\usepackage{amsmath}
@@ -46,13 +48,13 @@ Zusätzlich werden Fragebögen nach Vorbild von AttrackDiff verwendet, um die su
 
 \subsection{Testbare Aufgaben}
 
-\begin{itemize}
- \item Welche Lehrveranstaltungen können im Modul ``Modul VMI Vertiefung Medieninformatik'' absolviert werden? (Mitteilungsblatt)
- \item Wieviele ECTS bringt die UE Arbeitstechniken Multimediajournalismus? (Mitteilungsblatt)
+\begin{description}
+ \item[Aufgabe 1:] Welche Lehrveranstaltungen können im Modul ``Modul VMI Vertiefung Medieninformatik'' absolviert werden? (Mitteilungsblatt)
+ \item[Aufgabe 2:] Wieviele ECTS bringt die UE Arbeitstechniken Multimediajournalismus? (Mitteilungsblatt)
  %\item Wieviele ECTS habe ich in meinem Studium bereits absolviert?
  %\item Wieviele Module habe ich bereits in meinem Studium abgeschlossen?
- \item Welche Note habe ich in der Übung ``UE Technische Grundlagen und Systemsoftware''? (univis)
-\end{itemize}
+ \item[Aufgabe 3:] Welche Note habe ich in der Übung ``UE Technische Grundlagen und Systemsoftware''? (univis)
+\end{description}
 
 \subsection{Variablen}
 
@@ -130,15 +132,15 @@ Den Testpersonen wurden zuerst die zwei Aufgaben zum Mitteilungsblatt gestellt u
 \end{center}
 
 \begin{center}
- \includegraphics[width=\linewidth]{./Plots/a1_boxplot.pdf}
+ \includegraphics[width=\linewidth]{./Appendix/Plots/Boxplots/a1_boxplot.pdf}
 \end{center}
 
 \begin{center}
- \includegraphics[width=\linewidth]{./Plots/a2_boxplot.pdf}
+ \includegraphics[width=\linewidth]{./Appendix/Plots/Boxplots/a2_boxplot.pdf}
 \end{center}
 
 \begin{center}
- \includegraphics[width=\linewidth]{./Plots/a3_boxplot.pdf}
+ \includegraphics[width=\linewidth]{./Appendix/Plots/Boxplots/a3_boxplot.pdf}
 \end{center}
 
 \subsubsection*{Subjektives Nutzerfeedback} 
@@ -188,8 +190,81 @@ Den Testpersonen wurden zuerst die zwei Aufgaben zum Mitteilungsblatt gestellt u
 \end{tabular}
 \end{center}
 
+\begin{center}
+ \includegraphics[width=\linewidth]{./Appendix/Plots/Barplots/barplot1.png}
+\end{center}
+\begin{center}
+ \includegraphics[width=\linewidth]{./Appendix/Plots/Barplots/barplot2.png}
+\end{center}
+\begin{center}
+ \includegraphics[width=\linewidth]{./Appendix/Plots/Barplots/barplot3.png}
+\end{center}
+\begin{center}
+ \includegraphics[width=\linewidth]{./Appendix/Plots/Barplots/barplot4.png}
+\end{center}
+\begin{center}
+ \includegraphics[width=\linewidth]{./Appendix/Plots/Barplots/barplot5.png}
+\end{center}
+\begin{center}
+ \includegraphics[width=\linewidth]{./Appendix/Plots/Barplots/barplot6.png}
+\end{center}
+\begin{center}
+ \includegraphics[width=\linewidth]{./Appendix/Plots/Barplots/barplot7.png}
+\end{center}
+\begin{center}
+ \includegraphics[width=\linewidth]{./Appendix/Plots/Barplots/barplot8.png}
+\end{center}
+
 \subsection{Inferenzstatistik}
 
+\subsubsection*{Zeit in Sekunden} 
+
+\subsubsection*{Aufgabe 1:}
+
+\begin{alltt}
+Welch Two Sample t-test
+
+data:  a1_mb and a1_ec 
+t = 5.1747, df = 7.672, \textbf{p-value = 0.0004839}
+alternative hypothesis: true difference in means is greater than 0 
+95 percent confidence interval:
+ 40.88108      Inf 
+sample estimates:
+mean of x mean of y 
+  83.0375   19.0250 
+\end{alltt} 
+
+\subsubsection*{Aufgabe 2:}
+
+\begin{alltt}
+Welch Two Sample t-test
+
+data:  a2_mb and a2_ec 
+t = 1.3532, df = 10.48, \textbf{p-value = 0.1022}
+alternative hypothesis: true difference in means is greater than 0 
+95 percent confidence interval:
+ -11.64372       Inf 
+sample estimates:
+mean of x mean of y 
+  80.7625   45.8125 
+\end{alltt} 
+
+\subsubsection*{Aufgabe 3:}
+
+\begin{alltt}
+Welch Two Sample t-test
+
+data:  a3_uv and a3_ec 
+t = 2.1438, df = 8.156, \textbf{p-value = 0.03187}
+alternative hypothesis: true difference in means is greater than 0 
+95 percent confidence interval:
+ 4.434431      Inf 
+sample estimates:
+mean of x mean of y 
+  58.3875   25.4750 
+\end{alltt} 
+
+\subsubsection*{Zufriedenheit} 
 % \subsubsection*{einfach}
 % 
 % \subsubsection*{menschlich}
@@ -211,6 +286,15 @@ Optional: Führen sie statistische Signifikanztests durch, z.b. mittels t-test o
 
 \section{Diskussion}
 
+\subsection{Alternativhypothese 1:  User können mit unserem neu erstellten Interface Aufgaben besser lösen als mit dem alten Interface.} 
+
+Nachdem wir einen Two-Sampled-T-Test durchgeführt haben und uns die p-Value angesehen haben, können wir bei
+der 1. Aufgabe sagen, dass bei einem Signfikantsniveau von 95\% die 1. Aufgabe mit dem neuem Interface besser bzw. schneller gelöst werden
+kann als mit dem altem Interface, da die Nullhypothese mit einer Fehlerwahrscheinlichkeit von 0,03187 verworfen werden kann.
+\\ \\
+Bei der 2. Aufgabe gibt es mit einer p-Value von 0,1022 keinen signifikanten Unterschied. Daher wird die Nullhypothese beibehalten und
+mit dem neuem Interface können die Aufgaben nicht signifikant besser gelöst werden.
+\\ \\
 
 \section{Schlussfolgerungen}
 
