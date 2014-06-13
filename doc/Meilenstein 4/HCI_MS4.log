@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2012.12.23)  13 JUN 2014 15:13
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2012.12.23)  13 JUN 2014 15:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -647,7 +647,7 @@ Overfull \hbox (2.50107pt too wide) in paragraph at lines 120--132
  [] 
  []
 
-<./Appendix/Plots/Boxplots/a1_boxplot.pdf, id=93, 538.01pt x 518.93875pt>
+<./Appendix/Plots/Boxplots/a1_boxplot.pdf, id=97, 538.01pt x 518.93875pt>
 File: ./Appendix/Plots/Boxplots/a1_boxplot.pdf Graphic file (type pdf)
 
 <use ./Appendix/Plots/Boxplots/a1_boxplot.pdf>
@@ -655,7 +655,7 @@ Package pdftex.def Info: ./Appendix/Plots/Boxplots/a1_boxplot.pdf used on input
  line 135.
 (pdftex.def)             Requested size: 373.44246pt x 360.20609pt.
  [3]
-<./Appendix/Plots/Boxplots/a2_boxplot.pdf, id=99, 538.01pt x 518.93875pt>
+<./Appendix/Plots/Boxplots/a2_boxplot.pdf, id=103, 538.01pt x 518.93875pt>
 File: ./Appendix/Plots/Boxplots/a2_boxplot.pdf Graphic file (type pdf)
 
 <use ./Appendix/Plots/Boxplots/a2_boxplot.pdf>
@@ -663,7 +663,7 @@ Package pdftex.def Info: ./Appendix/Plots/Boxplots/a2_boxplot.pdf used on input
  line 139.
 (pdftex.def)             Requested size: 373.44246pt x 360.20609pt.
  [4 <./Appendix/Plots/Boxplots/a1_boxplot.pdf>]
-<./Appendix/Plots/Boxplots/a3_boxplot.pdf, id=110, 538.01pt x 518.93875pt>
+<./Appendix/Plots/Boxplots/a3_boxplot.pdf, id=114, 538.01pt x 518.93875pt>
 File: ./Appendix/Plots/Boxplots/a3_boxplot.pdf Graphic file (type pdf)
 
 <use ./Appendix/Plots/Boxplots/a3_boxplot.pdf>
@@ -685,7 +685,7 @@ Overfull \hbox (73.22464pt too wide) in paragraph at lines 179--191
  [] 
  []
 
-<./Appendix/Plots/Barplots/barplot1.png, id=132, 481.8pt x 481.8pt>
+<./Appendix/Plots/Barplots/barplot1.png, id=136, 481.8pt x 481.8pt>
 File: ./Appendix/Plots/Barplots/barplot1.png Graphic file (type png)
 
 <use ./Appendix/Plots/Barplots/barplot1.png>
@@ -693,7 +693,7 @@ Package pdftex.def Info: ./Appendix/Plots/Barplots/barplot1.png used on input l
 ine 194.
 (pdftex.def)             Requested size: 373.44246pt x 373.44995pt.
  [7]
-<./Appendix/Plots/Barplots/barplot2.png, id=139, 481.8pt x 481.8pt>
+<./Appendix/Plots/Barplots/barplot2.png, id=143, 481.8pt x 481.8pt>
 File: ./Appendix/Plots/Barplots/barplot2.png Graphic file (type png)
 
 <use ./Appendix/Plots/Barplots/barplot2.png>
@@ -701,7 +701,7 @@ Package pdftex.def Info: ./Appendix/Plots/Barplots/barplot2.png used on input l
 ine 197.
 (pdftex.def)             Requested size: 373.44246pt x 373.44995pt.
  [8 <./Appendix/Plots/Barplots/barplot1.png>] <./Appendix/Plots/Barplots/barplo
-t3.png, id=145, 481.8pt x 481.8pt>
+t3.png, id=149, 481.8pt x 481.8pt>
 File: ./Appendix/Plots/Barplots/barplot3.png Graphic file (type png)
 
 <use ./Appendix/Plots/Barplots/barplot3.png>
@@ -709,7 +709,7 @@ Package pdftex.def Info: ./Appendix/Plots/Barplots/barplot3.png used on input l
 ine 200.
 (pdftex.def)             Requested size: 373.44246pt x 373.44995pt.
  [9 <./Appendix/Plots/Barplots/barplot2.png>] <./Appendix/Plots/Barplots/barplo
-t4.png, id=151, 481.8pt x 481.8pt>
+t4.png, id=155, 481.8pt x 481.8pt>
 File: ./Appendix/Plots/Barplots/barplot4.png Graphic file (type png)
 
 <use ./Appendix/Plots/Barplots/barplot4.png>
@@ -717,7 +717,7 @@ Package pdftex.def Info: ./Appendix/Plots/Barplots/barplot4.png used on input l
 ine 203.
 (pdftex.def)             Requested size: 373.44246pt x 373.44995pt.
  [10 <./Appendix/Plots/Barplots/barplot3.png>]
-<./Appendix/Plots/Barplots/barplot5.png, id=157, 481.8pt x 481.8pt>
+<./Appendix/Plots/Barplots/barplot5.png, id=162, 481.8pt x 481.8pt>
 File: ./Appendix/Plots/Barplots/barplot5.png Graphic file (type png)
 
 <use ./Appendix/Plots/Barplots/barplot5.png>
@@ -725,7 +725,7 @@ Package pdftex.def Info: ./Appendix/Plots/Barplots/barplot5.png used on input l
 ine 206.
 (pdftex.def)             Requested size: 373.44246pt x 373.44995pt.
  [11 <./Appendix/Plots/Barplots/barplot4.png>]
-<./Appendix/Plots/Barplots/barplot6.png, id=164, 481.8pt x 481.8pt>
+<./Appendix/Plots/Barplots/barplot6.png, id=168, 481.8pt x 481.8pt>
 File: ./Appendix/Plots/Barplots/barplot6.png Graphic file (type png)
 
 <use ./Appendix/Plots/Barplots/barplot6.png>
@@ -733,7 +733,7 @@ Package pdftex.def Info: ./Appendix/Plots/Barplots/barplot6.png used on input l
 ine 209.
 (pdftex.def)             Requested size: 373.44246pt x 373.44995pt.
  [12 <./Appendix/Plots/Barplots/barplot5.png>]
-<./Appendix/Plots/Barplots/barplot7.png, id=170, 481.8pt x 481.8pt>
+<./Appendix/Plots/Barplots/barplot7.png, id=174, 481.8pt x 481.8pt>
 File: ./Appendix/Plots/Barplots/barplot7.png Graphic file (type png)
 
 <use ./Appendix/Plots/Barplots/barplot7.png>
@@ -741,7 +741,7 @@ Package pdftex.def Info: ./Appendix/Plots/Barplots/barplot7.png used on input l
 ine 212.
 (pdftex.def)             Requested size: 373.44246pt x 373.44995pt.
  [13 <./Appendix/Plots/Barplots/barplot6.png>]
-<./Appendix/Plots/Barplots/barplot8.png, id=177, 481.8pt x 481.8pt>
+<./Appendix/Plots/Barplots/barplot8.png, id=181, 481.8pt x 481.8pt>
 File: ./Appendix/Plots/Barplots/barplot8.png Graphic file (type png)
 
 <use ./Appendix/Plots/Barplots/barplot8.png>
@@ -755,58 +755,51 @@ LaTeX Font Info:    Try loading font information for T1+txtt on input line 224.
 File: t1txtt.fd 2000/12/15 v3.1
 )
 [15 <./Appendix/Plots/Barplots/barplot8.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 291--298
+Underfull \hbox (badness 10000) in paragraph at lines 286--293
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--298
+Underfull \hbox (badness 10000) in paragraph at lines 286--293
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--298
+Underfull \hbox (badness 10000) in paragraph at lines 286--293
 
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 325--345
+Underfull \hbox (badness 10000) in paragraph at lines 320--340
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--345
+Underfull \hbox (badness 10000) in paragraph at lines 320--340
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--345
+Underfull \hbox (badness 10000) in paragraph at lines 320--340
 
  []
 
 [17]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 346.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 341.
  [18]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 346.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 341.
  (./HCI_MS4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 346.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 346.
-
-
-Package rerunfilecheck Warning: File `HCI_MS4.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `HCI_MS4.out':
-(rerunfilecheck)             Before: 8AD00732E0F70A65E120E5482576A319;1230
-(rerunfilecheck)             After:  F65A64A27516C4CF9BAC30F6700CCB1E;1408.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 346.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 341.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 341.
+Package rerunfilecheck Info: File `HCI_MS4.out' has not changed.
+(rerunfilecheck)             Checksum: F65A64A27516C4CF9BAC30F6700CCB1E;1408.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 341.
  ) 
 Here is how much of TeX's memory you used:
- 7179 strings out of 495007
- 108198 string characters out of 3179689
+ 7180 strings out of 495007
+ 108214 string characters out of 3179689
  219364 words of memory out of 3000000
- 10221 multiletter control sequences out of 15000+200000
+ 10222 multiletter control sequences out of 15000+200000
  39510 words of font info for 37 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,7n,47p,336b,455s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -816,10 +809,10 @@ are/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on HCI_MS4.pdf (18 pages, 197979 bytes).
+Output written on HCI_MS4.pdf (18 pages, 197950 bytes).
 PDF statistics:
- 244 PDF objects out of 1000 (max. 8388607)
- 194 compressed objects within 2 object streams
+ 247 PDF objects out of 1000 (max. 8388607)
+ 197 compressed objects within 2 object streams
  46 named destinations out of 1000 (max. 500000)
- 208 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 216 words of extra memory for PDF output out of 10000 (max. 10000000)
 

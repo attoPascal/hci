@@ -265,24 +265,21 @@ mean of x mean of y
 \end{alltt} 
 
 \subsubsection*{Zufriedenheit} 
-% \subsubsection*{einfach}
-% 
-% \subsubsection*{menschlich}
-% 
-% \subsubsection*{verständlich}
-% 
-% \subsubsection*{übersichtlich}
-% 
-% \subsubsection*{innovativ}
-% 
-% \subsubsection*{kreativ}
-% 
-% \subsubsection*{schön}
-% 
-% \subsubsection*{fröhlich}
 
-Stellen sie die Ergebnisse mittels deskriptiver Statistiken dar (tabellarisch und visuell). 
-Optional: Führen sie statistische Signifikanztests durch, z.b. mittels t-test oder ANOVA (maximal +10 Bonuspunkte). 
+\begin{alltt}
+Welch Two Sample t-test
+
+data:  meansAlt and meansNeu 
+t = 6.1818, df = 12.889, \textbf{p-value = 1.721e-05}
+alternative hypothesis: true difference in means is greater than 0 
+95 percent confidence interval:
+ 1.61058     Inf 
+sample estimates:
+mean of x mean of y 
+ 4.867188  2.609375 
+\end{alltt} 
+
+
 
 \section{Diskussion}
 
