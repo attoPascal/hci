@@ -5,10 +5,10 @@
 \usepackage{lmodern}
 \usepackage{graphicx}
 \usepackage{hyperref}
-\usepackage{multirow}
 
 %\usepackage{tabularx}
 %\usepackage{amsmath}
+%\usepackage{multirow}
 
 %opening
 \title{HCI Meilenstein 4}
@@ -21,24 +21,25 @@
 
 \section{Einleitung}
 
-Im Verlauf der letzten Wochen wurde in Gruppenarbeit ein neues Interface für die Prüfungsleistungen und das Mittelungsblatt (``eCurriculum'') entwickelt.
+Im Verlauf der letzten Wochen wurde in Gruppenarbeit ein neues Interface für die Prüfungsleistungen und das Mittelungsblatt (,,eCurriculum`) entwickelt.
 Ziel dieser Studie ist es zu überprüfen, ob unser neues Interface wirklich besser zu bedienen ist als das alte Interface.
 
-x
+\section{Studienaufbau} 
 
-\section{Beschreibung des Studienaufbaus} 
+Die Studie vergleicht unser neues Interface mit dem altem Interface (univis/Mitteilungsblatt). Die Aufgaben werden zuerst mit dem jeweils alten System durchgeführt und in Folge dessen in Hinblick auf die Bedienbarkeit mit dem neuen System verglichen.
 
-Die Studie vergleicht unser neues Interface mit dem altem Interface (univis/Mitteilungsblatt), in Folge dessen, sind alle Hypothesen auf diese
-Interfaces anzuwenden und die Aufgaben werden immer jeweils mit beiden Interfaces durchgeführt.
+Zusätzlich werden Fragebögen nach Vorbild von AttrackDiff verwendet, um die subjektive Zufriedenheit der Benutzer mit den Systemen festzuhalten.
 
 \subsection{Hypothesen}
 
 
 \begin{description}
+ \item[Nullhypothese 1: ] User können mit unserem neu erstellten Interface Aufgaben schlechter oder gleich gut lösen als mit dem alten Interface. 
  \item[Alternativhypothese 1: ] User können mit unserem neu erstellten Interface Aufgaben besser lösen als mit dem alten Interface. 
 \end{description}
 
 \begin{description}
+ \item[Nullhypothese 2: ] User sind mit unserem neu erstellten Interface weniger zufrieden oder gleich zufrieden als mit dem alten Interface. 
  \item[Alternativhypothese 2: ] User sind mit unserem neu erstellten Interface zufriedener als mit dem alten Interface. 
 \end{description}
 
@@ -78,32 +79,40 @@ Ein AttrakDiff-Fragebogen, bei dem folgende Eigenschaften mit 7 verschiedenen M�
 \end{itemize}
 
 \begin{description}
- \item[Datei auf cewebs:]Meilenstein 4 - Team 1 - Fragebogen
+ \item[Datei auf cewebs:] Meilenstein 4 -- Team 1 -- Fragebogen
 \end{description}
 
 \subsection{Pre-Test}
 
 In Folge des Pre-Tests mussten wir feststellen, dass die Variable ``Klicks'' nicht zielführend war,
-da in den meisten Fällen nur ein Klick benötigt wurde, weshalb diese in der Studie weggelassen wurde.
+da in den meisten Fällen nur ein Klick benötigt wurde, weshalb diese in der späteren tatsächlichen Studie weggelassen wurde.
 
-Die restlichen Daten konnten in die tatsächliche Studie übernommen werden.
+Die restlichen Daten waren jedoch hinsichtlich ihrer Eignung für die Studie nicht beeinflusst und konnten daher weiterverwendet werden.
 
 \subsection{Testpersonen}
 
 \begin{description}
+ \item[RL:] männlich, 21, studiert Rechtswissenschaften an der JKU Linz
+ \item[JM:] männlich, 21, studiert Rechtswissenschaften an der JKU Linz
+ \item[MS:] männlich, 21, studiert Informatik an der JKU Linz
+ \item[JF:] weiblich, 14, Schülerin
  \item[NM:] weiblich, 47, noch nie mit dem Univis gearbeitet
  \item[DK:] männlich, 27, studiert Medieninformatik an der Uni Wien
+ \item[JB:] weiblich, 30, studierte 4 Semester Psychologie an der Uni Wien
+ \item[PH:] männlich, 27, studiert Medieninformatik an der Uni Wien
 \end{description}
 
 \subsection{Methodik}
 
+Bei der Auswahl der Testpersonen wurde darauf geachtet, eine ausgewogene Mischung verschiedenster Studienhintergründe zu erreichen: Es wurden sowohl Studierende der Uni Wien als auch die anderer Universitäten interviewt; zwei der Probandinnen hatten überhaupt keine Vorerfahrungen mit Universitäts-IS-Systemen.
 
-
+Den Testpersonen wurden zuerst die zwei Aufgaben zum Mitteilungsblatt gestellt und dabei die Zeit gestoppt, daraufhin wurden sie gebeten, ihre Eindrücke vom Mitteilungsblatt im AttrackDiff-Fragebogen festzuhalten. Mit den Aufgaben zum Univis und zum neu entwickelten eCurriculum wurde in Folge gleich verfahren.
 
 \section{Resultate} 
 
+\subsection{Deskriptive Statistik}
 
-\subsection*{Zeit in Sekunden} 
+\subsubsection*{Zeit in Sekunden} 
 
 \begin{center}
 \begin{tabular}{r|r|r|r|r|r|r}
@@ -120,7 +129,19 @@ Die restlichen Daten konnten in die tatsächliche Studie übernommen werden.
 \end{tabular}
 \end{center}
 
-\subsection*{Subjektives Nutzerfeedback} 
+\begin{center}
+ \includegraphics[width=\linewidth]{./Plots/a1_boxplot.pdf}
+\end{center}
+
+\begin{center}
+ \includegraphics[width=\linewidth]{./Plots/a2_boxplot.pdf}
+\end{center}
+
+\begin{center}
+ \includegraphics[width=\linewidth]{./Plots/a3_boxplot.pdf}
+\end{center}
+
+\subsubsection*{Subjektives Nutzerfeedback} 
 
 \begin{center}
 \begin{tabular}{r|r|r|r|r|r|r|r|r}
@@ -167,6 +188,24 @@ Die restlichen Daten konnten in die tatsächliche Studie übernommen werden.
 \end{tabular}
 \end{center}
 
+\subsection{Inferenzstatistik}
+
+% \subsubsection*{einfach}
+% 
+% \subsubsection*{menschlich}
+% 
+% \subsubsection*{verständlich}
+% 
+% \subsubsection*{übersichtlich}
+% 
+% \subsubsection*{innovativ}
+% 
+% \subsubsection*{kreativ}
+% 
+% \subsubsection*{schön}
+% 
+% \subsubsection*{fröhlich}
+
 Stellen sie die Ergebnisse mittels deskriptiver Statistiken dar (tabellarisch und visuell). 
 Optional: Führen sie statistische Signifikanztests durch, z.b. mittels t-test oder ANOVA (maximal +10 Bonuspunkte). 
 
@@ -177,6 +216,10 @@ Optional: Führen sie statistische Signifikanztests durch, z.b. mittels t-test o
 
 
 \section{Appendix}
+
+\begin{description}
+ \item[Datei auf cewebs:] Meilenstein 4 -- Team 1 -- Appendix
+\end{description}
 
 \section{Reflexion über das Gesamtprojekt}
 
