@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.10.15)  13 JUN 2014 15:45
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.10.15)  13 JUN 2014 15:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -750,62 +750,63 @@ Package pdftex.def Info: ./Appendix/Plots/Barplots/barplot8.png used on input l
 ine 225.
 (pdftex.def)             Requested size: 373.44246pt x 373.44995pt.
  [14 <./Appendix/Plots/Barplots/barplot7.png>]
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 234.
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 240.
 
-LaTeX Font Info:    No file T1txtt.fd. on input line 234.
+LaTeX Font Info:    No file T1txtt.fd. on input line 240.
 
 
 LaTeX Font Warning: Font shape `T1/txtt/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 234.
-
-
-LaTeX Font Warning: Font shape `T1/txtt/bx/n' undefined
-(Font)              using `T1/txtt/m/n' instead on input line 238.
+(Font)              using `T1/cmr/m/n' instead on input line 240.
 
 [15 <./Appendix/Plots/Barplots/barplot8.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 296--306
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 296--306
-
- []
+LaTeX Font Warning: Font shape `T1/txtt/bx/n' undefined
+(Font)              using `T1/txtt/m/n' instead on input line 244.
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 309--315
+Underfull \hbox (badness 10000) in paragraph at lines 302--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--321
 
  []
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 350--370
+Underfull \hbox (badness 10000) in paragraph at lines 356--376
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--370
+Underfull \hbox (badness 10000) in paragraph at lines 356--376
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--370
+Underfull \hbox (badness 10000) in paragraph at lines 356--376
 
  []
 
 [18]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 371.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 377.
  [19]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 371.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 377.
  (./HCI_MS4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 371.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 371.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 377.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 377.
 Package rerunfilecheck Info: File `HCI_MS4.out' has not changed.
 (rerunfilecheck)             Checksum: CE2B796562900480E76D35EEFE82045B;1514.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 371.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 377.
  ) 
 Here is how much of TeX's memory you used:
  7150 strings out of 494578
@@ -814,7 +815,7 @@ Here is how much of TeX's memory you used:
  10220 multiletter control sequences out of 15000+200000
  38853 words of font info for 35 fonts, out of 3000000 for 9000
  314 hyphenation exceptions out of 8191
- 38i,7n,47p,456b,455s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,7n,47p,456b,453s stack positions out of 5000i,500n,10000p,200000b,50000s
  </Users/pascal/Library/texlive/2012basic/texmf-var/fonts/pk/ljfour/jknappen/
 ec/ecrm1000.600pk>{/usr/local/texlive/2012basic/texmf-dist/fonts/enc/dvips/lm/l
 m-mathsy.enc}{/usr/local/texlive/2012basic/texmf-dist/fonts/enc/dvips/lm/lm-ec.
@@ -822,7 +823,7 @@ enc}</usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/lm/lmr10.pfb></
 usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/lo
 cal/texlive/2012basic/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local
 /texlive/2012basic/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on HCI_MS4.pdf (19 pages, 202923 bytes).
+Output written on HCI_MS4.pdf (19 pages, 203485 bytes).
 PDF statistics:
  294 PDF objects out of 1000 (max. 8388607)
  199 compressed objects within 2 object streams
