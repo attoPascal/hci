@@ -279,24 +279,42 @@ mean of x mean of y
  4.867188  2.609375 
 \end{alltt} 
 
-
-
 \section{Diskussion}
 
 \subsection{Alternativhypothese 1:  User können mit unserem neu erstellten Interface Aufgaben besser lösen als mit dem alten Interface.} 
 
 Nachdem wir einen Two-Sampled-T-Test durchgeführt haben und uns die p-Value angesehen haben, können wir bei
 der 1. Aufgabe sagen, dass bei einem Signfikantsniveau von 95\% die 1. Aufgabe mit dem neuem Interface besser bzw. schneller gelöst werden
-kann als mit dem altem Interface, da die Nullhypothese mit einer Fehlerwahrscheinlichkeit von 0,03187 verworfen werden kann.
+kann als mit dem altem Interface, da die Nullhypothese mit einer Fehlerwahrscheinlichkeit von 0,0004839 verworfen werden kann.
 \\ \\
 Bei der 2. Aufgabe gibt es mit einer p-Value von 0,1022 keinen signifikanten Unterschied. Daher wird die Nullhypothese beibehalten und
 mit dem neuem Interface können die Aufgaben nicht signifikant besser gelöst werden.
 \\ \\
+Bei der 3. Aufgabe kann die Nullhypothese mit einer p-Value von 0,03187 und bei einem Signifikantsniveau von 95\% ebenfalls verworfen werden,
+weshalb die Alternativhypothese bewiesen ist und somit die User mit unserem neu erstellten Interface Aufgaben signifikant besser lösen können
+als mit dem alten Interface.
 
-\section{Schlussfolgerungen}
+\subsection{Alternativhypothese 2: User sind mit unserem neu erstellten Interface zufriedener als mit dem alten Interface. }
+
+Auch hier haben wir wieder einen Two-Sampled-T-Test durchgeführt. Dabei haben wir uns zuerst den Mittelwert je Eigenschaft
+berechnet (von ``einfach'' bis ``fröhlich'') und mit diesen Werten dann den T-Test durchgeführt.
+\\ \\
+Das Ergebnis erhielten wir eine p-Value von 1,721e-05 weshalb man hier auch wieder sagen kann, dass die Nullhypothese bei
+einem Signifikantsniveau von 95\% mit einer Fehlerwahrscheinlichkeit von 1,721e-05 verworfen werden kann. Somit ist hier auch wieder unsere
+Alternativhypothese bewiesen, welche besagt, dass User mit dem neu erstellten Interface zufriedener sind als mit dem alten Interface.
 
 
 \section{Appendix}
+
+Enthält:
+
+\begin{itemize}
+ \item Beantwortete Fragebögen als .pdf oder .jpg
+ \item Daten als .csv-Datei
+ \item Plots als .pdf oder .png
+ \item R-Skripte für die Plots und die T-Tests
+\end{itemize}
+
 
 \begin{description}
  \item[Datei auf cewebs:] Meilenstein 4 -- Team 1 -- Appendix
