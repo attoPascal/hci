@@ -168,7 +168,12 @@ echo "</table></div>";
     $notendurchschnitt = round($noteects/$gesamtects, 2);
     echo "<div class='panel panel-default'>
     <div class='panel-heading'>
-    <h4 class='panel-title'><a data-toggle='collapse' data-parent='#accordion' href='#statistik'><span class='glyphicon glyphicon-list'></span> Statistik: Bachelor Medieninformatik</a></h4>
+    <h2 class='panel-title'>
+      <a data-toggle='collapse' data-parent='#accordion' href='#statistik'>
+        <span class='glyphicon glyphicon-list'></span> 
+        Statistik: Bachelor Medieninformatik
+      </a><
+    </h2>
     </div>
     <div class='panel-collapse collapse' id='statistik'>
       <div class='panel-body'>
