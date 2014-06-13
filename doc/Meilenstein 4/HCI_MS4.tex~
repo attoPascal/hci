@@ -5,6 +5,7 @@
 \usepackage{lmodern}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{multirow}
 
 %\usepackage{tabularx}
 %\usepackage{amsmath}
@@ -47,7 +48,7 @@ Interfaces anzuwenden und die Aufgaben werden immer jeweils mit beiden Interface
  \item Wieviele ECTS bringt die UE Arbeitstechniken Multimediajournalismus? (Mitteilungsblatt)
  %\item Wieviele ECTS habe ich in meinem Studium bereits absolviert?
  %\item Wieviele Module habe ich bereits in meinem Studium abgeschlossen?
- \item Welche Note Note habe ich in der Übung ``UE Technische Grundlagen und Systemsoftware''? (univis)
+ \item Welche Note habe ich in der Übung ``UE Technische Grundlagen und Systemsoftware''? (univis)
 \end{itemize}
 
 \subsection{Variablen}
@@ -56,7 +57,7 @@ Interfaces anzuwenden und die Aufgaben werden immer jeweils mit beiden Interface
 
 \begin{itemize}
  \item Zeit in Sekunden
- \item Anzahl der Klicks bei den univis-Aufgaben
+ \item Anzahl der Klicks bei den univis-Aufgaben (deprecated)
 \end{itemize}
 
 \subsubsection{Subjektives Nutzerfeedback}
@@ -64,11 +65,13 @@ Interfaces anzuwenden und die Aufgaben werden immer jeweils mit beiden Interface
 Ein AttrakDiff-Fragebogen, bei dem folgende Eigenschaften mit 7 verschiedenen Möglichkeiten zu bewerten sind:
 
 \begin{itemize}
-\item schön - hässlich
-\item übersichtlich - unübersichtlich   
 \item einfach - kompliziert 
-\item menschlich - technisch 
-\item verständlich - unverständlich 
+\item menschlich - technisch
+\item verständlich - unverständlich
+\item übersichtlich - unübersichtlich 
+\item innovativ - konservativ
+\item kreativ - phantasielos
+\item schön - hässlich
 \item fröhlich - deprimierend 
 \end{itemize}
 
@@ -76,13 +79,38 @@ Ein AttrakDiff-Fragebogen, bei dem folgende Eigenschaften mit 7 verschiedenen M�
  \item[Datei auf cewebs:]Meilenstein 4 - Team 1 - Fragebogen
 \end{description}
 
+\subsection{Pre-Test}
+
+In Folge des Pre-Tests mussten wir feststellen, dass die Variable ``Klicks'' nicht zielführend war,
+da in den meisten Fällen nur ein Klick benötigt wurde, weshalb diese in der Studie weggelassen wurde.
+
+Die restlichen Daten konnten in die tatsächliche Studie übernommen werden.
+
 \subsection{Testpersonen}
+
+\begin{description}
+ \item[NM:] weiblich, 47, noch nie mit dem Univis gearbeitet
+ \item[DK:] männlich, 27, studiert Medieninformatik an der Uni Wien
+\end{description}
 
 \subsection{Methodik}
 
 
 
-\section{Resultaten} 
+
+\section{Resultate} 
+
+
+\subsubsection*{Zeit in Sekunden} 
+
+\begin{center}
+\begin{tabular}{r|r|r|r|r|r|r}
+    & \multicolumn{3}{c|}{Univis/Mitteilungsblatt} & \multicolumn{3}{c}{eCurriculum} \\ \hline
+    & Aufgabe 1 & Aufgabe 2 & Aufgabe 3 & Aufgabe 1 & Aufgabe 2 & Aufgabe 3  \\ \hline
+    NM & 90s & 89s & 148s & 10s & 51s & 19s\\ \hline
+    DK & 5s & 8s & 32s & 10s & 15s & 16s\\
+\end{tabular}
+\end{center}
 
 Stellen sie die Ergebnisse mittels deskriptiver Statistiken dar (tabellarisch und visuell). 
 Optional: Führen sie statistische Signifikanztests durch, z.b. mittels t-test oder ANOVA (maximal +10 Bonuspunkte). 
@@ -99,17 +127,38 @@ Optional: Führen sie statistische Signifikanztests durch, z.b. mittels t-test o
 
 \subsection{Kernerkenntnisse und Designempfehlungen aus dem Projekt}
 
+% 
+%     Fassen Sie die Kern-Erkenntnisse ihres Projektes zusammen. Beschreiben sie insb. 3-5 konkrete Empfehlungen zu Designverbesserungen, 
+%     die sie aus ihrem Gesamtprojekt abgeleitet haben. Diese Zusammenfassung ist als "executive summary" für das UniVis- bzw. das Literacy-team gedacht, 
+%     bzw. fuer einen imaginären Kunden, falls sie ein eigenes Thema gewählt haben (max. 1 Seite Text + evtl. Screenshots).
+
 tabellarische Form des Studienplans ist gut angekommen, Mitteilungsblatt in elektronischer Form, Gliederung des Curriculums nach Semester anstatt der eigenartigen
 Modulgruppen, direkte Anmeldung zu den Lehrveranstaltungen wenn diese noch nicht absolviert wurden, Studienfortschritt als Anzeige, we are motherfucking awesome
 
 \subsection{Arbeitsverteilung, Kommunikation, Lernprozess und Zufriedenheit}
 
 
-    Fassen Sie die Kern-Erkenntnisse ihres Projektes zusammen. Beschreiben sie insb. 3-5 konkrete Empfehlungen zu Designverbesserungen, 
-    die sie aus ihrem Gesamtprojekt abgeleitet haben. Diese Zusammenfassung ist als "executive summary" für das UniVis- bzw. das Literacy-team gedacht, 
-    bzw. fuer einen imaginären Kunden, falls sie ein eigenes Thema gewählt haben (max. 1 Seite Text + evtl. Screenshots).
-    Kurze Beschreibung zu Arbeitsverteilung, Kommunikation, Lernprozess und Zufriedenheit (max 1 Seite). 
+%     Kurze Beschreibung zu Arbeitsverteilung, Kommunikation, Lernprozess und Zufriedenheit (max 1 Seite). 
 
-
+Meistens trafen wir uns alle 2 Wochen bzw. dann wenn ein neuer Meilenstein anstand für etwa 3,5 Stunden um den Meilenstein zu besprechen und zu bearbeiten. Die Treffen haben wir uns
+dabei entweder direkt in der Einheit oder per Email ausgemacht. Den 1. Meilenstein haben wir dabei bis auf die Erwartungen jedes einzelnen Teammitglieds zusammen gelöst.
+Für den 2. Meilenstein trafen wir uns nur für die Erstellung des Low-Fidelity-Prototypen. Der restliche Meilenstein 2 wurde dann in Einzelarbeit, mit Absprache per Mail
+gelöst. Bei Meilenstein 3 und 4 haben wir die Fragebögen und die Vorgehensweise für die Interviews
+jeweils in unseren Treffen festgelegt. Die Befragung hat dann jeder für sich geführt. Die Auswertung der Interview bzw. des Experiments wurde dann wieder in einem Treffen
+durchgeführt.
+\\ \\
+Zur Arbeitsverteilung ist dabei insgesamt zu sagen, dass viele Aufgaben zusammen gelöst wurden. Der High-Fidelity-Prototyp wurde, bis auf ein paar visuelle Änderungen
+und Verbesserungsvorschläge von mir erstellt.
+Bei der Durchführung der Interviews und des Experiments haben zwar alle Teammitglieder beigetragen, jedoch wurden die meisten Befragungen von Pascal durchgeführt. Beschreibung
+der Prototypen und die Beschreibung und Diskussion der Auswertungen wurde dann wieder von allen Teammitgliedern durchgeführt.
+\\ \\
+Mitnehmen kann ich aus Human-Computer-Interaction und dem damit verbundenem Projekt, dass die Einbeziehung der späteren Enduser viel zur Usability beiträgt. Durch die Erstellung von Prototypen und anschließende Usability-Interviews wurde man auf viele Usability-Probleme aufmerksam und
+konnte diese dann auch verbessern. Auch hat man durch die Durchführung Aspekte die die Usability verbessern und Methoden mit denen die Usability mit Endusern oder auch ohne
+getestet werden kann, kennen gelernt.
+\\ \\
+Insgesamt bin ich mit dem Endprodukt unseres Projektes sehr zufrieden. Was mir jedoch weniger gefallen hat, ist die Dokumentation der Ergebnisse und der Prototypen, da
+die Ausformulierungen oft viel Zeit in Anspruch genommen haben. Auch ist es für mich schwierig genug Personen für die Interviews bzw. für das Experiment zu finden, wobei
+ich froh war, dass dies dann unser sozialerer Kollege großteils übernommen hat. Interessant fand ich jedoch wiederum die Ergebnisse aus dem Usability-Feedback und aus den Experimenten,
+da man hierdurch sieht, wie der High-Fidelity-Prototyp von den Usern gesehen wird.
 
 \end{document}
