@@ -23,8 +23,16 @@
 
 \section{Einleitung}
 
-Im Verlauf der letzten Wochen wurde in Gruppenarbeit ein neues Interface für die Prüfungsleistungen und das Mittelungsblatt (,,eCurriculum`) entwickelt.
+Im Verlauf der letzten Wochen wurde in Gruppenarbeit ein neues Interface für die Prüfungsleistungen und das Mitteilungsblatt (,,eCurriculum``) entwickelt.
 Ziel dieser Studie ist es zu überprüfen, ob unser neues Interface wirklich besser zu bedienen ist als das alte Interface.
+
+\medskip
+
+Im Folgenden wird zunächst der Studienaufbau beschrieben. Wir gehen auf die zu belegenden Hypothesen ein sowie auf deren Quantisierung und die gewählte Testmethodik.
+
+Anschließend werden die durch die Studie gefundenen Daten zunächst mittels deskriptiver Statistik dargelegt und beschrieben; hier werden auch erste mögliche Folgerungen aufgezeigt. Diese gefundenen Daten werden daraufhin mit Methoden der Inferenzstatistik auf ihre Signifikanz untersucht und aufgrund dieser Erkenntnisse diskutiert.
+
+Abschließend werden noch Reflexionen über das Gesamtprojekt hinsichtlich seiner Kernerkenntnisse sowie persönliche Anmerkungen jedes Teammitglieds festgehalten.
 
 \section{Studienaufbau} 
 
@@ -70,14 +78,14 @@ Zusätzlich werden Fragebögen nach Vorbild von AttrackDiff verwendet, um die su
 Ein AttrakDiff-Fragebogen, bei dem folgende Eigenschaften mit 7 verschiedenen Möglichkeiten zu bewerten sind:
 
 \begin{itemize}
-\item einfach - kompliziert 
-\item menschlich - technisch
-\item verständlich - unverständlich
-\item übersichtlich - unübersichtlich 
-\item innovativ - konservativ
-\item kreativ - phantasielos
-\item schön - hässlich
-\item fröhlich - deprimierend 
+\item einfach -- kompliziert 
+\item menschlich -- technisch
+\item verständlich -- unverständlich
+\item übersichtlich -- unübersichtlich 
+\item innovativ -- konservativ
+\item kreativ -- phantasielos
+\item schön -- hässlich
+\item fröhlich -- deprimierend 
 \end{itemize}
 
 \begin{description}
@@ -109,6 +117,8 @@ Die restlichen Daten waren jedoch hinsichtlich ihrer Eignung für die Studie nic
 Bei der Auswahl der Testpersonen wurde darauf geachtet, eine ausgewogene Mischung verschiedenster Studienhintergründe zu erreichen: Es wurden sowohl Studierende der Uni Wien als auch die anderer Universitäten interviewt; zwei der Probandinnen hatten überhaupt keine Vorerfahrungen mit Universitäts-IS-Systemen.
 
 Den Testpersonen wurden zuerst die zwei Aufgaben zum Mitteilungsblatt gestellt und dabei die Zeit gestoppt, daraufhin wurden sie gebeten, ihre Eindrücke vom Mitteilungsblatt im AttrackDiff-Fragebogen festzuhalten. Mit den Aufgaben zum Univis und zum neu entwickelten eCurriculum wurde in Folge gleich verfahren.
+
+\pagebreak
 
 \section{Resultate} 
 
@@ -153,7 +163,13 @@ Beim Univis liegen zwar auch Werte vor, die ähnlich schnell wie im eCurriculum 
 
 \pagebreak
 
-\subsubsection*{Subjektives Nutzerfeedback} 
+\subsubsection*{Subjektives Nutzerfeedback}
+
+Für die Erstellung der Barplots wurden zu jedem AttrackDiff-Begriffspaar die durchschnittlichen Bewertungen über alle Datensätze (auf einer Skala von 1 bis 7) erstellt. Zu beachten ist hierbei, dass niedrigere Werte die bessere Bewertung bedeuten.
+
+Bei jedem erfassten Aspekt zeigt sich, dass das von uns neu entwickelte System die besseren Bewertungen erhielt, weshalb die Vermutung besteht, dass die User damit tendenziell zufriedener sind.
+
+Die Untersuchung dieser Ergebnisse hinsichtlich Signifikanz findet sich im nächsten Abschnitt.
 
 \begin{center}
 \begin{tabular}{r|r|r|r|r|r|r|r|r}
@@ -224,12 +240,6 @@ Beim Univis liegen zwar auch Werte vor, die ähnlich schnell wie im eCurriculum 
 \begin{center}
  \includegraphics[width=\linewidth]{./Appendix/Plots/Barplots/barplot8.png}
 \end{center}
-
-Für die Erstellung der Barplots wurden zu jedem AttrackDiff-Begriffspaar die durchschnittlichen Bewertungen über alle Datensätze (auf einer Skala von 1 bis 7) erstellt. Zu beachten ist hierbei, dass niedrigere Werte die bessere Bewertung bedeuten.
-
-Bei jedem erfassten Aspekt zeigt sich, dass das von uns neu entwickelte System die besseren Bewertungen erhielt, weshalb die Vermutung besteht, dass die User damit tendenziell zufriedener sind.
-
-Die Untersuchung dieser Ergebnisse hinsichtlich Signifikanz findet sich im nächsten Abschnitt.
 
 \pagebreak
 
@@ -309,38 +319,39 @@ mean of x mean of y
 
 Man kann anhand der Zeiten in Sekunden in der tabellarischen Ansicht und anhand der Boxplots schon erkennen, dass die Aufgaben
 mit dem neuen Interface von den Usern schneller gelöst wurden, als mit dem alten Interface. Jedoch kann
-man hier noch nichts über die Signifikanz aussagen, weshalb wir hier jeweils zu jeder Aufgabe noch einen T-Test zu den
+man hier noch nichts über die Signifikanz aussagen, weshalb wir hier jeweils zu jeder Aufgabe noch einen t-Test zu den
 Zeiten in Sekunden durchgeführt haben.
-\\ \\
-Nachdem wir einen Two-Sampled-T-Test durchgeführt haben und uns die p-Value angesehen haben, können wir bei
-der 1. Aufgabe sagen, dass bei einem Signifikanzniveau von 95\% die 1. Aufgabe mit dem neuem Interface besser bzw. schneller gelöst werden
-kann als mit dem altem Interface, da die Nullhypothese mit einer Fehlerwahrscheinlichkeit von 0,0004839 verworfen werden kann.
-\\ \\
-Bei der 2. Aufgabe gibt es mit einer p-Value von 0,1022 keinen signifikanten Unterschied. Daher wird die Nullhypothese beibehalten und
-mit dem neuem Interface können die Aufgaben nicht signifikant besser gelöst werden.
-\\ \\
-Bei der 3. Aufgabe kann die Nullhypothese mit einer p-Value von 0,03187 und bei einem Signifikanzniveau von 95\% ebenfalls verworfen werden,
-weshalb die Alternativhypothese bewiesen ist und somit die User mit unserem neu erstellten Interface Aufgaben signifikant besser lösen können
-als mit dem alten Interface.
+
+\medskip
+
+Nachdem wir einen Two-Sampled-t-Test durchgeführt haben und uns die p-Value angesehen haben, können wir bei
+der 1. Aufgabe sagen, dass bei einem Signifikanzniveau von 95\% die 1. Aufgabe mit dem neuem Interface besser bzw. schneller gelöst werden kann als mit dem altem Interface, da die Nullhypothese mit einer Fehlerwahrscheinlichkeit von 0,0004839 verworfen werden kann.
+
+\medskip
+
+Bei der 2. Aufgabe gibt es mit einer p-Value von 0,1022 zwar einen deutlich erkennbaren aber bei 95-prozentigem Signifikanzniveau nicht signifikanten Unterschied. Die Nullhypothese -- das neue System ist für die Bearbeitung dieser Aufgabe schlechter oder nur gleich gut als das alte -- muss hier bei gegebener Datenlage also vorerst beibehalten werden.
+
+\medskip
+
+Bei der 3. Aufgabe kann die Nullhypothese mit einer p-Value von 0,03187 und bei einem Signifikanzniveau von 95\% ebenfalls verworfen werden, weshalb die Alternativhypothese angenommen werden kann und somit die User mit unserem neu erstellten Interface Aufgaben signifikant besser lösen können als mit dem alten Interface.
 
 \subsection{Alternativhypothese 2: User sind mit unserem neu erstellten Interface zufriedener als mit dem alten Interface. }
 
-Anhand der verschiedenen Barplots ist hier auch wieder ersichtlich, dass das eCurriculum insgesamt als ``einfacher'', ``menschlicher'', ``verständlicher'', ``schöner'', usw.
-wahrgenommen wurde, als das Mitteilungblatt und das Univis. Wobei man hier auch gut sieht, dass das Univis insgesamt als am wenigsten benutzerfreundlich
-wahrgenommen wurde. 
-\\ \\
-Auch hier haben wir dann wieder einen Two-Sampled-T-Test durchgeführt um etwas über die Signifikanz aussagen zu können. 
-Dabei haben wir uns zuerst den Mittelwert je Eigenschaft
-berechnet (von ``einfach'' bis ``fröhlich'') und mit diesen Werten dann den T-Test durchgeführt.
-\\ \\
+Anhand der verschiedenen Barplots ist hier auch wieder ersichtlich, dass das eCurriculum insgesamt als ,,einfacher``, ,,menschlicher``, ,,verständlicher``, ,,schöner``, usw. wahrgenommen wurde als das Mitteilungblatt und das Univis; hier ist auch gut ersichtlich, dass das Univis insgesamt als am wenigsten benutzerfreundlich wahrgenommen wurde. 
+
+\medskip
+
+Auch hier wurde erneut ein Two-Sampled-t-Test durchgeführt um etwas über die Signifikanz aussagen zu können. 
+Wurde zuerst der Mittelwert je Eigenschaft berechnet (von ,,einfach`` bis ,,fröhlich``) und mit diesen Werten dann der t-Test durchgeführt.
+
+\medskip
+
 Das Ergebnis erhielten wir eine p-Value von 1,721e-05 weshalb man hier auch wieder sagen kann, dass die Nullhypothese bei
-einem Signifikantsniveau von 95\% mit einer Fehlerwahrscheinlichkeit von 1,721e-05 verworfen werden kann. Somit ist hier auch wieder unsere
-Alternativhypothese bewiesen, welche besagt, dass User mit dem neu erstellten Interface zufriedener sind als mit dem alten Interface.
+einem Signifikantsniveau von 95\% mit einer Fehlerwahrscheinlichkeit von 1,721e-05 verworfen werden kann. Somit kann auch hier auch wieder unsere Alternativhypothese angenommen werden, welche besagt, dass User mit dem neu erstellten Interface zufriedener sind als mit dem alten Interface.
 
 \subsection{Schlussfolgerungen}
 
-Insgesamt konnten wir feststellen, dass Aufgaben mit dem neuem System (eCurriculum) schneller zu lösen waren, und dieses auch von
-den Benutzern als benutzerfreundlicher angesehen wurde als das alte System (Univis, Mitteilungsblatt). Aus diesem Grund können
+Insgesamt konnten wir feststellen, dass Aufgaben mit dem neuem System (eCurriculum) stets schneller zu lösen waren, und zwar bis auf eine einzige Ausnahme auf statistisch signifikantem Niveau. Zusätzlich wurde es von den Benutzern als benutzerfreundlicher angesehen wurde als das alte System (Univis, Mitteilungsblatt). Aus diesem Grund können
 wir behaupten, dass unser System ein Erfolg und besser als das alte System ist.
 
 \section{Appendix}
@@ -354,10 +365,11 @@ Enthält:
  \item R-Skripte für die Plots und die T-Tests
 \end{itemize}
 
-
 \begin{description}
  \item[Datei auf cewebs:] Meilenstein 4 -- Team 1 -- Appendix
 \end{description}
+
+\pagebreak
 
 \section{Reflexion über das Gesamtprojekt}
 
@@ -378,30 +390,47 @@ Die Möglichkeit, sich direkt bei der Ansicht einer Lehrveranstaltung für diese
 
 %     Kurze Beschreibung zu Arbeitsverteilung, Kommunikation, Lernprozess und Zufriedenheit (max 1 Seite). 
 
+\subsubsection{Sandra Markhart}
+
 Meistens trafen wir uns alle 2 Wochen bzw. dann wenn ein neuer Meilenstein anstand für etwa 3,5 Stunden um den Meilenstein zu besprechen und zu bearbeiten. Die Treffen haben wir uns
 dabei entweder direkt in der Einheit oder per Email ausgemacht. Den 1. Meilenstein haben wir dabei bis auf die Erwartungen jedes einzelnen Teammitglieds zusammen gelöst.
 Für den 2. Meilenstein trafen wir uns nur für die Erstellung des Low-Fidelity-Prototypen. Der restliche Meilenstein 2 wurde dann in Einzelarbeit, mit Absprache per Mail
 gelöst. Bei Meilenstein 3 und 4 haben wir die Fragebögen und die Vorgehensweise für die Interviews
-jeweils in unseren Treffen festgelegt. Die Befragung hat dann jeder für sich geführt. Die Auswertung der Interview bzw. des Experiments wurde dann wieder in einem Treffen
-durchgeführt.
-\\ \\
+jeweils in unseren Treffen festgelegt. Die Befragung hat dann jeder für sich geführt. Die Auswertung der Interview bzw. des Experiments wurde dann wieder in einem Treffen durchgeführt.
+
+\medskip
+
 Zur Arbeitsverteilung ist dabei insgesamt zu sagen, dass viele Aufgaben zusammen gelöst wurden. Der High-Fidelity-Prototyp wurde, bis auf ein paar visuelle Änderungen
 und Verbesserungsvorschläge von mir erstellt.
 Bei der Durchführung der Interviews und des Experiments haben zwar alle Teammitglieder beigetragen, jedoch wurden die meisten Befragungen von Pascal durchgeführt. Beschreibung
 der Prototypen und die Beschreibung und Diskussion der Auswertungen wurde dann wieder von allen Teammitgliedern durchgeführt.
-\\ \\
+
+\medskip
+
 Mitnehmen kann ich aus Human-Computer-Interaction und dem damit verbundenem Projekt, dass die Einbeziehung der späteren Enduser viel zur Usability beiträgt. Durch die Erstellung von Prototypen und anschließende Usability-Interviews wurde man auf viele Usability-Probleme aufmerksam und
 konnte diese dann auch verbessern. Auch hat man durch die Durchführung Aspekte die die Usability verbessern und Methoden mit denen die Usability mit Endusern oder auch ohne
 getestet werden kann, kennen gelernt.
-\\ \\
+
+\medskip
+
 Insgesamt bin ich mit dem Endprodukt unseres Projektes sehr zufrieden. Was mir jedoch weniger gefallen hat, ist die Dokumentation der Ergebnisse und der Prototypen, da
 die Ausformulierungen oft viel Zeit in Anspruch genommen haben. Auch ist es für mich schwierig genug Personen für die Interviews bzw. für das Experiment zu finden, wobei
 ich froh war, dass dies dann unser sozialerer Kollege großteils übernommen hat. Interessant fand ich jedoch wiederum die Ergebnisse aus dem Usability-Feedback und aus den Experimenten,
 da man hierdurch sieht, wie der High-Fidelity-Prototyp von den Usern gesehen wird.
-\\ \\
 
 \subsubsection{Philipp Hiermann}
+
 Als sehr lehrreich empfand ich die Konzepte der Low- bzw. High-Fidelity-Prototypen. 
-Weniger sinnvoll fand ich die Befragungen bei Meilenstein 4. Während es bei Meilenstein 3 für das Projekt durchaus hilfreich war, User-Feedback einzuholen, halte ich es für weniger sinnvoll, aus der Befragung von 10 Personen Schlüsse zu ziehen. Schließlich geht es bei dieser Lehrveranstaltung um die Mensch-Computer-Interaktion. Ich zweifle nicht daran, dass die Methode der Befragung und die anschließende statistische Auswertung der Antworten ein wichtiger Bestandteil des gesamten Entwicklungsprozesses ist, allerdings ist es zweifelhaft, aus der Befragung von 10 Personen genug Informationen zu extrahieren, um ein Ändern/Beibehalten des Designs zu rechtfertigen. Die Stichprobe ist einfach zu klein. Mir persönlich brachte der Meilenstein 4 \also keinen Mehrwert.   
+Weniger sinnvoll fand ich die Befragungen bei Meilenstein 4. Während es bei Meilenstein 3 für das Projekt durchaus hilfreich war, User-Feedback einzuholen, halte ich es für weniger sinnvoll, aus der Befragung von 10 Personen Schlüsse zu ziehen. Schließlich geht es bei dieser Lehrveranstaltung um die Mensch-Computer-Interaktion. Ich zweifle nicht daran, dass die Methode der Befragung und die anschließende statistische Auswertung der Antworten ein wichtiger Bestandteil des gesamten Entwicklungsprozesses ist, allerdings ist es zweifelhaft, aus der Befragung von 10 Personen genug Informationen zu extrahieren, um ein Ändern/Beibehalten des Designs zu rechtfertigen. Die Stichprobe ist einfach zu klein. Mir persönlich brachte der Meilenstein 4 also keinen Mehrwert.
+
+\subsubsection{Pascal Attwenger}
+
+Ich persönlich sehe den praktischen (Projekt-)Teil der LV HCI als einen kleinen, recht rudimentären Einblick in den Berufsalltag eines HCI-Spezialisten. Dass zum Entwickeln einer benutzerfreundlichen Softwarelösung mehr dazugehört als nur der reine, technische Entwicklungsprozess, sollte eigentlich einleuchten. Beim Durcharbeiten der Meilensteine ist mir dennoch aufgefallen, dass all die unterstützenden Aufgaben -- Problemanalyse, Prototyping, Evaluierung etc. -- doch einen deutlich größeren Stellenwert einnehmen als ich vermutet hätte.
+
+Aufgrund dieser Vermutung ist wohl auch zu erklären, dass ich mir zu Beginn des Semesters von der Lehrveranstaltung etwas tiefgehendere Einblicke in das tatsächliche UI- bzw. UX-Design erwartet hätte. Zwar wurden Aspekte wie die Gestaltpsychologie oder Farbwahrnehmung im Vorlesungsteil durchaus besprochen, bei der Projektumsetzung traten sie jedoch wieder stark in den Hintergrund. Insgesamt schien mir, dass das Design des HiFi-Prototypen bei den meisten Gruppen -- uns selbst nicht ausgenommen -- mehr auf einem Trial-and-Error-Prinzip basierte als auf den theoretischen Grundlagen.
+
+Beim Vorlesungsteil selbst erging es mir ähnlich: Hier hatte ich großes Interesse an den Einheiten mit psychologischem Hintergrund, während ich fand, dass die Teile zu den ,,handwerklichen`` Bereichen des HCI-Metiers versuchten, Praxiserfahrungen zu simulieren, was m.M.n. meist nicht so gut gelang.
+
+Es sollte wohl im gesamten Studium mehr auf die Thematik eingegangen werden; wenn ,,gutes`` Design auch in anderen LVs ein Thema wäre, dann könnte hier umso besser auf die Arbeit damit eingegangen werden, ohne dabei Details zu verlieren.
 
 \end{document}
